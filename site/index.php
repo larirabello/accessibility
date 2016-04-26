@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Otimista</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="images/" type="image/png" />
+  <link rel="shortcut icon" href="images/smile2.png" type="" />
   <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 <!-- Optional theme -->
@@ -18,20 +18,15 @@
     <ul class="list-inline">
       <li><a href="#"> Ir para o Conteúdo (Alt+1)</a></li>
       <li><a href="#"> Ir para o Menu (Alt+2)</a></li>
-    </ul>
-    <ul class="list-inline">
       <li><a href="#">A+</a></li>
       <li><a href="#">A-</a></li>
-    </ul>
-    <ul class="list-inline">
-      <li><a href="#">B</a></li>
-      <li><a href="#">W-</a></li>
-    </ul>
-    <ul class="list-inline">
+      <li><div class="circle"></div></li>
+      <li><div class="circle circle-w"></div></li>
       <li><a href="#">Acessibilidade (Alt+3)</a></li>
       <li><a href="#">Mapa do Site (Alt+4)</a></li>
     </ul>
   </nav>
+
   <nav class="navbar navbar-default">
     <ul class="list-inline">
       <li><a href="#"> Tema A</a></li>

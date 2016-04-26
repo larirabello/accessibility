@@ -1,1 +1,13 @@
 @charset "UTF-8";
+
+.circle {
+  height: 20px;
+  width: 20px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.circle-w {
+  background-color: #fff;
+}
