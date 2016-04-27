@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Otimista</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="images/smile2.png" type="" />
+  <link rel="shortcut icon" href="images/smile2.png"/>
   <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 <!-- Optional theme -->
@@ -14,36 +14,30 @@
 <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <nav class="navbar navbar-default">
-    <ul class="list-inline">
-      <li><a href="#"> Ir para o Conteúdo (Alt+1)</a></li>
-      <li><a href="#"> Ir para o Menu (Alt+2)</a></li>
-      <li><a href="#">A+</a></li>
-      <li><a href="#">A-</a></li>
-      <li><div class="circle"></div></li>
-      <li><div class="circle circle-w"></div></li>
-      <li><a href="#">Acessibilidade (Alt+3)</a></li>
-      <li><a href="#">Mapa do Site (Alt+4)</a></li>
+  <nav role="navigation" class="navbar navbar-default menu-ac">
+    <ul class="list-inline nav-justified">
+      <li role="presentation"><a href="#"> Ir para o Conteúdo (Alt+1)</a></li>
+      <li role="presentation"><a href="#"> Ir para o Menu (Alt+2)</a></li>
+      <li role="presentation"><a href="#">A+</a></li>
+      <li role="presentation"><a href="#">A-</a></li>
+      <li role="presentation"><div class="circle"></div></li>
+      <li role="presentation"><div class="circle circle-w"></div></li>
+      <li role="presentation"><a href="#">Acessibilidade (Alt+3)</a></li>
+      <li role="presentation"><a href="#">Mapa do Site (Alt+4)</a></li>
     </ul>
   </nav>
 
-  <nav class="navbar navbar-default">
-    <ul class="list-inline">
-      <li><a href="#"> Tema A</a></li>
-      <li><a href="#"> Tema B</a></li>
-      <li><a href="#"> Tema C</a></li>
-      <li><a href="#"> Tema X</a></li>
-      <li><a href="#"> Tema Y</a></li>
-      <li><a href="#"> Tema Z</a></li>
+  <nav role="navigation" class="navbar navbar-default">
+    <ul class="list-inline nav-justified">
+      <li role="presentation"><a href="#"> Tema A</a></li>
+      <li role="presentation"><a href="#"> Tema B</a></li>
+      <li role="presentation"><a href="#"> Tema C</a></li>
+      <li role="presentation"><a href="#"> Tema X</a></li>
+      <li role="presentation"><a href="#"> Tema Y</a></li>
+      <li role="presentation"><a href="#"> Tema Z</a></li>
     </ul>
   </nav>
-  <header>
-    <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
-      </div>
-    </div>
-  </header>
   <div class="container">
 
   </div>
