@@ -1,0 +1,25 @@
+@charset"UTF-8";
+/* Ricardo */
+.nopadrl{
+    padding-right: 0;
+    padding-left: 0;
+}
+.news p{
+    border: 1px solid rgba(0,0,0,0.4);
+    border-radius: 5px;
+    box-shadow: 2px 2px #cfcfcf;
+}
+p{
+    margin: 5px;
+    padding: 10px;
+}
+a{
+    color: #606060;
+}
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+.news p:hover{
+    border: 1px solid rgba(0, 0, 0, 0.6);
+}

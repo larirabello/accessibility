@@ -12,6 +12,7 @@
 <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/sandbox.css" rel="stylesheet" type="text/css">
 </head>
 <body>
   <nav role="navigation" class="navbar navbar-default menu-ac">
@@ -37,9 +38,52 @@
       <li role="presentation"><a href="#"> Tema Z</a></li>
     </ul>
   </nav>
-
   <div class="container">
 
+    <div class="row">
+      <div class="col-md-6 col-sm-6 col-xs-12 nopadrl">
+        <a href="#" class="news"><p>Santos
+            Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil Santos
+            Focado no Paulistão, SaSantos
+            Focado no Paulistão, Santos tenta evitar  Santos
+          </p>
+        </a>
+      </div>
+      <div class="col-md-3 col-sm-3 col-xs-6 nopadrl">
+        <a href="#" class="news"><p>Santos
+            Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil
+          </p>
+        </a>
+      </div>
+      <div class="col-md-3 col-sm-3 col-xs-6 nopadrl">
+        <a href="#" class="news"><p>Santos
+            Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil
+          </p>
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-sm-6 col-xs-12 nopadrl">
+        <a href="#" class="news"><p>Santos
+            Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil Santos
+            Focado no Paulistão, SaSantos
+            Focado no Paulistão, Santos tenta evitar  Santos
+          </p>
+        </a>
+      </div>
+      <div class="col-md-3 col-sm-3 col-xs-6 nopadrl">
+        <a href="#" class="news"><p>Santos
+            Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil
+          </p>
+        </a>
+      </div>
+      <div class="col-md-3 col-sm-3 col-xs-6 nopadrl">
+        <a href="#" class="news"><p>Santos
+            Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil
+          </p>
+        </a>
+      </div>
+    </div>
   </div>
   <footer>
   </footer>
