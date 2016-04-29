@@ -39,52 +39,226 @@
     </ul>
   </nav>
   <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-6 news">
+        <div class="thumbnail">
+          <img src="images/cute_baby_fox_wallpaper_hd_1080p.jpg" class="img-responsive" alt="...">
+        </div>
+        <div class="title">
+        <h5><a href="#" class="title-float">Tema X</a></h5>
+        <p><a href="#" class="text-float">
+            Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil Santos
+          </a>
+        </p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-md-3 news">
+        <div class="thumbnail">
+          <img src="images/HD-Space-Wallpaper-For-Background-22.jpg" height="450px" alt="...">
+          <div class="caption">
+            <h5><a href="#" >Tema Z</a></h5>
+            <p>
+              <a href="#">
+                Neque porro quisquam est qui dolorem ipsum quia dolor sit amet
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 news">
+          <div class="thumbnail nopadlrtb">
+            <img src="images/cute_baby_fox_wallpaper_hd_1080p.jpg" class="img-reesponsive">
+          </div>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-6 news">
+        <div class="thumbnail">
+          <h5><a href="#" class="margin">Tema Y</a></h5>
+          <p><a href="#" class="margin" >
+              Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil Santos
+            </a>
+          </p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-md-3 news">
+        <div class="thumbnail">
+            <h5><a href="#" class="margin">Tema Z</a></h5>
+            <p><a href="#" class="margin">
+                Neque porro quisquam est qu
+              </a>
+            </p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-md-3 news">
+        <div class="thumbnail">
+          <h5><a href="#" class="margin">Tema Y</a></h5>
+          <p><a href="#" class="margin">
+              Neque porro quisquam est qu
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-3 col-md-3 news">
+        <div class="thumbnail">
+          <h5><a href="#" class="margin">Tema A</a></h5>
+          <p><a href="#" class="margin" >
+              Neque porro quisquam est qu
+            </a>
+          </p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-md-3 news">
+        <div class="thumbnail">
+            <h5><a href="#" class="margin">Tema B</a></h5>
+            <p><a href="#" class="margin">
+                Neque porro quisquam est qu
+              </a>
+            </p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 news">
+        <div class="thumbnail">
+          <h5><a href="#" class="margin">Tema C</a></h5>
+          <p><a href="#" class="margin">
+              Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil Santos
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row col-md-9 col-sm-9 col-xs-12 nopadlr">
+      <div class="col-xs-12 col-sm-4 col-md-4 news">
+        <div class="thumbnail">
+          <h5><a href="#" class="margin">Tema A</a></h5>
+          <p class="text-center"><a href="#" class="margin" >
+              Neque porro quisquam est qu Neque porro quisquam est qu
+              Neque porro quisqu l rpdpo pkf am est qu
+            </a>
+          </p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-8 col-md-8 news">
+        <div class="thumbnail">
+          <h5><a href="#" class="margin">Tema C</a></h5>
+          <p><a href="#" class="margin">
+              Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil Santos
+            </a>
+          </p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-8 col-md-8 news">
+        <div class="thumbnail">
+          <h5><a href="#" class="margin">Tema C</a></h5>
+          <p><a href="#" class="margin">
+              Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil Santos
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row col-md-3 col-sm-3 col-xs-12 nopadlr" >
+      <div class="col-xs-12 col-sm-12 col-md-12 news">
+        <div class="thumbnail">
+          <img src="images/cute_baby_fox_wallpaper_hd_1080p.jpg" alt="...">
+        <div class="caption">
+          <h5><a href="#" class="margin">Tema A</a></h5>
+          <p><a href="#" class="margin" >
+              São Paulo vence e vai para as 4° São Paulo vence e va
+            </a>
+          </p>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
 
-    <div class="row">
-      <div class="col-md-6 col-sm-6 col-xs-12 nopadrl">
-        <a href="#" class="news"><p>Santos
-            Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil Santos
-            Focado no Paulistão, SaSantos
-            Focado no Paulistão, Santos tenta evitar  Santos
+      <div class="col-xs-12 col-sm-3 col-md-3 news">
+        <div class="thumbnail">
+          <h5><a href="#" class="margin">Tema C</a></h5>
+          <p><a href="#" class="margin">
+              Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil Santos
+            </a>
           </p>
-        </a>
+        </div>
       </div>
-      <div class="col-md-3 col-sm-3 col-xs-6 nopadrl">
-        <a href="#" class="news"><p>Santos
-            Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil
+      <div class="col-xs-12 col-sm-3 col-md-3 news">
+        <div class="thumbnail">
+          <h5><a href="#" class="margin">Tema C</a></h5>
+          <p><a href="#" class="margin">
+              Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil Santos
+            </a>
           </p>
-        </a>
+        </div>
       </div>
-      <div class="col-md-3 col-sm-3 col-xs-6 nopadrl">
-        <a href="#" class="news"><p>Santos
-            Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil
+      <div class="col-xs-12 col-sm-3 col-md-3 news">
+        <div class="thumbnail">
+          <h5><a href="#" class="margin">Tema C</a></h5>
+          <p><a href="#" class="margin">
+              Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil Santos
+            </a>
           </p>
-        </a>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6 col-sm-6 col-xs-12 nopadrl">
-        <a href="#" class="news"><p>Santos
-            Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil Santos
-            Focado no Paulistão, SaSantos
-            Focado no Paulistão, Santos tenta evitar  Santos
+      <div class="col-xs-12 col-sm-3 col-md-3 news">
+        <div class="thumbnail">
+          <h5><a href="#" class="margin">Tema C</a></h5>
+          <p><a href="#" class="margin">
+              Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil Santos
+            </a>
           </p>
-        </a>
-      </div>
-      <div class="col-md-3 col-sm-3 col-xs-6 nopadrl">
-        <a href="#" class="news"><p>Santos
-            Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil
-          </p>
-        </a>
-      </div>
-      <div class="col-md-3 col-sm-3 col-xs-6 nopadrl">
-        <a href="#" class="news"><p>Santos
-            Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil
-          </p>
-        </a>
+        </div>
       </div>
     </div>
-  </div>
+    <div class="row col-md-6 col-sm-6 col-xs-12 nopadlr">
+      <div class="col-xs-12 col-sm-12 col-md-12 news">
+        <div class="thumbnail">
+          <h5><a href="#" class="margin">Tema C</a></h5>
+          <p><a href="#" class="margin">
+              Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil Santos
+            </a>
+          </p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 news">
+        <div class="thumbnail">
+          <h5><a href="#" class="margin">Tema C</a></h5>
+          <p><a href="#" class="margin">
+              Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil Santos
+            </a>
+          </p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 news">
+        <div class="thumbnail">
+          <h5><a href="#" class="margin">Tema C</a></h5>
+          <p><a href="#" class="margin">
+              Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil Santos
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row col-md-6 col-sm-6 col-xs-12 nopadlr">
+      <div class="col-xs-12 col-sm-6 col-md-6 news">
+        <div class="thumbnail nopadlrtb">
+          <img src="images/cute_baby_fox_wallpaper_hd_1080p.jpg" id="size" class="img-reesponsive">
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 news">
+        <div class="thumbnail">
+          <h5><a href="#" class="margin">Tema C</a></h5>
+          <p><a href="#" class="margin">
+              Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil Santos
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+  
   <footer>
   </footer>
 </body>
