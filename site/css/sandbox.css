@@ -1,25 +1,149 @@
 @charset"UTF-8";
+
 /* Ricardo */
-.nopadrl{
-    padding-right: 0;
-    padding-left: 0;
-}
-.news p{
-    border: 1px solid rgba(0,0,0,0.4);
-    border-radius: 5px;
-    box-shadow: 2px 2px #cfcfcf;
-}
-p{
-    margin: 5px;
+#paddez {
     padding: 10px;
 }
-a{
-    color: #606060;
+.news {
+    padding-left: 5px;
+    padding-right: 5px;
 }
-a:hover {
-    text-decoration: none;
+
+.news a {
     color: #000;
 }
-.news p:hover{
-    border: 1px solid rgba(0, 0, 0, 0.6);
+
+.news a:hover {
+    text-decoration: none;
+}
+
+.title {
+    position: absolute;
+    bottom: 30px;
+    margin: 5px 15px 5px 15px;
+}
+
+.imgs {
+    height: 200px !important;
+    width: 100%;
+}
+
+p {
+    font-size: 1em;
+    margin: 5px;
+    padding-left: 5px;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.nopadlr {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.nopadlrtb {
+    padding: 0;
+}
+
+.thumbnail {
+    margin-bottom: 10px;
+}
+
+.size2 {
+    height: 135px;
+}
+
+.size912 {
+    height: 260px;
+}
+
+.size91 {
+    height: 130px;
+}
+
+.size1011 {
+    height: 125px;
+}
+
+.size123 {
+    height: 320px;
+}
+
+.size20 {
+    height: 380px;
+}
+
+.size912a {
+    height: 280px;
+}
+
+.size1011a {
+    height: 135px;
+}
+
+.size9a {
+    height: 270px;
+}
+#b{
+    padding-bottom: 5px;
+    border-bottom: 3px solid #333;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+@media (min-width: 992px){
+    .texto-noti{
+        margin: 15px;
+
+    }
+}
+@media (min-width: 768px) {
+    .padtop {
+        padding-top: 19px;
+    }
+    .title {
+        position: absolute;
+        bottom: 30px;
+        margin: 5px 15px 5px 15px;
+    }
+    .images {
+        height: 310px!important;
+    }
+
+    .texto-noti{
+        margin-bottom: 15px;
+
+    }
+    #imgh {
+      height: 310px;
+    }
+    .thumbnail > img > #imgh{
+      height: 310px;
+    }
+}
+@media (max-width: 767px) {
+    .size2,
+    .size912,
+    .size1011,
+    .size123,
+    .size20,
+    .size91,
+    .size9a,
+    .size912a {
+        height: auto;
+    }
+
+    .texto-noti{
+        margin-bottom: 15px;
+
+    }
+    .title {
+        position: absolute;
+        bottom:15px ;
+        margin: 5px 15px 5px 15px;
+    }
+
 }
