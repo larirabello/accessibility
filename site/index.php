@@ -243,10 +243,11 @@
                     </p>
                 </div>
             </div>
-        </div>
+        </div> <!-- fecha row -->
     </div>
 
     <footer>
+
     </footer>
 
   </div>

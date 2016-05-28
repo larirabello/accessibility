@@ -33,8 +33,10 @@
   include'partes/nav.php';
 
   echo '<div class="container">
-        <h1 class="text-center">'.$temaName.'</h1>
+        <h1 class="text-center upper">'.$temaName.'</h1>
+        
         <div class="row">
+            <!-- PRIMEIRO BLOCO DE NOTÍCIAS -->
             <div class="col-xs-12 col-sm-6 col-md-6 news">
                 <a href="'.$not1link.'">
                     <div class="thumbnail size123">
@@ -50,173 +52,144 @@
                     </a>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-3 col-md-3 news">
+            <!-- SEGUNDO BLOCO DE NOTÍCIAS -->
+            <div class="col-xs-12 col-sm-6 col-md-6 news">
                 <div class="thumbnail size123">
-                    <img src="images/HD-Space-Wallpaper-For-Background-22.jpg" height="450px" alt="...">
+                    <img src="'.$not1img.'" class="img-responsive images pull-right img-2" alt="'.$not1alt.'">
                     <div class="caption">
-                        <h5><a href="#" >Tema 2</a></h5>
+                        <h5><a href="#" >Tema 2 </a></h5>
                         <p>
-                            <a href="#">
-              Neque porro quisquam est qui dolorem ipsum quia dolor sit amet
-            </a>
+                            <a href="#"> Neque porro quisquam est qui dolorem ipsum quia dolor sit amet </a>
                         </p>
                     </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-3 col-md-3 news" id="t">
-                <div class="thumbnail size123">
-                    <img src="images/HD-Space-Wallpaper-For-Background-22.jpg" height="450px" alt="...">
-                    <div class="caption">
-                        <h5><a href="#" >Tema 3</a></h5>
-                        <p>
-                            <a href="#">
-              Neque porro quisquam est qui dolorem ipsum quia dolor sit amet
-            </a>
-                        </p>
-                    </div>
-                </div>
+                 </div>
             </div>
         </div>
-        <div class="row col-md-9 col-sm-9 col-xs-12 nopadlr">
-            <div class="col-xs-12 col-sm-4 col-md-4 news">
-                <div class="thumbnail size9a">
-                    <h5><a href="#" class="margin">Tema 9</a></h5>
-                    <p class="padtop"><a href="#" class="margin">
-            Neque porro quisque porro quisquam est qu
-            orro quisqu l rpdpo pkf am est qu asdoi aoi aio ioajer oiaoisj
-          </a>
-                    </p>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-8 col-md-8 news">
-                <div class="thumbnail size91">
-                    <h5><a href="#" class="margin">Tema 10</a></h5>
-                    <p><a href="#" class="margin">
-            Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil Santos
-          </a>
-                    </p>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-8 col-md-8 news">
-                <div class="thumbnail size91">
-                    <h5><a href="#" class="margin">Tema 11</a></h5>
-                    <p><a href="#" class="margin">
-            Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil Santos
-          </a>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row ">
+        <div class="row">
+        <!-- TERCEIRO BLOCO DE NOTÍCIAS -->
             <div class="col-md-3 col-sm-3 col-xs-12 nopadlr">
                 <div class="col-xs-12 col-sm-12 col-md-12 news">
+                    <div class="thumbnail size912a">
+                        <img src="images/cute_baby_fox_wallpaper_hd_1080p.jpg" alt="...">
+                        <div class="caption">
+                            <h5><a href="#" class="margin">Tema 3</a></h5>
+                            <p><a href="#" class="margin">
+                  São Paulo vence e vai para as 4° São Paulo vence e va
+                </a>
+                            </p>
+                        </div> <!-- fecha caption -->
+                    </div> <!-- fecha thumbnail -->
+                </div> <!-- fecha col-12 news -->
+            </div> <!-- fecha col-3 nopadlr -->
+
+           
+            <div class="col-xs-12 col-sm-6 col-md-6 news">
+                <div class="row">
+                 <!-- QUARTO BLOCO DE NOTÍCIAS -->
                     <div class="thumbnail size91">
-                        <h5><a href="#" class="margin">Tema 12</a></h5>
+                        <h5><a href="#" class="margin">Tema 4</a></h5>
                         <p><a href="#" class="margin">
-              São Paulo vence e vai para as 4° São Paulo vence e va
-            </a>
+                Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil Santos
+              </a>
                         </p>
                     </div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 news">
+                    <!-- QUINTO BLOCO DE NOTÍCIAS -->
                     <div class="thumbnail size91">
-                        <h5><a href="#" class="margin">Tema 12</a></h5>
+                        <h5><a href="#" class="margin">Tema 5</a></h5>
                         <p><a href="#" class="margin">
-              São Paulo vence e vai para as 4° São Paulo vence e va
-            </a>
+                Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil Santos
+              </a>
                         </p>
                     </div>
-                </div>
-            </div>
-        </div>
+                </div> <!-- fecha rowzinha -->      
+        </div> <!-- Fecha col-6 -->
 
-
-        <div class="row col-md-3 col-sm-3 col-xs-12 nopadlr">
+        <!-- SEXTO BLOCO DE NOTÍCIAS -->
+        <div class="col-md-3 col-sm-3 col-lg-3 col-xs-12 nopadlr">
             <div class="col-xs-12 col-sm-12 col-md-12 news">
                 <div class="thumbnail size912a">
                     <img src="images/cute_baby_fox_wallpaper_hd_1080p.jpg" alt="...">
                     <div class="caption">
-                        <h5><a href="#" class="margin">Tema 12</a></h5>
+                        <h5><a href="#" class="margin">Tema 6</a></h5>
                         <p><a href="#" class="margin">
               São Paulo vence e vai para as 4° São Paulo vence e va
             </a>
                         </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row col-md-9 col-sm-9 col-xs-12 nopadlr">
-            <div class="col-xs-12 col-sm-4 col-md-4 news">
-                <div class="thumbnail size912a">
-                    <img src="images/cute_baby_fox_wallpaper_hd_1080p.jpg" alt="...">
-                    <div class="caption">
-                        <h5><a href="#" class="margin">Tema 12</a></h5>
-                        <p><a href="#" class="margin">
-              São Paulo vence e vai para as 4° São Paulo vence e va
-            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-8 col-md-8 news">
-                <div class="thumbnail size1011a">
-                    <h5><a href="#" class="margin">Tema 10</a></h5>
-                    <p><a href="#" class="margin">
-            Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil Santos
-          </a>
-                    </p>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-8 col-md-8 news">
-                <div class="thumbnail size1011a">
-                    <h5><a href="#" class="margin">Tema 11</a></h5>
-                    <p><a href="#" class="margin">
-            Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil Santos
-          </a>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
+        </div> <!-- fecha row -->
+        <div class="row ">
 
-            <div class="col-xs-12 col-sm-3 col-md-3 news">
-                <div class="thumbnail">
-                    <h5><a href="#" class="margin">Tema 13</a></h5>
+        <!-- SETIMO BLOCO DE NOTÍCIAS -->
+            <div class="col-xs-12 col-sm-6 col-md-6 news">
+                <a href="'.$not1link.'">
+                    <div class="thumbnail size280">
+                        <img src="'.$not1img.'" class="img-responsive center-block img-7" alt="'.$not1alt.'">
+                    </div>
+                </a>
+                <div class="title">
+                    <h5><a href="#aw" class="title-float">Tema 7</a></h5>
+                    <a href="'.$not1link.'" class="text-float">
+                        <p>
+                            Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil Santos
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <!-- OITAVO BLOCO DE NOTÍCIAS -->
+            <div class="col-xs-12 col-sm-6 col-md-6 news">
+                <div class="thumbnail size91">
+                    <h5><a href="#" class="margin">Tema 8</a></h5>
                     <p><a href="#" class="margin">
             Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil Santos
           </a>
                     </p>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-3 col-md-3 news">
-                <div class="thumbnail">
-                    <h5><a href="#" class="margin">Tema 14</a></h5>
+             <!-- NONO BLOCO DE NOTÍCIAS -->
+            <div class="col-xs-12 col-sm-6 col-md-6 news">
+                <div class="thumbnail size91">
+                    <h5><a href="#" class="margin">Tema 9</a></h5>
                     <p><a href="#" class="margin">
             Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil Santos
           </a>
                     </p>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-3 col-md-3 news">
-                <div class="thumbnail">
-                    <h5><a href="#" class="margin">Tema 15</a></h5>
-                    <p><a href="#" class="margin">
-            Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil Santos
-          </a>
-                    </p>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-3 col-md-3 news">
-                <div class="thumbnail">
-                    <h5><a href="#" class="margin">Tema 16</a></h5>
-                    <p><a href="#" class="margin">
-            Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil Santos
-          </a>
-                    </p>
+        </div> <!-- fecha row -->
+        <!-- DÉCIMO BLOCO DE NOTÍCIAS -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 news">
+                    <div class="thumbnail size123">
+                        <img src="'.$not1img.'" class="img-responsive images pull-right img-2" alt="'.$not1alt.'">
+                        <div class="caption">
+                            <h5><a href="#" >Tema 10 </a></h5>
+                            <p>
+                                <a href="#"> Neque porro quisquam est qui dolorem ipsum quia dolor sit amet </a>
+                            </p>
+                        </div> <!-- fecha caption -->
+                     </div> <!-- fecha thumbnail -->
+                </div> <!-- fecha col-6 news -->
+            <!-- DÉCIMO PRIMEIRO BLOCO DE NOTÍCIAS -->
+            <div class="col-xs-12 col-sm-6 col-md-6 news">
+                <div class="thumbnail size123">
+                    <img src="'.$not1img.'" class="img-responsive images pull-right img-2" alt="'.$not1alt.'">
+                    <div class="caption">
+                        <h5><a href="#" >Tema 11 </a></h5>
+                        <p>
+                            <a href="#"> Neque porro quisquam est qui dolorem ipsum quia dolor sit amet </a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+            
+       
+
+    
+    </div> <!-- fecha container -->
 
     <footer>
     </footer>
