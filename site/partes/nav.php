@@ -1,8 +1,6 @@
 <?php
-$gotocontent = '#onze';
+$gotocontent = '#a';
 $gotomenu = '#';
-$Aplus = '';
-$Aminus = '';
 $acess = '';
 $sitemap = '';
 $temaA = 'tema.php';
@@ -11,12 +9,14 @@ $temaC = '';
 $temaX = '';
 $temaY = '';
 $temaZ = '';
-echo '<nav role="navigation" class="navbar navbar-default menu-ac">
+echo '
+<div class="navbar ">
+<nav role="navigation" class="navbar navbar-default menu-ac">
         <ul class="list-inline nav-justified">
             <li role="presentation"><a href="'.$gotocontent.'"> Ir para o Conteúdo (Alt+1)</a></li>
             <li role="presentation"><a href="'.$gotomenu.'"> Ir para o Menu (Alt+2)</a></li>
-            <li role="presentation"><a href="">A+</a></li>
-            <li role="presentation"><a href="">A-</a></li>
+            <li role="presentation"><a href="javascript:mudaTamanho(\'texto\', 1);">A+</a></li>
+            <li role="presentation"><a href="javascript:mudaTamanho(\'texto\', -1);">A-</a></li>
             <li role="presentation">
                 <div class="circle"></div>
             </li>
@@ -36,5 +36,6 @@ echo '<nav role="navigation" class="navbar navbar-default menu-ac">
             <li role="presentation"><a href="'.$temaY.'"> Tema Y</a></li>
             <li role="presentation"><a href="'.$temaZ.'"> Tema Z</a></li>
         </ul>
-    </nav>';
+    </nav>
+</div>';
      ?>

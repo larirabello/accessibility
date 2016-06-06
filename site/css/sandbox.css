@@ -64,6 +64,10 @@ p {
     height: 130px;
 }
 
+.size200 {
+    height: 200px;
+}
+
 .size1011 {
     height: 125px;
 }
@@ -72,8 +76,13 @@ p {
     height: 320px;
 }
 
+.size280 {
+    height: 270px;
+}
+
+/* estava em 380 */
 .size20 {
-    height: 380px;
+    height: 320px;
 }
 
 .size912a {
@@ -147,3 +156,29 @@ p {
     }
 
 }
+
+.img-2 {
+    width: 320px;
+}
+@media (max-width: 1320px) {
+    .img-2 {
+        width: 200px;
+    }
+}
+.img-7 {
+    width: 320px;
+    height: 150px;
+    padding-top:10px;
+}
+
+.img-10 {
+    width: 280px;
+    height: 280px;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+
+@

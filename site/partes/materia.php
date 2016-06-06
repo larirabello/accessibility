@@ -18,34 +18,11 @@
 </head>
 
 <body>
-    <nav role="navigation" class="navbar navbar-default menu-ac">
-        <ul class="list-inline nav-justified">
-            <li role="presentation"><a href="#"> Ir para o Conteúdo (Alt+1)</a></li>
-            <li role="presentation"><a href="#"> Ir para o Menu (Alt+2)</a></li>
-            <li role="presentation"><a href="#">A+</a></li>
-            <li role="presentation"><a href="#">A-</a></li>
-            <li role="presentation">
-                <div class="circle"></div>
-            </li>
-            <li role="presentation">
-                <div class="circle circle-w"></div>
-            </li>
-            <li role="presentation"><a href="#">Acessibilidade (Alt+3)</a></li>
-            <li role="presentation"><a href="#">Mapa do Site (Alt+4)</a></li>
-        </ul>
-    </nav>
-    <nav role="navigation" class="navbar navbar-default">
-        <ul class="list-inline nav-justified">
-            <li role="presentation"><a href="#"> Tema A</a></li>
-            <li role="presentation"><a href="#"> Tema B</a></li>
-            <li role="presentation"><a href="#"> Tema C</a></li>
-            <li role="presentation"><a href="#"> Tema X</a></li>
-            <li role="presentation"><a href="#"> Tema Y</a></li>
-            <li role="presentation"><a href="#"> Tema Z</a></li>
-        </ul>
-    </nav>
+<div id="texto">';
 
-    <div class="container">
+  include 'partes/nav.php';
+
+    echo '<div class="container">
         <div class="row">
        <p>' .$datapub. ' </p>
         <h1 class="text-left">' .$title. '</h1>
@@ -94,6 +71,6 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="js/bootstrap.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
+<script src="js/plusminefont.js"></script>
 </html>';
 ?>
