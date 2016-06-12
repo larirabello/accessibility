@@ -12,12 +12,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
     <link href="css/sandbox.css" rel="stylesheet" type="text/css">
-    <link href="css/bootstrap.min.css">
+    <link href="/css/bootstrap.min.css">
 </head>
 
-<body>';
+<body style="margin-top:150px;">';
   $gotocontent = '';
   $gotomenu = '';
   $Aplus = '';
@@ -85,7 +85,7 @@
            
             <div class="col-xs-12 col-sm-6 col-md-6 news">
                 <div class="row">
-                 <!-- QUARTO BLOCO DE NOTÍCIAS -->
+                    <!-- QUARTO BLOCO DE NOTÍCIAS -->
                     <div class="thumbnail size91">
                         <h5><a href="#" class="margin">Tema 4</a></h5>
                         <p><a href="#" class="margin">
@@ -184,11 +184,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-            
-       
-
-    
+        </div>   
     </div> <!-- fecha container -->
 
     <footer>

@@ -17,50 +17,38 @@
     <link href="css/bootstrap.min.css">
 </head>
 
-<body>
-    <nav role="navigation" class="navbar navbar-default menu-ac">
-        <ul class="list-inline nav-justified">
-            <li role="presentation"><a href="#"> Ir para o Conteúdo (Alt+1)</a></li>
-            <li role="presentation"><a href="#"> Ir para o Menu (Alt+2)</a></li>
-            <li role="presentation"><a href="#">A+</a></li>
-            <li role="presentation"><a href="#">A-</a></li>
-            <li role="presentation">
-                <div class="circle"></div>
-            </li>
-            <li role="presentation">
-                <div class="circle circle-w"></div>
-            </li>
-            <li role="presentation"><a href="#">Acessibilidade (Alt+3)</a></li>
-            <li role="presentation"><a href="#">Mapa do Site (Alt+4)</a></li>
-        </ul>
-    </nav>
-    <nav role="navigation" class="navbar navbar-default">
-        <ul class="list-inline nav-justified">
-            <li role="presentation"><a href="#"> Tema A</a></li>
-            <li role="presentation"><a href="#"> Tema B</a></li>
-            <li role="presentation"><a href="#"> Tema C</a></li>
-            <li role="presentation"><a href="#"> Tema X</a></li>
-            <li role="presentation"><a href="#"> Tema Y</a></li>
-            <li role="presentation"><a href="#"> Tema Z</a></li>
-        </ul>
-    </nav>
+<body style="margin-top:150px;">
+<div id="texto">';
 
-    <div class="container">
+  include 'partes/nav.php';
+
+    echo '<div class="container">
+    <ol class="breadcrumb">
+      <li><a href="./">Home</a></li>
+      <li><a href="'.$temaA.'">Esporte</a></li>
+      <li class="active">'.$title.'</li>
+    </ol>
         <div class="row">
        <p>' .$datapub. ' </p>
         <h1 class="text-left">' .$title. '</h1>
         <h2 id="b">'.$resumo.'</h2>
+        <div class="row">
+
+        <a href="javascript:mudaTamanhoa(\'ss\', 1);"><button class="btn btn-primary asd pull-right" type= "button">+A</button></a>
+        <a href="javascript:mudaTamanhoa(\'ss\', -1);"><button class="btn btn-primary asd pull-right" type= "button">-A</button></a>
         <p>'.$autor.'</p>
+        <div>
         <div class="row">
         <div class="col-md-4 pull-right">
             <img src="'.$imagennews.'" class="img-responsive center-block " id="paddez">
         </div>
-            <p class="texto-noti">'.$texto1.'</p>
+        <div id="ss">
+            <p class="texto-noti" >'.$texto1.'</p>
 
-            <p class="texto-noti">'.$texto2.'</p>
+            <p class="texto-noti " >'.$texto2.'</p>
 
-            <p class="texto-noti">'.$texto3.'</p>
-
+            <p class="texto-noti " >'.$texto3.'</p>
+        </div>
 </div>
 
            <div class="col-xs-12 col-sm-4 col-md-4 news">
@@ -94,6 +82,7 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="js/bootstrap.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
+<script src="js/plusminefont.js"></script>
+<script src="js/pm.js"></script>
 </html>';
 ?>

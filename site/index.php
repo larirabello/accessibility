@@ -18,7 +18,7 @@
     <link href="css/sandbox.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
+<body style="margin-top:150px;">
   <div id="texto">
 <?php
     include'partes/nav.php';
@@ -245,13 +245,12 @@
             </div>
         </div> <!-- fecha row -->
     </div>
-
-    <footer>
-
-    </footer>
-
   </div>
+  <?php
+    include'partes/footer.php';
+    ?>
 </body>
+
 <!-- Latest compiled and minified JavaScript -->
 <script src="js/bootstrap.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
