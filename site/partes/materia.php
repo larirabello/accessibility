@@ -17,7 +17,7 @@
     <link href="css/bootstrap.min.css">
 </head>
 
-<body style="margin-top:150px;">
+<body style="margin-top:190px;">
 <div id="texto">';
 
   include 'partes/nav.php';

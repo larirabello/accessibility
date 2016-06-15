@@ -5,7 +5,6 @@ $acess = '';
 $sitemap = '';
 $temaA = 'tema.php';
 $temaB = '';
-$temaC = '';
 $temaX = '';
 $temaY = '';
 $temaZ = '';
@@ -32,7 +31,6 @@ echo '
             <li><img src="images/smile.png" class="LogoNav" alt="Logotipo do site"></li>
             <li role="presentation"><a href="'.$temaA.'"> Tema A</a></li>
             <li role="presentation"><a href="'.$temaB.'"> Tema B</a></li>
-            <li role="presentation"><a href="'.$temaC.'> Tema C</a></li>
             <li role="presentation"><a href="'.$temaX.'"> Tema X</a></li>
             <li role="presentation"><a href="'.$temaY.'"> Tema Y</a></li>
             <li role="presentation"><a href="'.$temaZ.'"> Tema Z</a></li>

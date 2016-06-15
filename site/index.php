@@ -20,40 +20,39 @@
 
 <body style="margin-top:150px;">
   <div id="texto">
-<?php
-    include'partes/nav.php';
-?>
+    <?php
+        include'partes/nav.php';
+    ?>
     <div class="container">
 
-    <a href="javascript:mudaTamanho('texto', -1);">A-</a>
-    <a href="javascript:mudaTamanho('texto', 1);">A+</a>
-
         <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-6 news">
-                <a href="#aa">
-                    <div class="thumbnail size123">
-                        <img src="images/cute_baby_fox_wallpaper_hd_1080p.jpg" id="imgh" alt="...">
-                    </div>
-                </a>
-                <div class="title">
-                    <h5><a href="#aw" class="title-float">Tema 1</a></h5>
-                    <a href="#aa" class="text-float">
+            <div class="col-xs-12 col-sm-6 col-md-6 news" >
+                    <div class="thumbnail size123" >
+                        <a href="#aa">
+                        <img src="images/cute_baby_fox_wallpaper_hd_1080p.jpg" id="imgh" alt="OI MEU NOME É RICARDO">
+                    </a>
+                <div class="title1">
+                    <h5 ><a href="tema.php" class="title-float" accesskey="1">Tema 1</a></h5>
+                    <a href="#aa" class="text-float" >
                         <p>
-                            Grafite faz dois em goleada sobre o Cruzeiro e deixa o Santa Cruz na ...
+                            Grafite faz dois em goleada sobre o Cruzeiro e deixa o Santa Cruz
                         </p>
                     </a>
                 </div>
+              </div>
             </div>
             <div class="col-xs-12 col-sm-3 col-md-3 news">
                 <div class="thumbnail size123">
                     <img src="images/HD-Space-Wallpaper-For-Background-22.jpg" height="450px" alt="...">
                     <div class="caption">
-                        <h5><a href="#" >Tema 2</a></h5>
+                      <div class="title2">
+                        <h5><a href="#" accesskey="3">Tema 2</a></h5>
                         <p>
                             <a href="#">
                               Nos acréscimos, Flamengo arranca empate com a Chapecoense
                             </a>
                         </p>
+                      </div>
                     </div>
                 </div>
             </div>
@@ -67,7 +66,7 @@
             <div class="col-xs-12 col-sm-6 col-md-6 news">
                 <div class="thumbnail size2">
                     <h5><a href="#" class="margin">Tema 3</a></h5>
-                    <p><a href="#" class="margin">
+                    <p class="pd"><a href="#" class="margin">
                       Renato ameaça reclamar de gol do Figueirense, mas vê lance normal
           </a>
                     </p>
@@ -105,7 +104,7 @@
                 <div class="thumbnail size2">
                     <h5><a href="#" class="margin">Tema 7</a></h5>
                     <p><a href="#" class="margin">
-            Messi treina pela 1ª vez com companheiros da seleção argentinaNeque porro quisquam est qu
+            Messi treina pela 1ª vez com companheiros da seleção argentina
           </a>
                     </p>
                 </div>
@@ -113,7 +112,7 @@
             <div class="col-xs-12 col-sm-6 col-md-6 news">
                 <div class="thumbnail size2">
                     <h5><a href="#" class="margin">Tema 8</a></h5>
-                    <p><a href="#" class="margin">
+                    <p class="pd"><a href="#" class="margin">
           Corinthians domina a Ponte e volta a vencer após 36 dias
           </a>
                     </p>
@@ -244,16 +243,15 @@
                 </div>
             </div>
         </div> <!-- fecha row -->
-    </div>
   </div>
-  <?php
-    include'partes/footer.php';
-    ?>
+    </div>
+    <?php
+        include'partes/footer.php';
+        ?>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="js/plusminefont.js"></script>
 </body>
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="js/bootstrap.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-<script src="js/plusminefont.js"></script>
-
 </html>

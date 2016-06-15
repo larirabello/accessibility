@@ -3,10 +3,10 @@
 $datapub = '19/05/2016 as 09h30min';
 
 //Titulo da materia
-$title = 'São Paulo passa e vai para semifinal';
+$title = '“Eu pesava 133kg, era viciado em drogas e bebia muito whisky”...';
 
 //Resumo da materia
-$resumo = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis cursus dolor. Vivamus at tellus aliquet, lobortis ipsum eu, lacinia metus. Cras euismod sodales efficitur';
+$resumo = ' A Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis cursus dolor. Vivamus at tellus aliquet, lobortis ipsum eu, lacinia metus. Cras euismod sodales efficitur';
 
 //Autor da materia
 $autor ='Ricardo T. Ono';
