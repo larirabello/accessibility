@@ -10,9 +10,9 @@ $temaX = '';
 $temaY = '';
 $temaZ = '';
 echo '
-<div class="navbar navbar-fixed-top">
+<div class="navbar ">
 <nav role="navigation" class="navbar navbar-default menu-ac">
-        <ul class="list-inline nav-justified color">
+        <ul class="list-inline nav-justified">
             <li role="presentation"><a href="'.$gotocontent.'"> Ir para o Conteúdo (Alt+1)</a></li>
             <li role="presentation"><a href="'.$gotomenu.'"> Ir para o Menu (Alt+2)</a></li>
             <li role="presentation"><a href="javascript:mudaTamanho(\'texto\', 1);">A+</a></li>
@@ -27,9 +27,8 @@ echo '
             <li role="presentation"><a href="'.$sitemap.'">Mapa do Site (Alt+4)</a></li>
         </ul>
     </nav>
-    <nav role="navigation" class="nav navbar menu-ac2"">
+    <nav role="navigation" class="navbar navbar-default">
         <ul class="list-inline nav-justified">
-            <li><img src="images/smile.png" class="LogoNav" alt="Logotipo do site"></li>
             <li role="presentation"><a href="'.$temaA.'"> Tema A</a></li>
             <li role="presentation"><a href="'.$temaB.'"> Tema B</a></li>
             <li role="presentation"><a href="'.$temaC.'> Tema C</a></li>

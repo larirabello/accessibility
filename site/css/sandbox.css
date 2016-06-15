@@ -64,6 +64,9 @@ p {
     height: 130px;
 }
 
+.size200 {
+    height: 200px;
+}
 
 .size1011 {
     height: 125px;
@@ -154,7 +157,6 @@ p {
 
 }
 
-/* Larissa */
 .img-2 {
     width: 320px;
 }
@@ -163,7 +165,6 @@ p {
         width: 200px;
     }
 }
-
 .img-7 {
     width: 320px;
     height: 150px;
@@ -177,10 +178,6 @@ p {
 
 .upper {
     text-transform: uppercase;
-}
-
-.size200 {
-    height: 200px;
 }
 
 
