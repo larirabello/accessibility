@@ -1,0 +1,111 @@
+1° Faça um caminho igual a esse
+
+|-esportes // seu tema
+| |-index.php //index do tema
+| |-noticia1.php  //noticia 1.
+
+2° Na Index.php mude:
+De:   $idioma = $idioma->BuscaIdioma('esportes', 'index');
+Para: $idioma = $idioma->BuscaIdioma('[tema]', 'index');
+
+Obs: [tema] -> É o seu tema e;
+     'index' -> será onde a tradução será puxada. 
+		Para ver a diferença, abra o noticia1.php e veja que esta:
+		$idioma = $idioma->BuscaIdioma('esportes', 'not1');
+		Ele ira dizer de onde o php ira pegar para fazer a tradução.
+
+Ou seja: Voce ira apontar o tema e depois qual "parte" é para puxar do idioma.php
+
+3° Idioma.php - Aqui é onde ocorre as traduções
+'[tema]' => [
+	 	'[variavel]' => '[Texto]',
+	]
+
+Ex: 
+'esporte' => [
+	 	'temaName' => 'Esporte',
+		'home' => 'Página Inicial',
+	]
+
+'pt' => [ //traduções em portugues
+     'esporte' => [ //tema
+	'index' => [ //qual sera puxado. Lembre 'index'
+		'temaName' => 'Esporte',
+		'home' => 'Página Inicial',
+	],
+	'not1' => [
+		'titulo' => 'Brasil perde de 7x1'
+	]
+     ]
+], 
+
+'en' => [ //traduções em ingles
+     'esporte' => [
+	'index' => [
+		'temaName' => 'Sporte',
+		'home' => 'Home',
+	],
+     ]
+], 
+
+'es' => [ //traduções em espanhol
+     'esporte' => [ //tema
+	'index' => [ //qual sera puxado. Lembre 'index'
+		'temaName' => 'Deporte',
+		'home' => 'Página de inicio',
+	],
+     ]
+] 
+
+É assim que a tradução e a seleção de qual sera traduzido funciona.
+
+Mas pra sorte de voces, é so copiar o meu e mudar o '[Texto]' 
+
+
+4° De volta na Index.php do tema:
+
+Voce verá diversas variaveis no entanto, se preocupe apenas depois de onde
+o comentario diz.
+
+Esses links são relacionados as noticias e são apenas links da noticia e
+links de imagens. Arrume.
+
+
+5° No noticia1.php (primeira noticia de 11)
+
+Mude:  $idioma = $idioma->BuscaIdioma('[tema]','not1/[qualquer outra coisa
+						    mas se lembre que isso
+					 	   será utilizado na tradução]');
+
+
+6° Faça a mesma coisa quando voce usou a index no Idioma.php porem fara com
+o not1
+Ex:
+'pt' => [ //traduções em portugues
+     'esporte' => [ //tema
+	'index' => [ //qual sera puxado. Lembre 'index'
+		'temaName' => 'Esporte',
+		'home' => 'Página Inicial',
+	],
+	'not1' => [ //OLHA QUAL VOCE IRÁ PUXAR AGORA
+		'titulo' => 'Brasil perde de 7x1'
+	]
+     ]
+],
+
+Entao, é necessario fazer nos tres idiomas tambem.
+
+O meu já esta pronto, então, é so copiar e mudar os '[Texto]' e se quiser o
+'not1' tambem pode mudar
+
+
+7° No noticia1.php (copie mais 10 vezes pq sao 11 noticias)
+
+Como anteriormente, mexa apenas nas variaveis após o comentario explicito
+
+Todos possuem comentarios de facil compreensão 
+
+
+É provavel que quando voce estiver mexendo com as traduções ele de alguns erros 
+pelo fato de nao estar "configurado" no idioma.php. Mas é facil idendificar 
+o erro pq ele aparece
