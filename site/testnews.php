@@ -51,4 +51,6 @@ $not3text ='Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil Sa
 
 
 include 'partes/materia.php';
+include'partes/footer.php';
+    
 ?>

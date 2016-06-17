@@ -186,9 +186,7 @@
             </div>
         </div>   
     </div> <!-- fecha container -->
-
-    <footer>
-    </footer>
+ 
 </body>
 <!-- Latest compiled and minified JavaScript -->
 <script src="js/bootstrap.min.js"></script>
