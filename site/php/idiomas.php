@@ -23,36 +23,36 @@ class idiomas
             'irparamenu' => 'Ir para Menu',
             'acessibilidade' => 'Acessibilidade',
             'mapadosite' => 'Mapa do Site',
-            'temaA' =>'Algo',
+            'temaA' =>'Comportamento',
             'temaB' =>'Esportes',
-            'temaC' =>'Esportes',
-            'temaX' =>'Outro',
-            'temaY' =>'Jogos',
-            'temaZ' =>'Cavalo',
+            'temaC' =>'Entretenimento',
+            'temaX' =>'Jogos',
+            'temaY' =>'Mundo PET',
+            'temaZ' =>'Tecnologia',
         ],
         'en' => [
             'irconteudo' => 'Go to Content',
             'irparamenu' => 'Go to Menu',
-            'acessibilidade' => 'Acessibilility',
-            'mapadosite' => 'Site map',
-            'temaA' =>'Something',
+            'acessibilidade' => 'Accessibility',
+            'mapadosite' => 'Site Map',
+            'temaA' =>'lifestyle',
             'temaB' =>'Sports',
-            'temaC' =>'Sports',
-            'temaX' =>'Other',
-            'temaY' =>'Games',
-            'temaZ' =>'Horse',
+            'temaC' =>'Entertainment',
+            'temaX' =>'Games',
+            'temaY' =>'PET World',
+            'temaZ' =>'Technology',
         ],
         'es' => [
-            'irconteudo' => 'Menu',
-            'irparamenu' => 'Go to Menu',
-            'acessibilidade' => 'Acessibilility',
-            'mapadosite' => 'Site map',
-            'temaA' =>'Something',
-            'temaB' =>'Sports',
-            'temaC' =>'Sports',
-            'temaX' =>'Other',
-            'temaY' =>'Games',
-            'temaZ' =>'Horse',
+            'irconteudo' => 'Ir al contenido',
+            'irparamenu' => 'Ir al Menú',
+            'acessibilidade' => 'Accesibilidad',
+            'mapadosite' => 'Mapa del sitio',
+            'temaA' =>'Comportamiento',
+            'temaB' =>'Deportes',
+            'temaC' =>'Entretenimiento',
+            'temaX' =>'Juegos',
+            'temaY' =>'Mundo PET',
+            'temaZ' =>'Tecnología',
         ]
     ];
 
@@ -125,9 +125,9 @@ class idiomas
 
                 ]
             ],
-            'lifestyle' => [
+            'Comportamento' => [
                 'index' => [
-                  'temaName' => 'ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ'
+                  'temaName' => 'Comportamento'
                 ]
             ]
             // 'entreterimento' => [
@@ -207,9 +207,9 @@ class idiomas
 
                 ]
             ],
-            'lifestyle' => [
+            'Comportamento' => [
                 'index' => [
-                  'temaName' => 'YYYYYYYYYYYYYYYYYYYYYYYYY'
+                  'temaName' => 'Comportamento'
                 ]
             ]
         ],

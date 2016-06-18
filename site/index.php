@@ -42,12 +42,12 @@ $idioma = $idioma->BuscaIdioma('index', null);
     <?php
 
     $imglogo = 'images/logo.png';
-    $temaA = 'mundopet/index.php';
+    $temaA = 'comportamento/index.php';
     $temaB = 'esportes/index.php';
-    $temaC = 'esportes/index.php';
-    $temaX = 'lifestyle/index.php';
-    $temaY = 'tecnologia/index.php';
-    $temaZ = 'entretenimento/index.php';
+    $temaC = 'entretenimento/index.php';
+    $temaX = 'jogos/index.php';
+    $temaY = 'mundopet/index.php';
+    $temaZ = 'tecnologia/index.php';
     $linkirConteudo = '#conteudo';
     $linkirMenu = '#';
     $acess = '#';
