@@ -23,15 +23,13 @@ class clFooter
         if (array_key_exists($idioma2, $this->links)) {
             $this->idioma = $idioma2;
         }
-
-        $footer = '            
+        $footer = '
             <div class="btn btn-warning" style="position: fixed; z-index: 999; bottom: 0">
                 <span class="visible-xs">xs</span>
                 <span class="visible-sm">sm</span>
                 <span class="visible-md">md</span>
                 <span class="visible-lg">lg</span>
             </div>
-            
             <footer class="col-xs-12">
                 <div class="container text-center">
             ';

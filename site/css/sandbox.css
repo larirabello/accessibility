@@ -1,6 +1,9 @@
 @charset"UTF-8";
 
 /* Ricardo */
+.upper {
+    text-transform: uppercase;
+}
 .asd {
   margin-right: 10px;
 }
@@ -114,7 +117,6 @@ p {
     .img-2b
     {
         height:auto;
-        padding: 10px;
     }
 
     .texto-noti{
@@ -124,7 +126,10 @@ p {
     .img-7 {
         width: auto;
         height: auto;
-        padding-top:10px;
+        padding-bottom:10px;
+    }
+    .img-2b {
+      padding-bottom: 10px;
     }
 
     .title1 {
@@ -135,6 +140,7 @@ p {
     p {
       margin-left: 5px;
     }
+
 }
 @media (min-width: 768px){
 
@@ -149,9 +155,8 @@ p {
     height: 166px !important;
   }
   .img-7 {
-      width: 320px;
-      height: 150px;
-      padding-top:10px;
+      width: 550px;
+      height: 170px!important;
   }
 
   .img-10 {
@@ -172,9 +177,7 @@ p {
     .thumbnail > img > #imgh{
       height: 310px;
     }
-    .upper {
-        text-transform: uppercase;
-    }
+
     p {
       margin-left: 10px;
     }
