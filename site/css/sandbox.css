@@ -1,6 +1,12 @@
 @charset"UTF-8";
 
 /* Ricardo */
+.upper {
+    text-transform: uppercase;
+}
+.asd {
+  margin-right: 10px;
+}
 #paddez {
     padding: 10px;
 }
@@ -17,12 +23,6 @@
     text-decoration: none;
 }
 
-.title {
-    position: absolute;
-    bottom: 30px;
-    margin: 5px 15px 5px 15px;
-}
-
 .imgs {
     height: 200px !important;
     width: 100%;
@@ -30,8 +30,6 @@
 
 p {
     font-size: 1em;
-    margin: 5px;
-    padding-left: 5px;
 }
 
 .row {
@@ -51,9 +49,9 @@ p {
 .thumbnail {
     margin-bottom: 10px;
 }
-
+/*--------------- SIZE DOS THUMBNAILS -------------*/
 .size2 {
-    height: 135px;
+    height: 175px;
 }
 
 .size912 {
@@ -61,9 +59,12 @@ p {
 }
 
 .size91 {
-    height: 130px;
+    height: 135px;
 }
 
+.size200 {
+    height: 200px;
+}
 
 .size1011 {
     height: 125px;
@@ -74,9 +75,11 @@ p {
 }
 
 .size280 {
-    height: 270px;
+    height: 280px;
 }
-
+.size123b {
+  height: 150px;
+}
 /* estava em 380 */
 .size20 {
     height: 320px;
@@ -93,28 +96,73 @@ p {
 .size9a {
     height: 270px;
 }
+/*------------------- FIM SIZE thumbnail--------------- */
 #b{
     padding-bottom: 5px;
     border-bottom: 3px solid #333;
     margin-bottom: 10px;
     font-size: 1.5em;
 }
+@media (max-width: 767px) {
+    .size2,
+    .size912,
+    .size1011,
+    .size123,
+    .size20,
+    .size91,
+    .size9a,
+    .size912a,
+    .size280,
+    .size123b,
+    .img-2b
+    {
+        height:auto;
+    }
 
-@media (min-width: 992px){
     .texto-noti{
-        margin: 15px;
+        margin-bottom: 15px;
 
     }
-}
-@media (min-width: 768px) {
-    .padtop {
-        padding-top: 19px;
+    .img-7 {
+        width: auto;
+        height: auto;
+        padding-bottom:10px;
     }
-    .title {
+    .img-2b {
+      padding-bottom: 10px;
+    }
+
+    .title1 {
         position: absolute;
-        bottom: 30px;
-        margin: 5px 15px 5px 15px;
+        bottom: 15px;
+        margin: 16px
     }
+    p {
+      margin-left: 5px;
+    }
+
+}
+@media (min-width: 768px){
+
+  .img-2 {
+      width: 50%;
+  }
+  .size123b {
+    height: 176px;
+  }
+  .img-2b {
+    width: 50%;
+    height: 166px !important;
+  }
+  .img-7 {
+      width: 550px;
+      height: 170px!important;
+  }
+
+  .img-10 {
+      width: 280px;
+      height: 280px;
+  }
     .images {
         height: 310px!important;
     }
@@ -129,59 +177,117 @@ p {
     .thumbnail > img > #imgh{
       height: 310px;
     }
-}
-@media (max-width: 767px) {
-    .size2,
-    .size912,
-    .size1011,
-    .size123,
-    .size20,
-    .size91,
-    .size9a,
-    .size912a {
-        height: auto;
-    }
 
-    .texto-noti{
-        margin-bottom: 15px;
-
+    p {
+      margin-left: 10px;
     }
-    .title {
+    .title1 {
         position: absolute;
-        bottom:15px ;
+        bottom: 30px;
         margin: 5px 15px 5px 15px;
     }
-
-}
-
-/* Larissa */
-.img-2 {
-    width: 320px;
-}
-@media (max-width: 1320px) {
-    .img-2 {
-        width: 200px;
+    .size91 {
+        padding-top: 40px;
+        padding-left: 7%;
+        padding-right: 7%;
     }
+
+    #pd {
+      padding-top: 85px;
+      padding-right: 170px;
+    }
+    .size912 .padtop {
+     padding-top: 45px;
+     text-align: center;
+     margin-left: 5px;
+     margin-right: 5px;
+    }
+    .size2 .pd {
+      padding-top: 30px;
+    }
+    .size2 p {
+        padding-top: 10px;
+      }
+      .size1011 p {
+          padding-top: 5px;
+          padding-right: 5%;
+          padding-left: 5%;
+        }
+        .size20 p {
+          padding-top: 80px;
+          text-align: center;
+          margin-left: 5px;
+          margin-right: 5px;
+        }
+        .size280 .title{
+          padding-top: 20px;
+        }
 }
-
-.img-7 {
-    width: 320px;
-    height: 150px;
-    padding-top:10px;
+@media (min-width: 992px){
+    .texto-noti{
+        margin: 15px;
+    }
+    .size91 {
+        padding-top: 35px;
+        margin-top: 5px;
+    }
+    #pd {
+      padding-top: 100px;
+      padding-right: 230px
+    }
+    .size123b p{
+      padding-top: 35px;
+      padding-right: 52%;
+    }
+    .size912 .padtop {
+     padding-top: 55px;
+    }
+    .size2 .pd {
+      padding-top: 30px;
+    }
+    .size2 p {
+        padding-top: 25px;
+      }
+      .size1011 p {
+        padding-top: 10px;
+        padding-right: 5%;
+        padding-left: 5%;
+      }
+      .size20 p {
+        padding-top: 90px;
+      }
+      .size280 .title{
+        padding-top: 20px;
+      }
 }
-
-.img-10 {
-    width: 280px;
-    height: 280px;
+@media (min-width: 1200px){
+  .size91{
+    padding-top: 47px;
+  }
+  #pd {
+    padding-top: 100px;
+  }
+  .size123b p{
+    padding-top: 40px;
+    padding-right: 52%;
+  }
+  .size2 .pd {
+    padding-top: 36px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .size2 p {
+    padding-top: 30px;
+  }
+  .size1011 p {
+    padding-top: 15px;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .size20 p {
+    padding-top: 100px;
+  }
+  .size280 .title{
+    padding-top: 20px;
+  }
 }
-
-.upper {
-    text-transform: uppercase;
-}
-
-.size200 {
-    height: 200px;
-}
-
-
-@

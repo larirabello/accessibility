@@ -5,7 +5,7 @@
 var tagAlvo = new Array('p'); //pega todas as tags p//
 
 // Especificando os possíveis tamanhos de fontes, poderia ser: x-small, small...
-var tamanhos = new Array( '1em','1.1em','1.15em','1.2em' );
+var tamanhos = new Array( '1em','1.1em','1.15em' );
 var tamanhoInicial = 0;
 
 function mudaTamanho( idAlvo,acao ){
@@ -13,7 +13,7 @@ if (!document.getElementById) return
 var selecionados = null,tamanho = tamanhoInicial,i,j,tagsAlvo;
 tamanho += acao;
 if ( tamanho < 0 ) tamanho = 0;
-if ( tamanho > 4 ) tamanho = 4;
+if ( tamanho > 3 ) tamanho = 3;
 tamanhoInicial = tamanho;
 if ( !( selecionados = document.getElementById( idAlvo ) ) ) selecionados = document.getElementsByTagName( idAlvo )[ 0 ];
 

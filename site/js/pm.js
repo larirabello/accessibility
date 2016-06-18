@@ -5,7 +5,7 @@
 var tagAlvoa = new Array('p'); //pega todas as tags p//
 
 // Especificando os possíveis tamanhoasa de fontes, poderia ser: x-small, small...
-var tamanhoasa = new Array( '1em','1.5em','2em','2.5em' );
+var tamanhoasa = new Array( '1em','1.3em','1.6em','2em' );
 var tamanhoaIniciala = 0;
 
 function mudaTamanhoa( idAlvoa,acaoa ){
