@@ -118,7 +118,9 @@ p {
     {
         height:auto;
     }
-
+    .img-2.pull-right {
+      float: none!important;
+    }
     .texto-noti{
         margin-bottom: 15px;
 
