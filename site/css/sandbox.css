@@ -15,8 +15,9 @@
     padding-right: 5px;
 }
 
+/* COR DA FONTE DOS TEMAS */
 .news a {
-    color: #000;
+    color: #286D70;
 }
 
 .news a:hover {

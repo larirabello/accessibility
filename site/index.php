@@ -41,7 +41,7 @@ $idioma = $idioma->BuscaIdioma('index', null);
 <div id="texto">
     <?php
 
-    $imglogo = 'images/smile.png';
+    $imglogo = 'images/logo.png';
     $temaA = 'mundopet/index.php';
     $temaB = 'esportes/index.php';
     $temaC = 'esportes/index.php';

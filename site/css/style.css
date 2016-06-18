@@ -2,6 +2,9 @@
 
 /* CÍRCULOS COLORIDOS NO MENU ACESSÍVEL */
 
+nav {
+	background-color: #fff;
+}
 
 .circle {
   height: 20px;
@@ -13,51 +16,75 @@
 
 .circle-w {
   background-color: #fff;
+  position: relative;
+  right: 175px;
 }
 
-.together {
-
-}
 
 .menu-ac {
  	font-family: 'Lato', sans-serif;
  	margin: 0 auto;
- 	border: 0.3px solid  #BEBEBE;
  	width: 100%;
  	padding-left: 20px;
 	padding-top: 10px;
-	background-color: #fff;
+	background-color: #D6EAEB;
 }
 
-.navbar-default {
-	background-color: red;
-}
 
 .navbar a {
-color:#696969;
-font-family: 'Open Sans Condensed', sans-serif;
-font-style: normal;
-font-weight: bold;
+	color:#696969;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-style: normal;
+	font-weight: bold;
 
 }
 
+h5 {
+	color: #000;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.cor {
+	color: red;
+}
+
+#positionSize {
+	text-align: right;
+}
+
+
+#biggerFont {
+	position: relative;
+  	left: 170px;
+}
 
 .nav a {
-color:#000;
-font-style: normal;
+	color:#286D70;
+	font-style: normal;
+	text-transform: uppercase;
+    text-decoration: none;
+}
+
+.borda:hover {
+    border-left: #D6EAEB solid 1px;
+    border-right: #D6EAEB solid 1px;
+}
+
+nav li {
+	text-align: center;
 }
 
 .menu-ac2 {
-
-padding-left:60px;
-padding-top: 3px;
-border: 0.3px solid  #BEBEBE;
-background-color:  #EEE9E9;
-width: 100%;
-font-family: 'Lato', sans-serif;
+	padding-left:60px;
+	padding-top: 15px;
+	border-bottom: 1px solid  #D6EAEB;
+	background-color:  #fff;
+	width: 100%;
+	font-family: 'Lato', sans-serif;
 
 
 }
+
 
 footer {
 	background: #262730 url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/noise-bg.png) repeat 0 0;
