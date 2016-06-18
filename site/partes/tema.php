@@ -184,22 +184,10 @@ $sitemap = '#';
             </div>
         </div>
     </div> <!-- fecha container -->
-<<<<<<< HEAD
- 
 </body>
 <!-- Latest compiled and minified JavaScript -->
-<script src="js/bootstrap.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 </html>';
-=======
-    <footer></footer>
-
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <script src="../js/plusminefont.js"></script>
-    </body>
-    </html>
-    ';
->>>>>>> fdc81692387f771964015a65d9b9147f73ceb805
  ?>
