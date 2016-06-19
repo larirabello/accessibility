@@ -5,7 +5,7 @@ ini_set('display_errors', 'on');
 require '../php/idiomas.php';
 
 $idioma = new idiomas();
-$idioma = $idioma->BuscaIdioma('entetenimento', 'not1');
+$idioma = $idioma->BuscaIdioma('entretenimento', 'not1');
 //$idioma = $idioma->BuscaIdioma('entreterimento', 'filmes');
 
 // idioma irá retornar um array com 2 chaves('nav', 'content').

@@ -5,7 +5,7 @@ ini_set('display_errors', 'on');
 require '../php/idiomas.php';
 
 $idioma = new idiomas();
-$idioma = $idioma->BuscaIdioma('comportamento', 'not1');
+$idioma = $idioma->BuscaIdioma('comportamento', 'not4');
 //$idioma = $idioma->BuscaIdioma('entreterimento', 'filmes');
 
 // idioma irá retornar um array com 2 chaves('nav', 'content').
@@ -15,7 +15,7 @@ $idioma = $idioma->BuscaIdioma('comportamento', 'not1');
 
 
 //Imagem da materia
-$imagennews ='../images/img1.jpg';
+$imagennews ='../images/img4.jpg';
 
 //Caso voce não tenha mais paragrafos não tem problema em deixar em branco
 // --------------------------------------------------- //
