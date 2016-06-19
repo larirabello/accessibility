@@ -20,16 +20,16 @@ $imagennews ='../images/img3.jpg';
 //Caso voce não tenha mais paragrafos não tem problema em deixar em branco
 // --------------------------------------------------- //
 // 1° noticia
-$not1link = 'temaa.php'; //Link do tema
-$not1textlink ='Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil Santos hu3hu3hu3h '; // texto da noticia
+$not1link = '../comportamento'; //Link do tema
+$not1textlink ='noticia9.php'; // texto da noticia
 
 // 2° noticia
-$not2link = 'temaa.php'; //Link do tema
-$not2textlink = 'images/cute_baby_fox_wallpaper_hd_1080p.jpg'; // Link da noticia
+$not2link = '../comportamento'; //Link do tema
+$not2textlink = 'noticia4.php'; // Link da noticia
 
 // 3° noticia
-$not3link = 'temaa.php'; //Link do tema
-$not3textlink = 'images/cute_baby_fox_wallpaper_hd_1080p.jpg'; // Link da noticia
+$not3link = '../comportamento'; //Link do tema
+$not3textlink = 'noticia2.php'; // Link da noticia
 
 
 include '../partes/materia.php';

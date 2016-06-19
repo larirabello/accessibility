@@ -178,13 +178,13 @@ https://vimeo.com/164146082
                     // Section de noticia
                     //1° noticia
                     'tema1not' => 'Comportamento', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'not1text' => 'Empresário ensina moradora de rua a ler na hora do almoço',  // texto
                     //2° noticia
                     'tema2not' => 'Comportamento', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'not2text' => 'Patrão leva funcionários para férias em hotel de luxo em Cancun',  // texto
                     //3° noticia
                     'tema3not' => 'Comportamento', // tema
-                    'not3text' => 'ONO'   // texto
+                    'not3text' => 'Jovem recorre a internet para arrecadar 94 cartões para aniversário da avó'   // texto
 
                 ],
                  'not2' => [
@@ -203,13 +203,13 @@ https://vimeo.com/164146082
                     // Section de noticia
                     //1° noticia
                     'tema1not' => 'Comportamento', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'not1text' => 'Cultura da hospitalidade: veja o país mais educado do mundo',  // texto
                     //2° noticia
                     'tema2not' => 'Comportamento', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'not2text' => 'Quatro universidades brasileiras estão entre as 10 melhores da América Latina',  // texto
                     //3° noticia
                     'tema3not' => 'Comportamento', // tema
-                    'not3text' => 'ONO'   // texto
+                    'not3text' => 'Professor chinês dá aulas por meio de desenhos'   // texto
 
                 ],
                  'not3' => [
@@ -228,13 +228,13 @@ https://vimeo.com/164146082
                     // Section de noticia
                     //1° noticia
                     'tema1not' => 'Comportamento', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'not1text' => 'Ducha permite banhos infinitos com apenas 10 litros de água',  // texto
                     //2° noticia
                     'tema2not' => 'Comportamento', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'not2text' => 'Da lama ao lar! Projeto transforma a lama do desastre de Mariana em tijolos para a reconstrução da cidade',  // texto
                     //3° noticia
                     'tema3not' => 'Comportamento', // tema
-                    'not3text' => 'ONO'   // texto
+                    'not3text' => 'Egoísmo não tem vez: casal decide investir na formação de 26 crianças ao invés de comprar iate'   // texto
 
                 ],
                  'not4' => [
@@ -255,13 +255,13 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     // Section de noticia
                     //1° noticia
                     'tema1not' => 'Comportamento', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'not1text' => 'Ducha permite banhos infinitos com apenas 10 litros de água',  // texto
                     //2° noticia
                     'tema2not' => 'Comportamento', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'not2text' => 'Cabeleireiro faz cortes em troca de histórias e transforma projeto em livro',  // texto
                     //3° noticia
                     'tema3not' => 'Comportamento', // tema
-                    'not3text' => 'ONO'   // texto
+                    'not3text' => 'Empresário ensina moradora de rua a ler na hora do almoço'   // texto
 
                 ],
                 'not5' => [
@@ -281,13 +281,13 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     // Section de noticia
                     //1° noticia
                     'tema1not' => 'Comportamento', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'not1text' => 'Professor chinês dá aulas por meio de desenhos',  // texto
                     //2° noticia
                     'tema2not' => 'Comportamento', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'not2text' => ' Patrão leva funcionários para férias em hotel de luxo em Cancun',  // texto
                     //3° noticia
                     'tema3not' => 'Comportamento', // tema
-                    'not3text' => 'ONO'   // texto
+                    'not3text' => 'Quatro universidades brasileiras estão entre as 10 melhores da América Latina'   // texto
 
                 ],
                 'not6' => [
@@ -306,13 +306,13 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     // Section de noticia
                     //1° noticia
                     'tema1not' => 'Comportamento', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'not1text' => 'Professor chinês dá aulas por meio de desenhos',  // texto
                     //2° noticia
                     'tema2not' => 'Comportamento', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'not2text' => ' Doar comida agora por delivery!',  // texto
                     //3° noticia
                     'tema3not' => 'Comportamento', // tema
-                    'not3text' => 'ONO'   // texto
+                    'not3text' => 'Patrão leva funcionários para férias em hotel de luxo em Cancun'   // texto
 
                 ],
                 'not7' => [
@@ -331,13 +331,13 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     // Section de noticia
                     //1° noticia
                     'tema1not' => 'Comportamento', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'not1text' => 'Quatro universidades brasileiras estão entre as 10 melhores da América Latina',  // texto
                     //2° noticia
                     'tema2not' => 'Comportamento', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'not2text' => ' Jovem recorre a internet para arrecadar 94 cartões para aniversário da avó',  // texto
                     //3° noticia
                     'tema3not' => 'Comportamento', // tema
-                    'not3text' => 'ONO'   // texto
+                    'not3text' => 'Empresário ensina moradora de rua a ler na hora do almoço'   // texto
 
                 ],
                 'not8' => [
@@ -356,13 +356,13 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     // Section de noticia
                     //1° noticia
                     'tema1not' => 'Comportamento', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'not1text' => 'Doar comida agora por delivery!',  // texto
                     //2° noticia
                     'tema2not' => 'Comportamento', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'not2text' => 'Cabeleireiro faz cortes em troca de histórias e transforma projeto em livro',  // texto
                     //3° noticia
                     'tema3not' => 'Comportamento', // tema
-                    'not3text' => 'ONO'   // texto
+                    'not3text' => 'Da lama ao lar! Projeto transforma a lama do desastre de Mariana em tijolos para a reconstrução da cidade'   // texto
 
                 ],
                 'not9' => [
@@ -541,7 +541,7 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     'not10alt' => 'Four Brazilian universities are among the 10 best in Latin America',
                     'not10text' => 'Four Brazilian universities are among the 10 best in Latin America',
                     /* ------------------- 11° noticia -------------- */
-                    'not11alt' => '...',
+                    'not11alt' => 'Boss takes luxury hotel on vacation for employees in Cancun',
                     'not11text' => 'Boss takes luxury hotel on vacation for employees in Cancun'
                 ],
                 'not1' => [
@@ -563,13 +563,13 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     // Section de noticia
                     //1° noticia
                     'tema1not' => 'Lifestyle', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'not1text' => 'Businessman teaches a homeless to read at his lunch time',  // texto
                     //2° noticia
                     'tema2not' => 'Lifestyle', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'not2text' => 'Boss takes luxury hotel on vacation for employees in Cancun',  // texto
                     //3° noticia
                     'tema3not' => 'Lifestyle', // tema
-                    'not3text' => 'ONO'   // texto
+                    'not3text' => 'Young girl uses the Internet to collect 94 cards for grandma birthday'   // texto
 
                 ],
                 'not2' => [
@@ -588,13 +588,13 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     // Section de noticia
                     //1° noticia
                     'tema1not' => 'Lifestyle', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'not1text' => 'Culture of hospitality: know the most educated country around the World',  // texto
                     //2° noticia
                     'tema2not' => 'Lifestyle', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'not2text' => 'Four Brazilian universities are among the 10 best in Latin America',  // texto
                     //3° noticia
                     'tema3not' => 'Lifestyle', // tema
-                    'not3text' => 'ONO'   // texto
+                    'not3text' => 'Chinese Profesor teachs through drawings'   // texto
 
                 ],
                 'not3' => [
@@ -613,13 +613,13 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     // Section de noticia
                     //1° noticia
                     'tema1not' => 'Lifestyle', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'not1text' => 'Shower allows infinite baths with only 10 liters of water',  // texto
                     //2° noticia
                     'tema2not' => 'Lifestyle', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'not2text' => 'From the mud to the home! Project turns mud from Mariana’s disaster into bricks to reconstruct the city.',  // texto
                     //3° noticia
                     'tema3not' => 'Lifestyle', // tema
-                    'not3text' => 'ONO'   // texto
+                    'not3text' => 'There’s no place to selfishness: a couple decide to invest on 26 children’s formation instead of buying a yacht.'   // texto
 
                 ],
                 'not4' => [
@@ -639,13 +639,13 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     // Section de noticia
                     //1° noticia
                     'tema1not' => 'Lifestyle', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'not1text' => 'Shower allows infinite baths with only 10 liters of water',  // texto
                     //2° noticia
                     'tema2not' => 'Lifestyle', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'not2text' => 'Hairdresser makes free hair cuts in exchange for stories and transforms them in a book',  // texto
                     //3° noticia
                     'tema3not' => 'Lifestyle', // tema
-                    'not3text' => 'ONO'   // texto
+                    'not3text' => 'Businessman teaches a homeless to read at his lunch time'   // texto
 
                 ],
                 'not5' => [
@@ -664,13 +664,13 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     // Section de noticia
                     //1° noticia
                     'tema1not' => 'Lifestyle', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'not1text' => 'Chinese Profesor teachs through drawings',  // texto
                     //2° noticia
                     'tema2not' => 'Lifestyle', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'not2text' => 'Boss takes luxury hotel on vacation for employees in Cancun',  // texto
                     //3° noticia
                     'tema3not' => 'Lifestyle', // tema
-                    'not3text' => 'ONO'   // texto
+                    'not3text' => 'Four Brazilian universities are among the 10 best in Latin America'   // texto
 
                 ],
                 'not6' => [
@@ -689,13 +689,13 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     // Section de noticia
                     //1° noticia
                     'tema1not' => 'Lifestyle', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'not1text' => 'Chinese Profesor teachs through drawings',  // texto
                     //2° noticia
                     'tema2not' => 'Lifestyle', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'not2text' => 'Now you can donate food by delivery!',  // texto
                     //3° noticia
                     'tema3not' => 'Lifestyle', // tema
-                    'not3text' => 'ONO'   // texto
+                    'not3text' => 'Boss takes luxury hotel on vacation for employees in Cancun'   // texto
 
                 ],
                 'not7' => [
@@ -714,13 +714,13 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     // Section de noticia
                     //1° noticia
                     'tema1not' => 'Lifestyle', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'not1text' => 'Four Brazilian universities are among the 10 best in Latin America',  // texto
                     //2° noticia
                     'tema2not' => 'Lifestyle', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'not2text' => ' Young girl uses the Internet to collect 94 cards for grandma birthday',  // texto
                     //3° noticia
                     'tema3not' => 'Lifestyle', // tema
-                    'not3text' => 'ONO'   // texto
+                    'not3text' => 'Businessman teaches a homeless to read at his lunch time'   // texto
 
                 ],
                 'not8' => [
@@ -793,7 +793,7 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     'tema2not' => 'Lifestyle', // tema
                     'not2text' => 'TADASHI',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
+                    'tema3not' => 'Lifestyle', // tema
                     'not3text' => 'ONO'   // texto
 
                 ],
@@ -813,13 +813,13 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
+                    'tema1not' => 'Lifestyle', // tema
                     'not1text' => 'RICARDO',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
+                    'tema2not' => 'Lifestyle', // tema
                     'not2text' => 'TADASHI',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
+                    'tema3not' => 'Lifestyle', // tema
                     'not3text' => 'ONO'   // texto
 
                 ]
@@ -900,7 +900,7 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     'home' => 'Inicio',
                     'temaName' => 'Comportamiento',
                     /* ------------------- 1° noticia -------------- */
-                    'not1alt' => '',
+                    'not1alt' => 'Ahora se puede donar alimentos mediante la entrega!',
                     'not1text' => 'Ahora se puede donar alimentos mediante la entrega!',
                     /* ------------------- 2° noticia -------------- */
                     'not2alt' => 'No hay tiempo para el egoísmo : una pareja decide invertir en la formación de 26 de los niños en lugar de comprar un yate',
@@ -914,7 +914,7 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     'not5text' => 'Hombre de negocios enseña un hogar para leer en su tiempo de almuerzo',
                     /* ------------------- 6° noticia -------------- */
                     'not6text' => 'Cultura de la hospitalidad : conocer el país más culto en todo el mundo',
-                    'not6alt' => '',
+                    'not6alt' => 'Cultura de la hospitalidad : conocer el país más culto en todo el mundo',
                     /* ------------------- 7° noticia -------------- */
                     'not7alt' => 'Profesor de chino enseña a través de dibujos',
                     'not7text' => 'Profesor de chino enseña a través de dibujos',
@@ -944,14 +944,15 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Comportamiento', // tema
+                    'not1text' => 'Hombre de negocios enseña un hogar para leer en su tiempo de almuerzo',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Comportamiento', // tema
+                    'not2text' => 'Jefe toma hotel de lujo de vacaciones para los empleados en Cancún',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
+                    'tema3not' => 'Comportamiento', // tema
+                    'not3text' => 'Niña utiliza el Internet para recoger 94 tarjetas de cumpleaños de la abuela'   // texto
+
 
                 ],
                 'not2' => [
@@ -969,14 +970,14 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Comportamiento', // tema
+                    'not1text' => 'Cultura de la hospitalidad : conocer el país más culto en todo el mundo',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Comportamiento', // tema
+                    'not2text' => 'Cuatro universidades brasileñas están entre las 10 mejores de América Latina',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
+                    'tema3not' => 'Comportamiento', // tema
+                    'not3text' => 'Profesor de chino enseña a través de dibujos'   // texto
 
                 ],
                 'not3' => [
@@ -995,14 +996,14 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     'texto5' => '"Esto fue una broma, pero una broma que terminó siendo muy grave y tiene un impacto positivo en las vidas de los que participan". Prueba de ello es que, por primera vez, Spud decide volver a un lugar donde el Itinerante Hall ha pasado: la favela Paraisópolis.', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Comportamiento', // tema
+                    'not1text' => 'Ducha permite infinitos baños con sólo 10 litros de agua',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Comportamiento', // tema
+                    'not2text' => 'Del barro a la casa! Proyecto resulta barro de desastres de Mariana en ladrillos para reconstruir la ciudad',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
+                    'tema3not' => 'Comportamiento', // tema
+                    'not3text' => 'No hay tiempo para el egoísmo : una pareja decide invertir en la formación de 26 de los niños en lugar de comprar un yate'   // texto
 
                 ],
                 'not4' => [
@@ -1020,14 +1021,14 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Comportamiento', // tema
+                    'not1text' => 'Ducha permite infinitos baños con sólo 10 litros de agua',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Comportamiento', // tema
+                    'not2text' => 'El peluquero hace cortes de cabello gratis a cambio de historias y las transforma en un libro',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
+                    'tema3not' => 'Comportamiento', // tema
+                    'not3text' => 'Hombre de negocios enseña un hogar para leer en su tiempo de almuerzo'   // texto
 
                 ],
                 'not5' => [
@@ -1045,14 +1046,14 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Comportamiento', // tema
+                    'not1text' => ' Profesor de chino enseña a través de dibujo',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Comportamiento', // tema
+                    'not2text' => 'Jefe toma hotel de lujo de vacaciones para los empleados en Cancún',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
+                    'tema3not' => 'Comportamiento', // tema
+                    'not3text' => 'Cuatro universidades brasileñas están entre las 10 mejores de América Latina'   // texto
 
                 ],
                 'not6' => [
@@ -1070,14 +1071,14 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     'texto5' => 'Sería muy bueno si cada visitante tomó un poco omotenashi casa y difundir este modo de vida por su cuenta. " El efecto dominó podría cambiar el mundo".', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Comportamiento', // tema
+                    'not1text' => 'Profesor de chino enseña a través de dibujos',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Comportamiento', // tema
+                    'not2text' => 'Ahora se puede donar alimentos mediante la entrega!',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
+                    'tema3not' => 'Comportamiento', // tema
+                    'not3text' => 'Jefe toma hotel de lujo de vacaciones para los empleados en Cancún'   // texto
 
                 ],
                 'not7' => [
@@ -1096,15 +1097,14 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Comportamiento', // tema
+                    'not1text' => 'Cuatro universidades brasileñas están entre las 10 mejores de América Latina',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Comportamiento', // tema
+                    'not2text' => ' Niña utiliza el Internet para recoger 94 tarjetas de cumpleaños de la abuela',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-
+                    'tema3not' => 'Comportamiento', // tema
+                    'not3text' => 'Hombre de negocios enseña un hogar para leer en su tiempo de almuerzo'   // texto
                 ],
                 'not8' => [
                     'home' => 'Inicio',
@@ -1121,13 +1121,13 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     'texto5' => '" Estoy seguro de que te gusta cada una de las tarjetas y hará todo lo posible y lo imposible para contestar uno por uno. Será una gran y agradable pasatiempo para ella", dice su nieta.', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
+                    'tema1not' => 'Comportamiento', // tema
                     'not1text' => 'RICARDO',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
+                    'tema2not' => 'Comportamiento', // tema
                     'not2text' => 'TADASHI',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
+                    'tema3not' => 'Comportamiento', // tema
                     'not3text' => 'ONO'   // texto
 
                 ],
@@ -1146,13 +1146,13 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     'texto5' => 'Aún así, es posible pedir un kit de instalación , que está a la venta por 1.500 euros , casi 6 mil.', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
+                    'tema1not' => 'Comportamiento', // tema
                     'not1text' => 'RICARDO',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
+                    'tema2not' => 'Comportamiento', // tema
                     'not2text' => 'TADASHI',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
+                    'tema3not' => 'Comportamiento', // tema
                     'not3text' => 'ONO'   // texto
 
                 ],
@@ -1171,13 +1171,13 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
+                    'tema1not' => 'Comportamiento', // tema
                     'not1text' => 'RICARDO',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
+                    'tema2not' => 'Comportamiento', // tema
                     'not2text' => 'TADASHI',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
+                    'tema3not' => 'Comportamiento', // tema
                     'not3text' => 'ONO'   // texto
 
                 ],
@@ -1197,13 +1197,13 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
+                    'tema1not' => 'Comportamiento', // tema
                     'not1text' => 'RICARDO',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
+                    'tema2not' => 'Comportamiento', // tema
                     'not2text' => 'TADASHI',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
+                    'tema3not' => 'Comportamiento', // tema
                     'not3text' => 'ONO'   // texto
 
                 ]
