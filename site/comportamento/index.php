@@ -20,7 +20,7 @@ $not1img = '../images/img1.jpg'; //imagem
 $not1link ='noticia1.php'; //link da noticia
 
 /* ------------------- 2° noticia -------------- */
-$not2img = '../images/img2.jpg'; //imagem
+$not2img = '../images/img22.jpg'; //imagem
 $not2link ='noticia2.php'; //link da noticia
 
 /* ------------------- 3° noticia -------------- */
