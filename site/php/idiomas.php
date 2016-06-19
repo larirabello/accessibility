@@ -381,13 +381,12 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     // Section de noticia
                     //1° noticia
                     'tema1not' => 'Comportamento', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'not1text' => 'Cabeleireiro faz cortes em troca de histórias e transforma projeto em livro',  // texto
                     //2° noticia
                     'tema2not' => 'Comportamento', // tema
-                    'not2text' => 'ADASHI',  // texto
-                    //3° noticia
+                    'not2text' => ' Da lama ao lar! Projeto transforma a lama do desastre de Mariana em tijolos para a reconstrução da cidade',                
                     'tema3not' => 'Comportamento', // tema
-                    'not3text' => 'ONO'   // texto
+                    'not3text' => 'Jovem recorre a internet para arrecadar 94 cartões para aniversário da avó'   // texto
 
                 ],
                 'not10' => [
@@ -406,13 +405,13 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     // Section de noticia
                     //1° noticia
                     'tema1not' => 'Comportamento', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'not1text' => 'Empresário ensina moradora de rua a ler na hora do almoço',  // texto
                     //2° noticia
                     'tema2not' => 'Comportamento', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'not2text' => 'Cultura da hospitalidade: veja o país mais educado do mundo',  // texto
                     //3° noticia
                     'tema3not' => 'Comportamento', // tema
-                    'not3text' => 'ONO'   // texto
+                    'not3text' => ' Professor chinês dá aulas por meio de desenhos'   // texto
 
                 ],
                 'not11' => [
@@ -431,13 +430,14 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     // Section de noticia
                     //1° noticia
                     'tema1not' => 'Comportamento', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'not1text' => 'Doar comida agora por delivery!',  // texto
                     //2° noticia
                     'tema2not' => 'Comportamento', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'not2text' => ' Ducha permite banhos infinitos com apenas 10 litros de água
+               ',  // texto
                     //3° noticia
                     'tema3not' => 'Comportamento', // tema
-                    'not3text' => 'ONO'   // texto
+                    'not3text' => ' Egoísmo não tem vez: casal decide investir na formação de 26 crianças ao invés de comprar iate'   // texto
 
                 ],
             ]
@@ -739,14 +739,13 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     // Section de noticia
                     //1° noticia
                     'tema1not' => 'Lifestyle', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'not1text' => ' Now you can donate food by delivery!',  // texto
                     //2° noticia
                     'tema2not' => 'Lifestyle', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'not2text' => ' Hairdresser makes free hair cuts in exchange for stories and transforms them in a book',  // texto
                     //3° noticia
                     'tema3not' => 'Lifestyle', // tema
-                    'not3text' => 'ONO'   // texto
-
+                    'not3text' => ' From the mud to the home! Project turns mud from Mariana’s disaster into bricks to reconstruct the city.'   // texto
                 ],
                 'not9' => [
                     'home' => 'Home',
@@ -763,13 +762,13 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     // Section de noticia
                     //1° noticia
                     'tema1not' => 'Lifestyle', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'not1text' => 'Hairdresser makes free hair cuts in exchange for stories and transforms them in a book',  // texto
                     //2° noticia
                     'tema2not' => 'Lifestyle', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'not2text' => ' From the mud to the home! Project turns mud from Mariana’s disaster into bricks to reconstruct the city',  // texto
                     //3° noticia
                     'tema3not' => 'Lifestyle', // tema
-                    'not3text' => 'ONO'   // texto
+                    'not3text' => ' Young girl uses the Internet to collect 94 cards for grandma birthday'   // texto
 
                 ],
                 'not10' => [
@@ -788,13 +787,13 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     // Section de noticia
                     //1° noticia
                     'tema1not' => 'Lifestyle', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'not1text' => 'Businessman teaches a homeless to read at his lunch time',  // texto
                     //2° noticia
                     'tema2not' => 'Lifestyle', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'not2text' => 'Culture of hospitality: know the most educated country around the World',  // texto
                     //3° noticia
                     'tema3not' => 'Lifestyle', // tema
-                    'not3text' => 'ONO'   // texto
+                    'not3text' => 'Chinese Profesor teachs through drawings'   // texto
 
                 ],
                 'not11' => [
@@ -814,13 +813,13 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     // Section de noticia
                     //1° noticia
                     'tema1not' => 'Lifestyle', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'not1text' => 'Now you can donate food by delivery!',  // texto
                     //2° noticia
                     'tema2not' => 'Lifestyle', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'not2text' => ' Shower allows infinite baths with only 10 liters of water',  // texto
                     //3° noticia
                     'tema3not' => 'Lifestyle', // tema
-                    'not3text' => 'ONO'   // texto
+                    'not3text' => ' There’s no place to selfishness: a couple decide to invest on 26 children’s formation instead of buying a yacht.'   // texto
 
                 ]
             ]
@@ -1147,13 +1146,13 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     // Section de noticia
                     //1° noticia
                     'tema1not' => 'Comportamiento', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'not1text' => 'El peluquero hace cortes de cabello gratis a cambio de historias y las transforma en un libro',  // texto
                     //2° noticia
                     'tema2not' => 'Comportamiento', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'not2text' => '  Del barro a la casa! Proyecto resulta barro de desastres de Mariana en ladrillos para reconstruir la ciudad',  // texto
                     //3° noticia
                     'tema3not' => 'Comportamiento', // tema
-                    'not3text' => 'ONO'   // texto
+                    'not3text' => ' Niña utiliza el Internet para recoger 94 tarjetas de cumpleaños de la abuela'   // texto
 
                 ],
                 'not10' => [
@@ -1172,13 +1171,13 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     // Section de noticia
                     //1° noticia
                     'tema1not' => 'Comportamiento', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'not1text' => 'Hombre de negocios enseña un hogar para leer en su tiempo de almuerzo',  // texto
                     //2° noticia
                     'tema2not' => 'Comportamiento', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'not2text' => 'Cultura de la hospitalidad : conocer el país más culto en todo el mundo',  // texto
                     //3° noticia
                     'tema3not' => 'Comportamiento', // tema
-                    'not3text' => 'ONO'   // texto
+                    'not3text' => ' Profesor de chino enseña a través de dibujos'   // texto
 
                 ],
                 'not11' => [
@@ -1198,13 +1197,13 @@ Uma campanha criada num site de financiamento coletivo tem o objetivo de coletar
                     // Section de noticia
                     //1° noticia
                     'tema1not' => 'Comportamiento', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'not1text' => 'Ahora se puede donar alimentos mediante la entrega!',  // texto
                     //2° noticia
                     'tema2not' => 'Comportamiento', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'not2text' => 'Ducha permite infinitos baños con sólo 10 litros de agua',  // texto
                     //3° noticia
                     'tema3not' => 'Comportamiento', // tema
-                    'not3text' => 'ONO'   // texto
+                    'not3text' => ' No hay tiempo para el egoísmo : una pareja decide invertir en la formación de 26 de los niños en lugar de comprar un yate'   // texto
 
                 ]
             ]
