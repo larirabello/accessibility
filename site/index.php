@@ -50,8 +50,8 @@ $idioma = $idioma->BuscaIdioma('index', null);
     $temaZ = 'tecnologia/index.php';
     $linkirConteudo = '#conteudo';
     $linkirMenu = '#';
-    $acess = '#';
-    $sitemap = '#';
+    $acess = 'acessibilidade.php';
+    $sitemap = 'acessibilidade.php';
     include 'partes/nav.php';
     ?>
     <div class="container">

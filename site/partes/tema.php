@@ -15,6 +15,7 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
       <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet" type="text/css">
       <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet" type="text/css">
       <link href="../css/style.css" rel="stylesheet" type="text/css">
       <link href="../css/sandbox.css" rel="stylesheet" type="text/css">
   </head>
@@ -23,16 +24,16 @@
     <div id="texto">';
 
  $imglogo = '../images/smile.png';
-$temaA = '#';
+$temaA = '../comportamento/';
 $temaB = '../esportes/';
-$temaC = '../esportes/';
-$temaX = '#';
-$temaY = '#';
-$temaZ = '#';
+$temaC = '../entretenimento/';
+$temaX = '../jogos/';
+$temaY = '../pet/';
+$temaZ = '../tecnologia/';
 $linkirConteudo = '#conteudo';
 $linkirMenu = '#';
-$acess = '#';
-$sitemap = '#';
+$acess = '../acessibilidade.php';
+$sitemap = '../acessibilidade.php';
   include'nav.php';
 
 
@@ -43,7 +44,7 @@ $sitemap = '#';
   <li><a href="../">'.$idioma['content']['home'].'</a></li>
   <li class="active">'.$idioma['content']['temaName'].'</li>
 </ol>
-        <h1 class="text-center upper">'.$idioma['content']['temaName'].'</h1>
+        <h1 class="text-center upper" style="font-family: \'Poiret One\', cursive;">'.$idioma['content']['temaName'].'</h1>
 
         <div class="row">
             <!-- PRIMEIRO BLOCO DE NOTÍCIAS -->

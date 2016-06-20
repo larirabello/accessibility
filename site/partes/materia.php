@@ -13,24 +13,25 @@ echo'
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet" type="text/css">
     <link href="../css/style.css" rel="stylesheet" type="text/css">
     <link href="../css/sandbox.css" rel="stylesheet" type="text/css">
-    <link href="../css/bootstrap.min.css">
+    <link href="../css/sandbox.css" rel="stylesheet" type="text/css">
 </head>
 
 <body style="margin-top:190px;">
 <div id="texto">';
-$temaA = '#';
+$temaA = '../comportamento/';
 $temaB = '../esportes/';
-$temaC = '../esportes/';
-$temaX = '#';
-$temaY = '#';
-$temaZ = '#';
+$temaC = '../entretenimento/';
+$temaX = '../jogos';
+$temaY = '../pet';
+$temaZ = '../tecnologia';
 
 $linkirConteudo = '#conteudo';
 $linkirMenu = '#';
-$acess = '#';
-$sitemap = '#';
+$acess = '../acessibilidade.php';
+$sitemap = '../acessibilidade.php';
   $imglogo = '../images/smile.png';
   include 'nav.php';
     echo '<div class="container">
