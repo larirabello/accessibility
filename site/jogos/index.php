@@ -57,5 +57,8 @@ $not11link ='noticia11.php'; //link da noticia
 
 include '../partes/tema.php';
 
+require '../partes/footer.php';
+$footer = new clFooter;
+echo $footer->fnFooter(true, 'en');
 
 ?>
