@@ -254,7 +254,7 @@ class idiomas
                     'not1text' => 'É inacreditável", diz comandante de voo que leva Chama Olímpica ao Acre',  // texto
                     //2° noticia
                     'tema2not' => 'Esportes', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'not2text' => 'Maratonista de 99 anos diz que “esporte é farmácia”',  // texto
                     //3° noticia
                     'tema3not' => 'Esportes', // tema
                     'not3text' => 'Na Olimpíada dos emojis, saltos ornamentais é o único a ficar fora'   // texto

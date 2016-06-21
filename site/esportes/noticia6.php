@@ -21,15 +21,15 @@ $imagennews ='../images/not6.jpg';
 // --------------------------------------------------- //
 // 1° noticia
 $not1link = '../esportes'; //Link do tema
-$not1textlink ='Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil Santos hu3hu3hu3h '; // texto da noticia
+$not1textlink ='noticia9.php'; // texto da noticia
 
 // 2° noticia
 $not2link = '../esportes'; //Link do tema
-$not2textlink = 'images/cute_baby_fox_wallpaper_hd_1080p.jpg'; // Link da noticia
+$not2textlink = 'noticia11.php'; // Link da noticia
 
 // 3° noticia
 $not3link = '../esportes'; //Link do tema
-$not3textlink = 'images/cute_baby_fox_wallpaper_hd_1080p.jpg'; // Link da noticia
+$not3textlink = 'noticia10.php'; // Link da noticia
 
 
 include '../partes/materia.php';

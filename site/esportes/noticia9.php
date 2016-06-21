@@ -5,7 +5,7 @@ ini_set('display_errors', 'on');
 require '../php/idiomas.php';
 
 $idioma = new idiomas();
-$idioma = $idioma->BuscaIdioma('esportes', 'not3');
+$idioma = $idioma->BuscaIdioma('esportes', 'not6');
 //$idioma = $idioma->BuscaIdioma('entreterimento', 'filmes');
 
 // idioma irá retornar um array com 2 chaves('nav', 'content').
@@ -15,21 +15,21 @@ $idioma = $idioma->BuscaIdioma('esportes', 'not3');
 
 
 //Imagem da materia
-$imagennews ='../images/not3.jpg';
+$imagennews ='../images/not9.jpg';
 
 //Caso voce não tenha mais paragrafos não tem problema em deixar em branco
 // --------------------------------------------------- //
 // 1° noticia
 $not1link = '../esportes'; //Link do tema
-$not1textlink ='noticia5.php'; // texto da noticia
+$not1textlink ='noticia9.php'; // texto da noticia
 
 // 2° noticia
 $not2link = '../esportes'; //Link do tema
-$not2textlink = 'noticia10.php'; // Link da noticia
+$not2textlink = 'noticia11.php'; // Link da noticia
 
 // 3° noticia
 $not3link = '../esportes'; //Link do tema
-$not3textlink = 'noticia3.php'; // Link da noticia
+$not3textlink = 'noticia10.php'; // Link da noticia
 
 
 include '../partes/materia.php';
