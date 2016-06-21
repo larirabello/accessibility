@@ -87,19 +87,39 @@ nav li {
 
 
 footer {
-	background: #262730 url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/noise-bg.png) repeat 0 0;
-	padding: 20px 0 !important;
-	color: #bdbdbd;
+    background: #262730 url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/noise-bg.png) repeat 0 0;
+    padding: 20px 0 !important;
+    color: #bdbdbd;
 }
 
 footer ul {
-	list-style: none;
-	padding: 0;
+    list-style: none;
+    padding: 0;
 }
 
 footer h1 {
-	font-size: 16px;
-	margin-bottom: 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+footer .hTitle {
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+footer .nms{
+    margin-bottom: 5px;
+}
+
+footer a {
+    color: inherit;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #f9f9f9;
 }
 
 footer ul li:first-child {

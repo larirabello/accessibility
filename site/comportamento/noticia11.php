@@ -34,4 +34,9 @@ $not3textlink = 'noticia2.php'; // Link da noticia
 
 include '../partes/materia.php';
 
+require '../partes/footer.php';
+$footer = new clFooter;
+echo $footer->fnFooter(true, 'en');
+
+
 ?>

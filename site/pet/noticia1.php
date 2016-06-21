@@ -2,10 +2,10 @@
 ini_set('display_errors', 'on');
 
 @session_start();
-require '../php/idiomas.php';
+require '../php/idiomaskaren.php';
 
 $idioma = new idiomas();
-$idioma = $idioma->BuscaIdioma('comportamento', 'not8');
+$idioma = $idioma->BuscaIdioma('pet', 'not1');
 //$idioma = $idioma->BuscaIdioma('entreterimento', 'filmes');
 
 // idioma irá retornar um array com 2 chaves('nav', 'content').
@@ -15,20 +15,20 @@ $idioma = $idioma->BuscaIdioma('comportamento', 'not8');
 
 
 //Imagem da materia
-$imagennews ='../images/img8.jpg';
+$imagennews ='../images/animal2.jpg';
 
 //Caso voce não tenha mais paragrafos não tem problema em deixar em branco
 // --------------------------------------------------- //
 // 1° noticia
-$not1link = '../comportamento'; //Link do tema
-$not1textlink ='noticia1.php'; // texto da noticia
+$not1link = 'index.php'; //Link do tema
+$not1textlink ='noticia2.php'; // texto da noticia
 
 // 2° noticia
-$not2link = '../comportamento'; //Link do tema
+$not2link = 'index.php'; //Link do tema
 $not2textlink = 'noticia3.php'; // Link da noticia
 
 // 3° noticia
-$not3link = '../comportamento'; //Link do tema
+$not3link = 'index.php'; //Link do tema
 $not3textlink = 'noticia4.php'; // Link da noticia
 
 

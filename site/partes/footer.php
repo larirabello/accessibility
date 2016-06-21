@@ -7,13 +7,24 @@ class clFooter
 
     var $links = [
         "pt" => [
-            "Jogos" => [
-                "h" => "../jogos",
-                "Página 1" => '../jogos/pag1.php'],
+             "Comportamento" => [
+                "h" => "../comportamento",
+            ],
             "Esportes" => [
                 "h" => "../esportes",
-                "Página 2" => '../esportes/pag1.php',
-                "Página 3" => '../esportes/pag2.php'],
+            ],
+            "Entretenimento" => [
+                "h" => "../entretenimento",
+            ],
+           "Jogos" => [
+                "h" => "../jogos",
+            ],
+            "Mundo Pet" => [
+                "h" => "../pet",
+            ],
+            "Tecnologia" => [
+                "h" => "../tecnologia",
+            ],
         ]
     ];
 
@@ -30,28 +41,28 @@ class clFooter
                 <span class="visible-md">md</span>
                 <span class="visible-lg">lg</span>
             </div>
-            <footer class="col-xs-12">
-                <div class="container text-center">
+            <footer class="col-xs-12 text-center">
+                <div class="container">
+                <div class="col-xs-12 hTitle">Sitemap</div>
             ';
 
 //                 <h1 class="col-xs-12">Mapa do site</h1>
 
         foreach (array_keys($this->links[$this->idioma]) as $v) {
-
-            $footer .= '
-              <ul class="col-sm-4 col-md-2 col-xs-6">
-                  <li><a href="' . ($isSiteHome ? str_replace('../', '', $this->links[$this->idioma][$v]['h']) : $this->links[$this->idioma][$v]['h']) . '">' . $v . '</a></li>';
-
-            foreach (array_keys($this->links[$this->idioma][$v]) as $v2) {
-                if ($v2 != 'h') {
-                    $footer .= '<li><a href="' . ($isSiteHome ? str_replace('../', '', $this->links[$this->idioma][$v][$v2]) : $this->links[$this->idioma][$v][$v2]) . '">' . $v2 . '</a></li>';
-                }
-            }
-
-            $footer .= '</ul>';
+            $footer .= '<div class="col-sm-4 col-md-2 col-xs-6 nms"><a href="' . ($isSiteHome ? str_replace('../', '', $this->links[$this->idioma][$v]['h']) : $this->links[$this->idioma][$v]['h']) . '">' . $v . '</a></div>';
         }
+        $footer .= '</div>
 
-        $footer .= '</div></footer>';
+<div class="container">
+    <div class="text-center col-xs-12 hTitle">Desenvolvedores</div>
+    <div class="col-sm-4 col-md-2 col-xs-6 nms">Caio Salgado</div>
+    <div class="col-sm-4 col-md-2 col-xs-6 nms">Beatriz Guedes</div>
+    <div class="col-sm-4 col-md-2 col-xs-6 nms">Larissa Rabello</div>
+    <div class="col-sm-4 col-md-2 col-xs-6 nms">Rafael Ogrim</div>
+    <div class="col-sm-4 col-md-2 col-xs-6 nms">Ricardo Ono</div>
+    <div class="col-sm-4 col-md-2 col-xs-6 nms">Karen Lara</div>
+</div>
+</footer>';
 
         return $footer;
     }
