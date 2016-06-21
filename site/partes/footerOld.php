@@ -35,6 +35,12 @@ class clFooter
             $this->idioma = $idioma2;
         }
         $footer = '
+            <div class="btn btn-warning" style="position: fixed; z-index: 999; bottom: 0">
+                <span class="visible-xs">xs</span>
+                <span class="visible-sm">sm</span>
+                <span class="visible-md">md</span>
+                <span class="visible-lg">lg</span>
+            </div>
             <footer class="col-xs-12 text-center">
                 <div class="container">
                 <div class="col-xs-12 hTitle">Sitemap</div>

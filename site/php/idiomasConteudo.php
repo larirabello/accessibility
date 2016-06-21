@@ -15,61 +15,56 @@ class idiomas
         }else if(!array_key_exists('idioma', $_SESSION)){
             $_SESSION['idioma'] = 'pt';
         }
-
-        $this->jogos = require 'idiomasRafael.php';
-        $this->comportamento = require 'idiomasLari.php';
-         $this->tecnologia = require 'idiomasCaio.php';
     }
 
-     public $nav = [
+    public $nav = [
         'pt' => [
             'irconteudo' => 'Ir para Conteúdo',
             'irparamenu' => 'Ir para Menu',
             'acessibilidade' => 'Acessibilidade',
             'mapadosite' => 'Mapa do Site',
-            'temaA' => 'Comportamento',
-            'temaB' => 'Esportes',
-            'temaC' => 'Entretenimento',
-            'temaX' => 'Jogos',
-            'temaY' => 'Mundo PET',
-            'temaZ' => 'Tecnologia',
+            'temaA' =>'Algo',
+            'temaB' =>'Esportes',
+            'temaC' =>'Esportes',
+            'temaX' =>'Outro',
+            'temaY' =>'Jogos',
+            'temaZ' =>'Cavalo',
         ],
         'en' => [
             'irconteudo' => 'Go to Content',
             'irparamenu' => 'Go to Menu',
-            'acessibilidade' => 'Accessibility',
-            'mapadosite' => 'Site Map',
-            'temaA' => 'lifestyle',
-            'temaB' => 'Sports',
-            'temaC' => 'Entertainment',
-            'temaX' => 'Games',
-            'temaY' => 'PET World',
-            'temaZ' => 'Technology',
+            'acessibilidade' => 'Acessibilility',
+            'mapadosite' => 'Site map',
+            'temaA' =>'Something',
+            'temaB' =>'Sports',
+            'temaC' =>'Sports',
+            'temaX' =>'Other',
+            'temaY' =>'Games',
+            'temaZ' =>'Horse',
         ],
         'es' => [
-            'irconteudo' => 'Ir al contenido',
-            'irparamenu' => 'Ir al Menú',
-            'acessibilidade' => 'Accesibilidad',
-            'mapadosite' => 'Mapa del sitio',
-            'temaA' => 'Comportamiento',
-            'temaB' => 'Deportes',
-            'temaC' => 'Entretenimiento',
-            'temaX' => 'Juegos',
-            'temaY' => 'Mundo PET',
-            'temaZ' => 'Tecnología',
+            'irconteudo' => 'Menu',
+            'irparamenu' => 'Go to Menu',
+            'acessibilidade' => 'Acessibilility',
+            'mapadosite' => 'Site map',
+            'temaA' =>'Something',
+            'temaB' =>'Sports',
+            'temaC' =>'Sports',
+            'temaX' =>'Other',
+            'temaY' =>'Games',
+            'temaZ' =>'Horse',
         ]
     ];
 
-    function retIdioma(){
-        $idioma = [
-            'pt' => [
-                'index' => [
-                    'titulo' => 'Otimista',
-                    'irparaconteudo' => 'Ir para o conteúdo',
-                    'irparamenu' => 'Ir para o menu',
-                    'acessibilidade' => 'Acessibilidade',
-                    'mapadosite' => 'Mapa do Site 1',
-                ],
+    public $idioma = [
+        'pt' => [
+            'index' => [
+                'titulo' => 'Otimista',
+                'irparaconteudo' => 'Ir para o conteúdo',
+                'irparamenu' => 'Ir para o menu',
+                'acessibilidade' => 'Acessibilidade',
+                'mapadosite' => 'Mapa do Site 1',
+            ],
             'esportes' => [
                 'index' => [
                     'home' => 'Página Inicial',
@@ -104,7 +99,7 @@ class idiomas
                     'not11alt' => 'Frederico durante competição, à esquerda, e seu rival à direita.',
                     'not11text' => 'Maratonista de 99 anos diz que “esporte é farmácia”'
                 ],
-                    'not1' => [
+                'not1' => [
                     'home' => 'Página Inicial',
                     'temaName' => 'Esportes',
                     'datapub' => '12/06/2015 as 09h30min',
@@ -237,7 +232,7 @@ class idiomas
                     'temaName' => 'Esportes',
                     'datapub' => '06/06/2013',
                     'titulo' => 'Garoto sem braço deixa exemplo de superação no vôlei',
-                    'resumo' => 'Devido a um tumor no cotovelo,     Eddie Nogay não foi impedido de fazer o que realmente gosta, jogar volei. Parece impossivel e após esse feito, o garoto é um exemplo de superação nos Estados Unidos',
+                    'resumo' => 'Devido a um tumor no cotovelo, 	Eddie Nogay não foi impedido de fazer o que realmente gosta, jogar volei. Parece impossivel e após esse feito, o garoto é um exemplo de superação nos Estados Unidos',
                     'autor' => 'UOL Esporte',
                     'alt' => 'Eddie Nogay sentado junto com uma bola de volei',
                     'texto1' => 'Eddie Nogay se tornou um exemplo de superação no esporte dos Estados Unidos. Com 17 anos, o garoto chamou a atenção do país ao disputar um torneio de vôlei escolar após ter ser seu braço amputado devido a um tumor no cotovelo.', //1° paragrafos,
@@ -310,6 +305,31 @@ class idiomas
                     'not3text' => 'Garoto sem braço deixa exemplo de superação no vôlei'   // texto
 
                ],
+                  'not8' => [
+                    'home' => 'Página Inicial',
+                    'temaName' => 'Esportes',
+                    'datapub' => '06/06/2013',
+                    'titulo' => ' Garoto empresta muleta para colega assistir jogo: generosidade',
+                    'resumo' => 'A foto impressionante, com um exemplo de generosidade, foi tirada durante a despedida de Diego Milito do futebol, fato que mexeu com quem gosta do esporte.',
+                    'autor' => 'Só Noticia Boa',
+                    'alt' => 'Garoto deficiente flagrado ao emprestar sua muleta para que amigo enxergue o jogo.',
+                    'texto1' => 'As pessoas faziam de tudo para ver a partida do Racing contra o Temperley, no El Cilindro, no último sábado, inclusive Santiago Fretes, de 10 anos, que emprestou uma de suas muletas para o amigo subir no muro ver o jogo do Racing.', //1° paragrafos,
+                    'texto2' =>'A foto, tirada do lado de fora do campo, mostrando o menino sem uma das pernas e seu amigo – cada um apoiado em uma muleta – ganhou as manchetes anos jornais Argentinos.',
+                    'texto3' =>'Apaixonado por futebol, Santiago Fretes, de 10 anos, conhecia o colega de vista, das partidas que acompanha. Nem sabia o nome dele, mas não pensou duas vezes: simplesmente ajudou.',
+                    'texto4' =>'',
+                    'texto5' => '', //5° paragrafos
+                    // Section de noticia
+                    //1° noticia
+                    'tema1not' => 'Esportes', // tema
+                    'not1text' => 'Garoto empresta muleta para colega assistir jogo: generosidade',  // texto
+                    //2° noticia
+                    'tema2not' => 'Esportes', // tema
+                    'not2text' => 'Dançarina é a primeira professora de zumba com Down',  // texto
+                    //3° noticia
+                    'tema3not' => 'Esportes', // tema
+                    'not3text' => 'Garoto sem braço deixa exemplo de superação no vôlei'   // texto
+
+                ],
                   'not9' => [
                     'home' => 'Página Inicial',
                     'temaName' => 'Esportes',
@@ -384,13 +404,22 @@ class idiomas
                     'tema3not' => 'Esportes', // tema
                     'not3text' => 'Garoto sem braço deixa exemplo de superação no vôlei'   // texto
 
-                    ]
-
                 ]
-            ],
-            'en' => [
+
+
+            ]
+            // 'entreterimento' => [
+            //     'index' => [
+            //         'titulo' => 'Otimista'
+            //     ],
+            //     'filmes' => [
+            //         'titulo' => 'bia teste'
+            //     ]
+            // ]
+        ],
+        'en' => [
             'index' => [
-                'titulo' => 'Otimist',
+                'titulo' => 'OtimisAAAt',
                 'irparaconteudo' => 'Go to content',
                 'irparamenu' => 'Go to the menu',
                 'acessibilidade' => 'Acessibility',
@@ -424,11 +453,11 @@ class idiomas
                     /* ------------------- 9° noticia -------------- */
                     'not9text' => '"It\'s unbelievable", a flight commander said when taking Olympic flame to Acre ',
                     /* ------------------- 10° noticia -------------- */
-                    'not10alt' => 'Emojis developed for Olympic Games',
-                    'not10text' => 'On Emojis Olympics, ornamental jumps are the only ones out',
+                    'not10alt' => 'OPA´PS LK ISAIUD OTHJA',
+                    'not10text' => 'apsoj spoidf oisajt poidjsf oitsd',
                     /* ------------------- 11° noticia -------------- */
-                    'not11alt' => 'Frederico in a competition, to the left, and his competitive on the right.',
-                    'not11text' => 'Marathonist aged of 99 years old says "sports are medicine"'
+                    'not11alt' => 'ONZE',
+                    'not11text' => 'apsoj spoidf oisajt poidjsf oitsd'
                 ],
                 'not1' => [
                     'home' => 'Home',
@@ -581,131 +610,6 @@ class idiomas
                     'tema3not' => 'C', // tema
                     'not3text' => 'ONO'   // texto
 
-                ],
-                'not7' => [
-                    'home' => 'Home',
-                    'temaName' => 'Sports',
-                    'datapub' => '06/06/2013',
-                    'titulo' => 'Armless boy leaves example of overcoming in volleyball',
-                    'resumo' => 'Due to a tumor on his elbow, Eddie Nogay was not prevented from doing what you really like, play volleyball. It seems impossible and after this done, the boy is an example of overcoming in the United States',
-                    'autor' => 'UOL Esporte',
-                    'alt' => 'Eddie Nogay sitting together with a volley ball',
-                    'texto1' => 'Eddie Nogay became an overcoming example in US sport. 17, the boy caught the attention of the country to compete in a tournament of volleyball after school be his arm amputated due to a tumor on her elbow.', //1° paragrafos,
-                    'texto2' =>'Nogay had their cancer diagnosed in 2012, underwent surgery, but refused to leave the sport. Even with its two lungs affected by the disease, he played the entire 2013 season of high school volleyball and helped his team reach the quarterfinals of the disputed city tournament in New York.',
-                    'texto3' =>'The young athlete dies on the last Tuesday in a New York hospital due to lung problems. The death came a day after Nogay turned 18.',
-                    'texto4' =>'"Eddie left an impact on people," said Victor in Gay, athlete\'s brother, the New York Post. "There is nothing I can say that he did not achieve."',
-                    'texto5' => '', //5° paragrafos
-                    // Section de noticia
-                    //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
-                    //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
-                    //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-
-                ],
-                'not8' => [
-                    'home' => 'Home',
-                    'temaName' => 'Sports',
-                    'datapub' => '06/06/2013',
-                    'titulo' => 'Armless boy leaves example of overcoming in volleyball',
-                    'resumo' => 'Due to a tumor on his elbow, Eddie Nogay was not prevented from doing what you really like, play volleyball. It seems impossible and after this done, the boy is an example of overcoming in the United States',
-                    'autor' => 'UOL Esporte',
-                    'alt' => 'Eddie Nogay sitting together with a volley ball',
-                    'texto1' => 'Eddie Nogay became an overcoming example in US sport. 17, the boy caught the attention of the country to compete in a tournament of volleyball after school be his arm amputated due to a tumor on her elbow.', //1° paragrafos,
-                    'texto2' =>'Nogay had their cancer diagnosed in 2012, underwent surgery, but refused to leave the sport. Even with its two lungs affected by the disease, he played the entire 2013 season of high school volleyball and helped his team reach the quarterfinals of the disputed city tournament in New York.',
-                    'texto3' =>'The young athlete dies on the last Tuesday in a New York hospital due to lung problems. The death came a day after Nogay turned 18.',
-                    'texto4' =>'"Eddie left an impact on people," said Victor in Gay, athlete\'s brother, the New York Post. "There is nothing I can say that he did not achieve."',
-                    'texto5' => '', //5° paragrafos
-                    // Section de noticia
-                    //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
-                    //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
-                    //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-
-                ],
-                'not9' => [
-                    'home' => 'Home',
-                    'temaName' => 'Sports',
-                    'datapub' => '06/06/2013',
-                    'titulo' => 'Armless boy leaves example of overcoming in volleyball',
-                    'resumo' => 'Due to a tumor on his elbow, Eddie Nogay was not prevented from doing what you really like, play volleyball. It seems impossible and after this done, the boy is an example of overcoming in the United States',
-                    'autor' => 'UOL Esporte',
-                    'alt' => 'Eddie Nogay sitting together with a volley ball',
-                    'texto1' => 'Eddie Nogay became an overcoming example in US sport. 17, the boy caught the attention of the country to compete in a tournament of volleyball after school be his arm amputated due to a tumor on her elbow.', //1° paragrafos,
-                    'texto2' =>'Nogay had their cancer diagnosed in 2012, underwent surgery, but refused to leave the sport. Even with its two lungs affected by the disease, he played the entire 2013 season of high school volleyball and helped his team reach the quarterfinals of the disputed city tournament in New York.',
-                    'texto3' =>'The young athlete dies on the last Tuesday in a New York hospital due to lung problems. The death came a day after Nogay turned 18.',
-                    'texto4' =>'"Eddie left an impact on people," said Victor in Gay, athlete\'s brother, the New York Post. "There is nothing I can say that he did not achieve."',
-                    'texto5' => '', //5° paragrafos
-                    // Section de noticia
-                    //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
-                    //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
-                    //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-
-                ],
-                'not10' => [
-                    'home' => 'Home',
-                    'temaName' => 'Sports',
-                    'datapub' => '06/06/2013',
-                    'titulo' => 'Armless boy leaves example of overcoming in volleyball',
-                    'resumo' => 'Due to a tumor on his elbow, Eddie Nogay was not prevented from doing what you really like, play volleyball. It seems impossible and after this done, the boy is an example of overcoming in the United States',
-                    'autor' => 'UOL Esporte',
-                    'alt' => 'Eddie Nogay sitting together with a volley ball',
-                    'texto1' => 'Eddie Nogay became an overcoming example in US sport. 17, the boy caught the attention of the country to compete in a tournament of volleyball after school be his arm amputated due to a tumor on her elbow.', //1° paragrafos,
-                    'texto2' =>'Nogay had their cancer diagnosed in 2012, underwent surgery, but refused to leave the sport. Even with its two lungs affected by the disease, he played the entire 2013 season of high school volleyball and helped his team reach the quarterfinals of the disputed city tournament in New York.',
-                    'texto3' =>'The young athlete dies on the last Tuesday in a New York hospital due to lung problems. The death came a day after Nogay turned 18.',
-                    'texto4' =>'"Eddie left an impact on people," said Victor in Gay, athlete\'s brother, the New York Post. "There is nothing I can say that he did not achieve."',
-                    'texto5' => '', //5° paragrafos
-                    // Section de noticia
-                    //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
-                    //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
-                    //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-
-                ],
-                'not11' => [
-                    'home' => 'Home',
-                    'temaName' => 'Sports',
-                    'datapub' => '06/06/2013',
-                    'titulo' => 'Armless boy leaves example of overcoming in volleyball',
-                    'resumo' => 'Due to a tumor on his elbow, Eddie Nogay was not prevented from doing what you really like, play volleyball. It seems impossible and after this done, the boy is an example of overcoming in the United States',
-                    'autor' => 'UOL Esporte',
-                    'alt' => 'Eddie Nogay sitting together with a volley ball',
-                    'texto1' => 'Eddie Nogay became an overcoming example in US sport. 17, the boy caught the attention of the country to compete in a tournament of volleyball after school be his arm amputated due to a tumor on her elbow.', //1° paragrafos,
-                    'texto2' =>'Nogay had their cancer diagnosed in 2012, underwent surgery, but refused to leave the sport. Even with its two lungs affected by the disease, he played the entire 2013 season of high school volleyball and helped his team reach the quarterfinals of the disputed city tournament in New York.',
-                    'texto3' =>'The young athlete dies on the last Tuesday in a New York hospital due to lung problems. The death came a day after Nogay turned 18.',
-                    'texto4' =>'"Eddie left an impact on people," said Victor in Gay, athlete\'s brother, the New York Post. "There is nothing I can say that he did not achieve."',
-                    'texto5' => '', //5° paragrafos
-                    // Section de noticia
-                    //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
-                    //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
-                    //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-
                 ]
 
             ],
@@ -715,33 +619,213 @@ class idiomas
                 ]
             ]
         ],
-        ];
+        'es' => [
+              'index' => [
+                  'titulo' => 'Otemesti',
+                  'irparaconteudo' => 'Go to content',
+                  'irparamenu' => 'Go to the menu',
+                  'acessibilidade' => 'Acessibility',
+                  'mapadosite' => 'Sitemap'
+              ],
+              'esportes' => [
+                  'index' => [
+                      'home' => 'Pagina de inicio',
+                      'temaName' => 'Deportes',
+                      /* ------------------- 1° noticia -------------- */
+                      'not1alt' => 'Walmir, negro anciano sosteniendo su trofeo',
+                      'not1text' => 'Rebasamiento de los deportes: "Yo pesaba 133 kg, era adicto a las drogas y bebía demasiado whisky"',
+                      /* ------------------- 2° noticia -------------- */
+                      'not2alt' => 'Daniel Dias sostiene su medalla de oro de la Paralimpiada Londres',
+                      'not2text' => 'Daniel Dias se ofrece en el Mundial de Natación Paralímpica',
+                      /* ------------------- 3° noticia -------------- */
+                      'not3alt' => 'Aparecida Guilhermina sin visión atleta atletismo de Brasil, que se ejecuta con guía',
+                      'not3text' => 'Brasil puede tener delegación de registro a Paralímpicos',
+                      /* ------------------- 4° noticia -------------- */
+                      'not4text' => 'Superación Pan: la primera medalla de plata distribuidor hijas en el Pan-Toronto',
+                      /* ------------------- 5° noticia -------------- */
+                      'not5text' => 'Día Atleta Paralímpico: aprender un poco más sobre ese día y su realización',
+                      /* ------------------- 6° noticia -------------- */
+                      'not6text' => 'Chico sin brazos deja ejemplo de superación en el voleibol',
+                      'not6alt' => 'Eddie Nogay sentado junto con una balonvolea',
+                      /* ------------------- 7° noticia -------------- */
+                      'not7alt' => 'POKAS POASPO NAOIS POIDFJ GNAT ',
+                      'not7text' => 'apsoj spoidf oisajt poidjsf oitsd',
+                      /* ------------------- 8° noticia -------------- */
+                      'not8text' => 'apsoj spoidf oisajt poidjsf oitsd',
+                      /* ------------------- 9° noticia -------------- */
+                      'not9text' => 'apsoj spoidf oisajt poidjsf oitsd',
+                      /* ------------------- 10° noticia -------------- */
+                      'not10alt' => 'OPA´PS LK ISAIUD OTHJA',
+                      'not10text' => 'apsoj spoidf oisajt poidjsf oitsd',
+                      /* ------------------- 11° noticia -------------- */
+                      'not11alt' => 'ONZE',
+                      'not11text' => 'apsoj spoidf oisajt poidjsf oitsd'
+                  ],
+                  'not1' => [
+                      'home' => 'Página de Inicio',
+                      'temaName' => 'Deportes',
+                      'datapub' => '12/06/2015 as 09h30min',
+                      'titulo' => 'Rebasamiento de los deportes: "Yo pesaba 133 kg, era adicto a las drogas y bebía demasiado whisky"',
+                      'resumo' => 'El abuelo Conejo Vei o criolla, pero el nombre de pila es Walmir da Fonseca Tierra. Carioca del Petrópolis, con sólo siete años ganó el mundo y relatos recogidos.',
+                      'autor' => 'Raquel Couto',
+                      'alt' => 'Walmir, negro anciano sosteniendo su trofeo',
+                      'texto1' => 'Ocho matrimonios, seis hijos y seis nietos. Pero la vida no era todo sonrisas para Walmir. Cualquier día, el destino le jugó una pieza: el médico advirtió el VEI que tenía sólo 6 meses. "Yo pesaba 133kg, era adicto a las drogas y bebía demasiado whisky", dijo el ciclista.', //1° paragrafos,
+                      'texto2' => 'Pero el destino no quería que las cosas sean así, y un "ángel" apareció en la vida de criolla. Ángel de la piel, los huesos, el ciclista y entrenador. El entrenador, Robson Aloisio presentó una idea que cambiaría para siempre la historia de Walmir. "Es necesario para montar", dijo el entrenador. Fue a partir de este ayuntamiento, en 2002, todo cambió en la vida de Walmir. Se movió las adicciones de alcohol y drogas por la pasión por la bicicleta y poner una cosa en mente: voy a luchar para estar en el podio!', //2° paragrafos,
+                      'texto3' => 'Sin embargo, todavía tendría que pasar por otro reto y demostrar una vez más su fuerza y poder para vencer. "Estaba trabajando con un cutter y una piedra fue lanzada directamente en el ojo. Tenía una lesión y fue días en el hospital. Fue una pelea y un muy mal paso en mi vida ", dijo Walmir.', //3° paragrafos,
+                      //caso nao tenha mais paragrafo coloque apenas as aspas simples.
+                      'texto4' => 'Ya se utiliza para la vista desde la cima del podio, Caolho ganó otro gran resultado en la carrera de un atleta de ganar sus propios límites y conquistar el tercer lugar de la categoría PNE Internacional Copa Levorin BTT celebrada en Araxá, el 24 de marzo.', //4° paragrafos,
+                      'texto5' => '', //5° paragrafos
+                      // Section de noticia
+                      //1° noticia
+                      'tema1not' => 'A', // tema
+                      'not1text' => 'RICARDO',  // texto
+                      //2° noticia
+                      'tema2not' => 'B', // tema
+                      'not2text' => 'TADASHI',  // texto
+                      //3° noticia
+                      'tema3not' => 'C', // tema
+                      'not3text' => 'ONO'   // texto
+                  ],
+                  'not2' => [
+                      'home' => 'Página Inicial',
+                      'temaName' => 'Deportes',
+                      'datapub' => '14/06/2016',
+                      'titulo' => 'Daniel Dias se ofrece en el Mundial de Natación Paralímpica',
+                      'resumo' => 'Brasil cerró el domingo su participación en el Mundial de Natación Paralímpica, celebrado en Glasgow, Escocia, entre el 13 y 19 de julio.',
+                      'autor' => 'Universidad Presbiteriana Mackenzie',
+                      'alt' => 'Daniel Dias sostiene su medalla de oro de la Paralimpiada Londres',
+                      'texto1' => 'El gran nombre de Brasil en la competición, una vez más, fue Daniel Dias atleta patrocinado por Mackenzie, que ganó seis medallas individuales y dos en el relé, siete de oro (50, 100 y 200 metros estilo libre, 100 metros braza, espalda 50m, 50m mariposa y 4x50m mixta libre) y una de plata (4x100 estilo libre).', //1° paragrafos,
+                      'texto2' =>'El Mundial de Natación Paralímpica con la participación de 571 atletas de 67 países y se ganó un puesto para los Juegos Paralímpicos de Río-2016. La delegación brasileña se compone de 23 nadadores, asegurado el cuarto puesto en la tabla de medallas con 23 en total: once de oro, ocho de plata y cuatro de bronce. Por otra parte, todavía ganaron siete puestos de trabajo directos para los Juegos Paralímpicos de Río-2016.',
+                      'texto3' =>'',
+                      'texto4' =>'',
+                      'texto5' => '', //5° paragrafos
+                      // Section de noticia
+                      //1° noticia
+                      'tema1not' => 'A', // tema
+                      'not1text' => 'RICARDO',  // texto
+                      //2° noticia
+                      'tema2not' => 'B', // tema
+                      'not2text' => 'TADASHI',  // texto
+                      //3° noticia
+                      'tema3not' => 'C', // tema
+                      'not3text' => 'ONO'   // texto
+                 ],
+                 'not3' => [
+                     'home' => 'Página Inicial',
+                     'temaName' => 'Esportes',
+                     'datapub' => '30/05/2016 11h00 ',
+                     'titulo' => 'Brasil puede tener delegación de registro a Paralímpicos',
+                     'resumo' => 'La expectativa es que la delegación de Brasil en los Juegos tiene entre 260 y 280 atletas en 23 modalidades',
+                     'autor' => 'O Hoje.com',
+                     'alt' => 'Aparecida Guilhermina sin visión atleta atletismo de Brasil, que se ejecuta con guía',
+                     //1° paragrafos,
+                     'texto1' => 'Después de las observaciones y los análisis realizados durante el calendario de eventos de prueba modalidades Paralímpicos, el Comité Paralímpico Brasileño (CPB) comienza, los 100 días de los Juegos Paralímpicos de Río 2016, la etapa final de preparación. La expectativa es que la mayor delegación de Brasil en la historia de los Juegos tiene entre 260 y 280 atletas en los 23 deportes. En Londres 2012, el programa paralímpico tenía 20 acuerdos, y Brasil clasificó a los atletas a 18.',
+                     'texto2' =>'A partir de la definición de las últimas vacantes para Río 2016, se puede planificar y adaptar la parte médica, administrativa, técnica y apoyo en torno a los atletas. La previsión es que la delegación de Brasil tiene más de 400 personas. En Londres, era 316. En los 100 días hasta la ceremonia de apertura de los Juegos Paralímpicos, prevista para el 7 de septiembre de la preparación se intensificó a medida que los nombres que ocuparán cada una de las posiciones están definidas.',
+                     'texto3' =>'"Cada modo tiene su horario. Algunos incluso participar en eventos internacionales. A medida que llegan los Juegos, la tendencia es no tener tantas competiciones, sino que habrá mucho cambio. Tenemos equipos que vienen a Brasil incluso antes de que el periodo de aclimatación. Así comienza ahora este programa ", dice Andrew Parsons, presidente de la CPB.',
+                     'texto4' =>'',
+                      //5° paragrafos
+                     'texto5' => '',
+                     // Section de noticia
+                     //1° noticia
+                     'tema1not' => 'A', // tema
+                     'not1text' => 'RICARDO',  // texto
+                     //2° noticia
+                     'tema2not' => 'B', // tema
+                     'not2text' => 'TADASHI',  // texto
+                     //3° noticia
+                     'tema3not' => 'C', // tema
+                     'not3text' => 'ONO'   // texto
+                  ],
+                'not4' => [
+                    'home' => 'Página Inicial',
+                    'temaName' => 'Desportes',
+                    'datapub' => '19/07/2015 08h05',
+                    'titulo' => 'Superación Pan: la primera medalla de plata distribuidor hijas en el Pan-Toronto',
+                    'resumo' => 'Descubre las historias de Lohaynny y Luana Vicente, bádminton',
+                    'autor' => 'Flávio Dilascio, Gabriel Fricke, Marcello Pires e Vitor Vieira',
+                    'alt' => 'Lohaynny y vidram Luana Vicente para sumar un punto en bádminton',
+                    'texto1' => 'En el medio de la noche, los disparos rompieron el cielo Colina Chapadao, en Río de Janeiro, sueño interrumpido dos niñas, de cuatro y seis años. Era la señal de que ha llegado el momento de pasar la casa de nuevo. En total, 15 intercambios de direcciones. En uno, Lohaynny y Luana Vicente sólo estuvimos una noche. Hijas del ex jefe del tráfico local, llamado Bodao, que ahora representan Brasil en todo el mundo, pero han vivido situaciones difíciles en el barrio. El padre les lleva a todas partes, y Catia Mendes madre siempre tuvo que cambiar el escondite de la familia.', //1° paragrafos,
+                    'texto2' =>'- Mi padre era dueño de la Chapadao. Los agentes vivido después de él, y tenemos que mover mucho, casi todo el tiempo. No recuerdo mucho de mi infancia sobre la escuela, los amigos, estas cosas, yo no estaba muy asustado porque no entiendo mucho. Sólo sé que la casa tenía dormimos una noche - explica Luana. En 2002, Bodao finalmente murió en una incursión de la policía y estaban viviendo en la tertulia',
+                    'texto3' =>'Viven muy cerca de Miratus proyecto, iniciativa Sebastião Oliveira en la comunidad, Luana y Lohaynny sabía bádminton. No hay dinero, ató las cuerdas de raquetas rotas, volantes encolada dañado y, a veces entrenado descalzos. Pero el talento estaba allí. Gross. No pasó mucho tiempo, y la selección era una realidad. Hoy en día, brillar en los Juegos Panamericanos. Jugar juntos, fueron medalla de plata en dobles femeninos, una primera para el deporte. Y ahora soñar con un lugar en los Juegos Olímpicos de 2016.',
+                    'texto4' =>'- Fue muy difícil. Sin embargo, el proyecto nos ha ayudado mucho. Él pagó todo. Fuimos al Panamericano Juvenil, ganó una medalla de oro allí, y nos dieron una mayor inversión para el proyecto. Todo comienzo es difícil - recuerda Lohaynny',
+                    'texto5' => '', //5° paragrafos
+                    // Section de noticia
+                    //1° noticia
+                    'tema1not' => 'A', // tema
+                    'not1text' => 'RICARDO',  // texto
+                    //2° noticia
+                    'tema2not' => 'B', // tema
+                    'not2text' => 'TADASHI',  // texto
+                    //3° noticia
+                    'tema3not' => 'C', // tema
+                    'not3text' => 'ONO'   // texto
+                  ],
+                'not5' => [
+                    'home' => 'Página Inicial',
+                    'temaName' => 'Deportes',
+                    'datapub' => '17/06/2016',
+                    'titulo' => 'Día Atleta Paralímpico: aprender un poco más sobre ese día y su realización',
+                    'resumo' => 'El 22 de septiembre se celebra el Día Nacional de paralímpica. Y no es de extrañar, ya que los atletas son ejemplos de resistencia y fuerza de voluntad.',
+                    'autor' => ' Redação Doutíssima',
+                    'alt' => 'Correr el paralímpico con su pierna derecha protésica',
+                    'texto1' => 'Deporte para personas con discapacidad existe desde hace más de 100 años. Los primeros clubes deportivos para la audición deteriorada citas de 1888, en Berlín, Alemania.', //1° paragrafos,
+                    'texto2' =>'En 1944, a petición del gobierno británico, Ludwig Guttmann abrió un centro de lesiones de la médula en el Hospital Stoke Mandeville y, con el tiempo, la rehabilitación de deporte evolucionó para el deporte recreativo y luego a la competencia.',
+                    'texto3' =>'La mayoría de las personas con discapacidad no participan en deportes con regularidad, ya que pueden aumentar las posibilidades de problemas de salud secundarios, pero con la instrucción apropiada este riesgo puede ser reducido.',
+                    'texto4' =>'De acuerdo con un estudio publicado en el Scandinavian Journal of Medicine & Science in Sports, elegir el deporte adecuado también aumenta el grado de participación en el deporte de las personas con discapacidad.',
+                    'texto5' => 'Las personas que decidan participar en deportes adaptados tienen más calidad de vida y los niveles más altos de satisfacción en comparación con las personas con discapacidad que no están involucrados en esta rutina. Esa es la conclusión de un estudio publicado en el Diario de la Discapacidad y de la Salud. Y algunos atletas brasileños son prueba de ello.', //5° paragrafos
+                    // Section de noticia
+                    //1° noticia
+                    'tema1not' => 'A', // tema
+                    'not1text' => 'RICARDO',  // texto
+                    //2° noticia
+                    'tema2not' => 'B', // tema
+                    'not2text' => 'TADASHI',  // texto
+                    //3° noticia
+                    'tema3not' => 'C', // tema
+                    'not3text' => 'ONO'   // texto
+                  ],
+                'not6' => [
+                    'home' => 'Página Inicial',
+                    'temaName' => 'Deportes',
+                    'datapub' => '06/06/2013',
+                    'titulo' => 'Chico sin brazos deja ejemplo de superación en el voleibol',
+                    'resumo' => 'Debido a un tumor en el codo, Eddie Nogay no se vio impedido de hacer lo que realmente te gusta, jugar al voleibol. Parece imposible, y después de este hecho, el niño es un ejemplo de superación en los Estados Unidos
+',
+                    'autor' => 'UOL Esporte',
+                    'alt' => 'Eddie Nogay sentado junto con una balonvolea',
+                    'texto1' => 'Eddie Nogay se ha convertido en un ejemplo de superación en el deporte estadounidense. 17, el chico llamó la atención del país para competir en un torneo de voleibol después de la escuela se amputó su brazo debido a un tumor en el codo.
+', //1° paragrafos,
+                    'texto2' =>'Nogay tenía su cáncer diagnosticado en 2012, se sometió a la cirugía, pero se negó a dejar el deporte. Incluso con sus dos pulmones afectados por la enfermedad, que jugó toda la temporada 2013 de voleibol de la escuela secundaria y ayudó a su equipo a alcanzar los cuartos de final del torneo disputado en la ciudad de Nueva York.
+',
+                    'texto3' =>'El joven atleta muere el último martes en un hospital de Nueva York debido a problemas pulmonares. La muerte se produjo un día después de Nogay cumplió 18 años.
+',
+                    'texto4' =>'"Eddie dejó un impacto en la gente", dijo Víctor en Gay, hermano del atleta, el New York Post. "No hay nada que pueda decir que no logró."',
+                    'texto5' => '', //5° paragrafos
+                    // Section de noticia
+                    //1° noticia
+                    'tema1not' => 'A', // tema
+                    'not1text' => 'RICARDO',  // texto
+                    //2° noticia
+                    'tema2not' => 'B', // tema
+                    'not2text' => 'TADASHI',  // texto
+                    //3° noticia
+                    'tema3not' => 'C', // tema
+                    'not3text' => 'ONO'   // texto
+                ]
 
-    $idioma['pt']['jogos'] = $this->jogos['pt'];
-    $idioma['en']['jogos'] = $this->jogos['en'];
-    $idioma['es']['jogos'] = $this->jogos['es'];
 
-    $idioma['pt']['comportamento'] = $this->comportamento['pt'];
-    $idioma['en']['comportamento'] = $this->comportamento['en'];
-    $idioma['es']['comportamento'] = $this->comportamento['es'];
-
-    $idioma['es']['tecnologia'] = $this->tecnologia['es'];
-    $idioma['en']['tecnologia'] = $this->tecnologia['en'];
-    $idioma['pt']['tecnologia'] = $this->tecnologia['pt'];
-
-        return $idioma;
-    }
+            ]
+         ]
+      ];
 
     function BuscaIdioma($tema, $pagina)
     {
         $idioma = $_SESSION['idioma'];
-        $arrIdioma = $this->retIdioma();
-
         $content = null;
         if($tema == 'index'){
-            $content = $arrIdioma[$idioma][$tema];
+            $content = $this->idioma[$idioma][$tema];
         }else {
-            $content = $arrIdioma[$idioma][$tema][$pagina];
+            $content = $this->idioma[$idioma][$tema][$pagina];
         }
 
         return [

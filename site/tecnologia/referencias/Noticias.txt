@@ -1,0 +1,21 @@
+************ NOTICIAS TECNOLOGIA ******************
+
+Noticia 1: 	http://www.tecmundo.com.br/robotica/106248-robo-foge-laboratorio-gera-problemas-transito-russia-claro.htm
+Noticia 2: 	http://www.tecmundo.com.br/politica/106268-milagre-encomendas-u-100-isentas-impostos.htm?utm_source=tecmundo.com.br&utm_medium=home&utm_campaign=tv
+Noticia 3:	http://www.tecmundo.com.br/programacao/106046-homem-automatizou-trabalho-6-anos-fazendo-nada-demitido.htm?utm_source=tecmundo.com.br&utm_medium=home&utm_campaign=maislidas
+Noticia 4: 	http://www.tecmundo.com.br/tv-a-cabo/19621-azbox-como-funciona-o-decodificador-mais-polemico-do-brasil-.htm
+Noticia 5: 	http://www.tecmundo.com.br/wi-fi/8055-como-saber-se-tem-alguem-roubando-minha-conexao-wi-fi-.htm
+Noticia 6: 	
+Noticia 7: 	
+Noticia 8: 	
+Noticia 9: 	
+Noticia 10: 
+Noticia 11: 
+
+http://www.tecmundo.com.br/kickstarter/106292-conheca-lectro-bike-eletrica-gosta-aventura.htm
+http://www.tecmundo.com.br/onibus/106269-onibus-autonomos-realidade.htm
+http://www.tecmundo.com.br/oneplus-3/106136-monstro-chegou-oneplus-3-lancado-6-gb-ram.htm
+http://www.tecmundo.com.br/tecnologia-da-informacao/106081-profissao-ti-regulamentada-brasil.htm
+http://www.tecmundo.com.br/anatel/105512-anatel-nao-proibir-operadoras-limitarem-planos-internet.htm
+http://www.tecmundo.com.br/apple/106287-apple-registra-patente-iphone-tela-dobravel.htm
+
