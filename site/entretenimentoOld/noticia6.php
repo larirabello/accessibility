@@ -5,7 +5,7 @@ ini_set('display_errors', 'on');
 require '../php/idiomas.php';
 
 $idioma = new idiomas();
-$idioma = $idioma->BuscaIdioma('entretenimento', 'not2');
+$idioma = $idioma->BuscaIdioma('entretenimento', 'not1');
 //$idioma = $idioma->BuscaIdioma('entreterimento', 'filmes');
 
 // idioma irá retornar um array com 2 chaves('nav', 'content').
@@ -15,27 +15,23 @@ $idioma = $idioma->BuscaIdioma('entretenimento', 'not2');
 
 
 //Imagem da materia
-$imagennews ='../images/image2.jpg';
+$imagennews ='../images/image6.jpg';
 
 //Caso voce não tenha mais paragrafos não tem problema em deixar em branco
 // --------------------------------------------------- //
 // 1° noticia
-$not1link = '../entretenimento'; //Link do tema
-$not1textlink ='noticia4.php'; // texto da noticia
+$not1link = 'temaa.php'; //Link do tema
+$not1textlink ='Focado no Paulistão, Santos tenta evitar zebra na Copa do Brasil Santos hu3hu3hu3h '; // texto da noticia
 
 // 2° noticia
-$not2link = '../entretenimento'; //Link do tema
-$not2textlink = 'noticia5.php'; // Link da noticia
+$not2link = 'temaa.php'; //Link do tema
+$not2textlink = 'images/cute_baby_fox_wallpaper_hd_1080p.jpg'; // Link da noticia
 
 // 3° noticia
-$not3link = '../entretenimento'; //Link do tema
-$not3textlink = 'noticia6.php'; // Link da noticia
+$not3link = 'temaa.php'; //Link do tema
+$not3textlink = 'images/cute_baby_fox_wallpaper_hd_1080p.jpg'; // Link da noticia
 
 
 include '../partes/materia.php';
-require '../partes/footer.php';
-$footer = new clFooter;
-echo $footer->fnFooter(true, 'en');
-
 
 ?>

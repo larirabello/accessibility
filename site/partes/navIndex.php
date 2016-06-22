@@ -18,7 +18,7 @@ echo '
             </li>
             <li>
                <form method="post" action="">
-                    <input class="btn-idioma"  value="pt" name="idioma" type="submit">                    
+                    <input class="btn-idioma" onClick="google()" value="pt" name="idioma" type="submit">           
                     <input class="btn-idioma" value="en" name="idioma" type="submit">
                     <input class="btn-idioma" value="es" name="idioma" type="submit">
                </form>
@@ -37,5 +37,6 @@ echo '
             <li class="borda" role="presentation"><a href="'.$temaZ.'">'.$idioma['nav']['temaZ'].'</a></li>
         </ul>
     </nav>
-</div>';
+</div>'
+;
      ?>

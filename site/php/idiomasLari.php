@@ -44,10 +44,7 @@ return [
                         'autor' => 'Larissa Rabello',
                         'texto1' => 'Uma ONG especializada na distribuição de alimentos teve uma ideia interessante para facilitar as doações no Brasil. A Banco de Alimentos criou o "Delivery Reverso". Funciona assim: você chama o serviço da mesma maneira que o fazia ao pedir uma pizza mas, nesse caso, entrega os alimentos não perecíveis ao motoboy, que levará os alimentos até uma pizzaria que se responsabilizou pela coleta. Então, eles redistribuem esses alimentos para instituições de caridade.', //1° paragrafos,
                         'texto2' => 'Atualmente, a fundadora do projeto busca aumentar essa rede de solidariedade com novos parceiros, que podem se cadastrar em http://www.reversedelivery.com.br/', //2° paragrafos,
-                        'texto3' => 'Assista a um vídeo e conheça mais sobre o projeto
-
-https://vimeo.com/164146082
-', //3° paragrafos,
+                        'texto3' => 'Assista a um vídeo e conheça mais sobre o projeto https://vimeo.com/164146082', //3° paragrafos,
                         //caso nao tenha mais paragrafo coloque apenas as aspas simples.
                         'texto4' => '', //4° paragrafos,
                         'texto5' => '', //5° paragrafos
@@ -89,11 +86,6 @@ https://vimeo.com/164146082
                     'not3text' => 'Professor chinês dá aulas por meio de desenhos'   // texto
 
                     ],
-
-
-
-
-
                     'not3' => [
                         'home' => 'Página Inicial',
                         'temaName' => 'Comportamento',

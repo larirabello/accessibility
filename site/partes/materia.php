@@ -19,7 +19,7 @@ echo'
     <link href="../css/sandbox.css" rel="stylesheet" type="text/css">
 </head>
 
-<body style="margin-top:190px;">
+<body  id="up" style="margin-top:190px;">
 <div id="texto">';
 $temaA = '../comportamento/';
 $temaB = '../esportes/';
@@ -29,7 +29,7 @@ $temaY = '../pet';
 $temaZ = '../tecnologia';
 
 $linkirConteudo = '#conteudo';
-$linkirMenu = '#';
+$linkirMenu = '#up';
 $acess = '../acessibilidade.php';
 $sitemap = '../acessibilidade.php';
   $imglogo = '../images/smile.png';
@@ -38,7 +38,7 @@ $sitemap = '../acessibilidade.php';
     <ol class="breadcrumb">
       <li><a href="../">'.$idioma['content']['home'].'</a></li>
       <li><a href="./">'.$idioma['content']['temaName'].'</a></li>
-      <li class="active">'.$idioma['content']['titulo'].'</li>
+      <li id="conteudo" class="active">'.$idioma['content']['titulo'].'</li>
     </ol>
         <div class="row">
        <p>' .$idioma['content']['datapub']. ' </p>

@@ -1,81 +1,18 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: rafael.ogrim
- * Date: 27/04/2016
- * Time: 19:59
- */
-class idiomas
-{
-    function __construct()
-    {
-        if(array_key_exists('idioma', $_POST)){
-            $_SESSION['idioma'] = $_POST['idioma'];
-        }else if(!array_key_exists('idioma', $_SESSION)){
-            $_SESSION['idioma'] = 'pt';
-        }
-    }
-
-    public $nav = [
-        'pt' => [
-            'irconteudo' => 'Ir para Conteúdo',
-            'irparamenu' => 'Ir para Menu',
-            'acessibilidade' => 'Acessibilidade',
-            'mapadosite' => 'Mapa do Site',
-            'temaA' =>'Comportamento',
-            'temaB' =>'Esportes',
-            'temaC' =>'Entretenimento',
-            'temaX' =>'Jogos',
-            'temaY' =>'Mundo PET',
-            'temaZ' =>'Tecnologia',
-        ],
-        'en' => [
-            'irconteudo' => 'Go to Content',
-            'irparamenu' => 'Go to Menu',
-            'acessibilidade' => 'Accessibility',
-            'mapadosite' => 'Site Map',
-            'temaA' =>'lifestyle',
-            'temaB' =>'Sports',
-            'temaC' =>'Entertainment',
-            'temaX' =>'Games',
-            'temaY' =>'PET World',
-            'temaZ' =>'Technology',
-        ],
-        'es' => [
-            'irconteudo' => 'Ir al contenido',
-            'irparamenu' => 'Ir al Menú',
-            'acessibilidade' => 'Accesibilidad',
-            'mapadosite' => 'Mapa del sitio',
-            'temaA' =>'Comportamiento',
-            'temaB' =>'Deportes',
-            'temaC' =>'Entretenimiento',
-            'temaX' =>'Juegos',
-            'temaY' =>'Mundo PET',
-            'temaZ' =>'Tecnología',
-        ]
-    ];
-    public $idioma = [
-        'pt' => [
-            'index' => [
-                'titulo' => 'Otimista',
-                'irparaconteudo' => 'Ir para o conteúdo',
-                'irparamenu' => 'Ir para o menu',
-                'acessibilidade' => 'Acessibilidade',
-                'mapadosite' => 'Mapa do Site 1',
-            ],
-            'entretenimento' => [
-                'index' => [
-                    'home' => 'index',
+return [
+    'pt'=> [
+          'index' => [
+                    'home' => 'Página Inicial',
                     'temaName' => 'Entretenimento',
                     /* ------------------- 1° noticia -------------- */
-                    'not1alt' => 'Raposa vermelha de boca aberta',
+                    'not1alt' => 'heróis da DC Comics',
                     'not1text' => 'Heroínas e heróis da DC vão estrelar livros voltados para o público jovem',
                     /* ------------------- 2° noticia -------------- */
-                    'not2alt' => 'Raposa vermelha de boca aberta aaaaaaaaaaaaa',
+                    'not2alt' => 'imagem com orelha representando surdos',
                     'not2text' => 'Música para surdo',
                     /* ------------------- 3° noticia -------------- */
-                    'not3alt' => 'Raposa vermelha de boca aberta aaaaaaaaaaaaa',
+                    'not3alt' => 'imagem com heroína dos quadrinhos',
                     'not3text' => 'Oscar dos quadrinhos bate recorde de indicações a mulheres',
                     /* ------------------- 4° noticia -------------- */
                     'not4text' => 'The Sims 4 agora conta com opções personalizadas de sexo',
@@ -83,28 +20,27 @@ class idiomas
                     'not5text' => 'Teclado analógico promete oferecer mais precisão a seus games',
                     /* ------------------- 6° noticia -------------- */
                     'not6text' => 'Quatro filmes feministas que toda mulher precisa assistir',
-                    'not6alt' => 'poasj posaj´p posd oiasrp k',
+                    'not6alt' => 'atriz protagonista do filme frida kahlo, na imagem a atriz está escrevendo',
                     /* ------------------- 7° noticia -------------- */
-                    'not7alt' => 'POKAS POASPO NAOIS POIDFJ GNAT ',
-                    'not7text' => 'Edição especial de ‘Harry Potter e a Pedra Filosofal’ será lançada',
+                    'not7alt' => 'harry potter em desenho em quadrinhos',
+                    'not7text' => 'Edição especial de ‘Harry Potter e a Pedra Filosofal será lançada',
                     /* ------------------- 8° noticia -------------- */
                     'not8text' => 'Cinco filmes que vão te deixar super otimista',
                     /* ------------------- 9° noticia -------------- */
                     'not9text' => '3 motivos para ser otimista',
                     /* ------------------- 10° noticia -------------- */
-                    'not10alt' => 'OPA´PS LK ISAIUD OTHJA',
+                    'not10alt' => 'cantora inês brasil, atuando em vídeo da nova temporada da série orange is te nem black',
                     'not10text' => 'Inês Brasil aparece em vídeo Orange is the New Black e quebra a internet',
                     /* ------------------- 11° noticia -------------- */
-                    'not11alt' => 'ONZE',
+                    'not11alt' => 'imagem mostrando netflix',
                     'not11text' => 'Netflix tem vídeo secreto, saiba como acessá-lo'
                 ],
-    
-    'not1' => [
-                    'home' => '../noticia1.php',
+                'not1' => [
+                    'home' => 'Página Inicial',
                     'temaName' => 'Entretenimento',
                     'datapub' => '12/05/2015 as 09h30min',
                     'titulo' => 'Heroínas e heróis da DC vão estrelar livros voltados para o público jovem',
-                    'resumo' => '',
+                    'resumo' => 'Heróis da DC Comics vão protagonizar uma série de livros voltados para o público jovem-adulto',
                     'autor' => 'Beatriz Guedes',
                     'texto1' => 'O exército de super-heróis da DC Comics está prestes a conquistar mais um território. Nada de (mais) blockbusters ou séries de TV que exploram o universo expandido dos quadrinhos - desta vez, a empresa fez uma parceria com a editora Random House para levar algumas de suas personagens em novas aventuras literárias. Mulher-Maravilha, Batman, Super-Homem e Mulher-Gato vão protagonizar uma série de livros voltados para o público jovem-adulto.', //1° paragrafos,
                     'texto2' => 'Quem vai assinar as novas aventuras das heroínas e dos heróis é um time de autores conhecidos por obras voltadas para o público-alvo. O primeiro livro a chegar às prateleiras gringas, em agosto de 2017, será Mulher-Maravilha: a história da amazona será escrita por Leigh Bardugo, autora da Trilogia Grisha, composta pelos livros Sol e Tormenta (2012), Sombra e Ossos (2013) e Luz e Sombra (2014). Depois será a vez do morcegão - a aventura de Batman vai ser assinada por Marie Lu, chinesa radicada nos EUA e autora das trilogias Legend (2011-2013) e Jovens de Elites (2014-).', //2° paragrafos,
@@ -114,23 +50,22 @@ class idiomas
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Entretenimento', // tema
+                    'not1text' => 'Música para surdo',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Entretenimento', // tema
+                    'not2text' => 'Oscar dos quadrinhos bate recorde de indicações a mulheres',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
+                    'tema3not' => 'Entretenimento', // tema
+                    'not3text' => 'The Sims 4 agora conta com opções personalizadas de sexo'   // texto
 
-                ]
-                
+                ], 
                 'not2' => [
                     'home' => 'Página Inicial',
                     'temaName' => 'Entretenimento',
                     'datapub' => '12/06/2015 as 09h30min',
                     'titulo' => 'Música para surdo',
-                    'resumo' => '',
+                    'resumo' => 'Assim como todo mundo, surdos sentem a música através da vibração',
                     'autor' => 'Beatriz Guedes',
                     'texto1' => 'A última novidade eletrônica de Londres é a rave para surdos. É simples: surdos, assim como todo mundo, sentem a música através da vibração. Ou você nunca ouviu uma pessoa dizendo “Sinta a música”? Ondas sonoras são vibrações que, ao atingirem os tímpanos, se transformam em impulsos elétricos graças aos nervos auditivos. Esses impulsos são interpretados pelo cérebro como vozes, notas, o que for. Uma pessoa surda não interpreta as ondas sonoras, muitas vezes por problemas nesse nervo. Mas ela sente a vibração da mesma forma que qualquer um, por meio dos graves que sacodem o chão ou batem no peito. Nada disso passou pela cabeça de Troi Lee quando ele decidiu organizar a primeira rave especialmente para a galera que não escuta. O que ele queria era se divertir: Lee é surdo de nascença e sempre gostou de sair para dançar, seguindo as vibrações da música. “Tocamos vários estilos, como drum’n’bass e hip hop. O importante é uma boa linha de baixo”, diz Lee. A Deaf Rave já se provou um sucesso, reunindo mil pessoas em sua última edição, em 10 de abril. Lee tem planos de organizar festas por todo o mundo, inclusive no Brasil. Mas, por enquanto, a próxima edição acontece em Londres, no dia 27 de agosto.', //1° paragrafos,
                     'texto2' => '', //2° paragrafos,
@@ -140,23 +75,23 @@ class idiomas
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Entretenimento', // tema
+                    'not1text' => 'The Sims 4 agora conta com opções personalizadas de sexo',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Entretenimento', // tema
+                    'not2text' => 'Teclado analógico promete oferecer mais precisão a seus games',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-                ]
+                    'tema3not' => 'Entretenimento', // tema
+                    'not3text' => 'Quatro filmes feministas que toda mulher precisa assistir'   // texto
+                ],
         'not3' => [
                     'home' => 'Página Inicial',
                     'temaName' => 'Entretenimento',
                     'datapub' => '12/06/2015 as 09h30min',
                     'titulo' => 'Oscar dos quadrinhos bate recorde de indicações a mulheres',
-                    'resumo' => '',
+                    'resumo' => 'Nos últimos anos, as mulheres têm conquistado cada vez mais espaço no universo dos quadrinhos',
                     'autor' => 'Beatriz Guedes',
-                    'texto1' => 'Se você ainda pensa que quadrinhos são coisa de menino, pense de novo. Nos últimos anos, as mulheres têm conquistado cada vez espaço nesse universo, seja como leitoras, seja como produtoras. Toda essa efervescência não passou batida no Prêmio Eisner, o mais importante do ramo: o número de indicações a mulheres mais que dobrou desde o ano passado, batendo o recorde do próprio prêmio. Além disso, em sete das 30 categorias, há muito mais indicadas do que indicados - como em melhor quadrinho para adolescentes e melhor quadrinho digital. Os vencedores serão divulgados no dia 22 de julho, na Comic-Con International, em San Diego.', //1° paragrafos,
+                    'texto1' => 'Se você ainda pensa que quadrinhos são coisa de menino, pense de novo. Nos últimos anos, as mulheres têm conquistado cada vez mais espaço nesse universo, seja como leitoras, seja como produtoras. Toda essa efervescência não passou batida no Prêmio Eisner, o mais importante do ramo: o número de indicações a mulheres mais que dobrou desde o ano passado, batendo o recorde do próprio prêmio. Além disso, em sete das 30 categorias, há muito mais indicadas do que indicados - como em melhor quadrinho para adolescentes e melhor quadrinho digital. Os vencedores serão divulgados no dia 22 de julho, na Comic-Con International, em San Diego.', //1° paragrafos,
                     'texto2' => 'No total, são 49 mulheres, concorrendo em quase todas as categorias do prêmio - exceto em melhor quadrinho jornalístico. Essas artistas receberam 61 nomeações (até o evento do ano passado, esse número nunca havia passado de 30). Muitas das histórias selecionadas, como a nova Miss Marvel, de Gwendolyn Willow Wilson, e a Bitch Planet, de Kelly Sue DeConnick, têm mulheres como figuras centrais, e estão entre as mais cotadas para os maiores prêmios. ', //2° paragrafos,
                     'texto3' => 'Não é exagero dizer que o meio dos quadrinhos é dominado por homens: no ano passado, o Festival de Angoulême Internacional de Quadrinhos (França), que também é um dos prêmios mais importantes dessa área, não tinha nenhuma mulher entre os nomeados - sendo que, em suas 42 edições, apenas uma mulher venceu o maior prêmio (a francesa Florence Cestac, em 2000). A ausência de mulheres levou, no começo deste ano, a um boicote coletivo do evento. Artistas famosos, como Milo Manara, deixaram de participar da premiação.', //3° paragrafos,
                     //caso nao tenha mais paragrafo coloque apenas as aspas simples.
@@ -164,75 +99,70 @@ class idiomas
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Entretenimento', // tema
+                    'not1text' => 'Cinco filmes que vão te deixar super otimista',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Entretenimento', // tema
+                    'not2text' => '3 motivos para ser otimista',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-                ]
+                    'tema3not' => 'Entretenimento', // tema
+                    'not3text' => 'Inês Brasil aparece em vídeo Orange is the New Black e quebra a internet'   // texto
+                ],
         'not4' => [
                     'home' => 'Página Inicial',
                     'temaName' => 'Entretenimento',
                     'datapub' => '12/06/2015 as 09h30min',
                     'titulo' => 'The Sims 4 agora conta com opções personalizadas de sexo',
-                    'resumo' => '',
+                    'resumo' => 'Jogadores de The Sims 4 nao terão limites na criação de seus Sims',
                     'autor' => 'Beatriz Guedes',
-                    'texto1' => 'Jogadores de The Sims 4 terão cada vez menos limites para criar o seu Sims dentro do game lançado em 2014 pela Electronic Arts. O estúdio informou, nessa quinta-feira (2), que a famosa série de simulação conta com opções personalizadas de sexo para os personagens a partir da próxima atualização.
-"Pela primeira vez, você poderá personalizar seu Sim sem os limites de gênero previamente estabelecidos", explicou a Electronic Sports por meio de comunicado para a imprensa. "Isso significa que você pode criar Sims com qualquer tipo de físico, estilo de andar e tom de voz que quiser, independente do sexo”.
-"Também tornamos as roupas, penteados, joias e outras opções visuais disponíveis para todos os Sims. Mais de 700 itens de conteúdo que antes estavam disponíveis somente para Sims homens ou mulheres agora estão disponíveis para todos os Sims, independente da seleção inicial de sexo. Isso inclui conteúdo do jogo base The Sims 4 e dos pacotes lançados anteriormente."
-A grande preocupação, segundo a empresa, é permitir que os jogadores não se sintam limitados e possam ser criativos e se expressar por meio dos jogos da empresa. As novidades já estão valendo a partir de hoje em The Sims 4, lançado exclusivamente para PC no dia 2 de setembro de 2014.', //1° paragrafos,
-                    'texto2' => '', //2° paragrafos,
-                    'texto3' => '', //3° paragrafos,
+                    'texto1' => 'Jogadores de The Sims 4 terão cada vez menos limites para criar o seu Sims dentro do game lançado em 2014 pela Electronic Arts. O estúdio informou, nessa quinta-feira (2), que a famosa série de simulação conta com opções personalizadas de sexo para os personagens a partir da próxima atualização.', //1° paragrafos,
+                    'texto2' => '"Pela primeira vez, você poderá personalizar seu Sim sem os limites de gênero previamente estabelecidos", explicou a Electronic Sports por meio de comunicado para a imprensa. "Isso significa que você pode criar Sims com qualquer tipo de físico, estilo de andar e tom de voz que quiser, independente do sexo”.', //2° paragrafos,
+                    'texto3' => '
+"Também tornamos as roupas, penteados, joias e outras opções visuais disponíveis para todos os Sims. Mais de 700 itens de conteúdo que antes estavam disponíveis somente para Sims homens ou mulheres agora estão disponíveis para todos os Sims, independente da seleção inicial de sexo. Isso inclui conteúdo do jogo base The Sims 4 e dos pacotes lançados anteriormente."', //3° paragrafos,
                     //caso nao tenha mais paragrafo coloque apenas as aspas simples.
-                    'texto4' => '', //4° paragrafos,
+                    'texto4' => 'A grande preocupação, segundo a empresa, é permitir que os jogadores não se sintam limitados e possam ser criativos e se expressar por meio dos jogos da empresa. As novidades já estão valendo a partir de hoje em The Sims 4, lançado exclusivamente para PC no dia 2 de setembro de 2014.', //4° paragrafos,
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Entretenimento', // tema
+                    'not1text' => 'Netflix tem vídeo secreto, saiba como acessá-lo',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Entretenimento', // tema
+                    'not2text' => 'Heroínas e heróis da DC vão estrelar livros voltados para o público jovem',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-                ]
+                    'tema3not' => 'Entretenimento', // tema
+                    'not3text' => 'Edição especial de ‘Harry Potter e a Pedra Filosofal será lançada'   // texto
+                ],
             'not5' => [
                     'home' => 'Página Inicial',
                     'temaName' => 'Entretenimento',
                     'datapub' => '12/06/2015 as 09h30min',
                     'titulo' => 'Teclado analógico promete oferecer mais precisão a seus games',
-                    'resumo' => '',
+                    'resumo' => 'Wooting One: teclado mecânico com botões analógicos, responde a diferentes níveis de pressão para determinar a maneira como você interage com um game',
                     'autor' => 'Beatriz Guedes',
-                    'texto1' => 'Mesmo que você seja daqueles que não larga a combinação mouse e teclado na hora de jogador, é preciso admitir que ela é inferior aos gamepads em ao menos um quesito: a precisão de movimentos. Mesmo um produto mecânico falha em emular as sutilezas que conseguem determinar se um personagem em tela está se esgueirando ou correndo rapidamente.
-Pensando nisso, a Wooting desenvolveu o One, um novo conceito que mistura as qualidades de um teclado mecânico com botões analógicos. Segundo a fabricante, que procura financiamento para tornar a ideia uma realidade, o produto responde a diferentes níveis de pressão para determinar a maneira como você interage com um game.
-Demonstrado durante a Computex Taipei, o dispositivo vai ser disponibilizado em duas versões: uma com switch vermelho, mais sensível, e outra com mecanismos azuis com pontos de atuação ajustáveis. Para quem simplesmente deseja um produto com características clássicas, a fabricante promete um mecanismo capaz de desligar seus recursos analógicos.', //1° paragrafos,
-                    'texto2' => 'O Wooting One promete funcionar sem grandes dificuldades com a maioria dos games do mercado, que vão detectá-lo como um controle convencional. No entanto, a fabricante alerta que jogos que não fazem a transição automática entre gamepads e teclados podem apresentar problemas, assim como aqueles que não permitem que os dois meios sejam usados de forma simultânea.
-A companhia já ultrapassou a marca de 30 mil € (R$ 120 mil) para tornar o produto realidade e é preciso doar no mínimo 100 € (R$ 400) para garantir uma unidade inicial. Caso você queira colaborar com a campanha de arrecadação (ou adquirir uma cópia com preço reduzido), fique atento, pois a etapa de arrecadação termina no dia 22 deste mês.', //2° paragrafos,
-                    'texto3' => '', //3° paragrafos,
+                    'texto1' => 'Mesmo que você seja daqueles que não larga a combinação mouse e teclado na hora de jogador, é preciso admitir que ela é inferior aos gamepads em ao menos um quesito: a precisão de movimentos. Mesmo um produto mecânico falha em emular as sutilezas que conseguem determinar se um personagem em tela está se esgueirando ou correndo rapidamente.', //1° paragrafos,
+                    'texto2' => 'Pensando nisso, a Wooting desenvolveu o One, um novo conceito que mistura as qualidades de um teclado mecânico com botões analógicos. Segundo a fabricante, que procura financiamento para tornar a ideia uma realidade, o produto responde a diferentes níveis de pressão para determinar a maneira como você interage com um game.', //2° paragrafos,
+                    'texto3' => 'Demonstrado durante a Computex Taipei, o dispositivo vai ser disponibilizado em duas versões: uma com switch vermelho, mais sensível, e outra com mecanismos azuis com pontos de atuação ajustáveis. Para quem simplesmente deseja um produto com características clássicas, a fabricante promete um mecanismo capaz de desligar seus recursos analógicos.', //3° paragrafos,
                     //caso nao tenha mais paragrafo coloque apenas as aspas simples.
-                    'texto4' => '', //4° paragrafos,
-                    'texto5' => '', //5° paragrafos
+                    'texto4' => 'O Wooting One promete funcionar sem grandes dificuldades com a maioria dos games do mercado, que vão detectá-lo como um controle convencional. No entanto, a fabricante alerta que jogos que não fazem a transição automática entre gamepads e teclados podem apresentar problemas, assim como aqueles que não permitem que os dois meios sejam usados de forma simultânea.', //4° paragrafos,
+                    'texto5' => 'A companhia já ultrapassou a marca de 30 mil € (R$ 120 mil) para tornar o produto realidade e é preciso doar no mínimo 100 € (R$ 400) para garantir uma unidade inicial. Caso você queira colaborar com a campanha de arrecadação (ou adquirir uma cópia com preço reduzido), fique atento, pois a etapa de arrecadação termina no dia 22 deste mês.', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Entretenimento', // tema
+                    'not1text' => 'Música para surdo',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Entretenimento', // tema
+                    'not2text' => 'The Sims 4 agora conta com opções personalizadas de sexo',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-                ]
+                    'tema3not' => 'Entretenimento', // tema
+                    'not3text' => 'Quatro filmes feministas que toda mulher precisa assistir'   // texto
+                ],
             'not6' => [
                     'home' => 'Página Inicial',
                     'temaName' => 'Entretenimento',
                     'datapub' => '12/06/2015 as 09h30min',
                     'titulo' => 'Quatro filmes feministas que toda mulher precisa assistir',
-                    'resumo' => '',
+                    'resumo' => 'Filmes feministas para entender o movimento e conhecer histórias de mulheres incríveis',
                     'autor' => 'Beatriz Guedes',
                     'texto1' => '1. Bonequinha de Luxo (Blake Edwards, 1961)
 A vida da prostituta de luxo Holly Golightly, interpretada com uma personalidade incomum por Audrey Hepburn, é o mote do filme. Com seu charme e seus figurinos deslumbrantes, Holly não se abre para o amor, tira o que quer dos homens e vive muito bem solitária, na companhia do Gato. O projeto de escritor Paul, seu vizinho, cai de amores, mas ela dá um trabalho danado ao cara. Linda e safa, ela se sente segura e completamente feliz dentro da Tiffany’s, bem pertinho dos diamantes. Ao final, o amor acaba redimindo Holly de sua personalidade excêntrica, mas a mensagem que atravessa gerações é de uma mulher que sabe jogar com os homens e tirar deles o que a interessa.', //1° paragrafos,
@@ -246,21 +176,21 @@ Conta a história da pintora mexicana Frida Kahlo desde a adolescência até sua
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Entretenimento', // tema
+                    'not1text' => 'Cinco filmes que vão te deixar super otimista',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Entretenimento', // tema
+                    'not2text' => 'Edição especial de ‘Harry Potter e a Pedra Filosofal será lançada',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-                ]
+                    'tema3not' => 'Entretenimento', // tema
+                    'not3text' => '3 motivos para ser otimista'   // texto
+                ],
         'not7' => [
                     'home' => 'Página Inicial',
                     'temaName' => 'Entretenimento',
                     'datapub' => '12/06/2015 as 09h30min',
                     'titulo' => 'Edição especial de ‘Harry Potter e a Pedra Filosofal’ será lançada',
-                    'resumo' => '',
+                    'resumo' => 'Os ‘potterheads’ vão poder sentir novamente o gostinho de um lançamento da saga',
                     'autor' => 'Beatriz Guedes',
                     'texto1' => 'Chegou a hora de tirar as varinhas do armário, resgatar a sua Firebolt e a capa da invisibilidade. Isso porque, neste domingo (19), os ‘potterheads’ (fãs de Harry Potter), vão poder sentir novamente o gostinho de um lançamento da saga. Trata-se da edição ilustrada do primeiro título da série, ‘Harry Potter e a Pedra Filosofal’.', //1° paragrafos,
                     'texto2' => 'O evento é nacional e vem sendo organizado pela editora dos livros no Brasil, a Rocco, em parceria com a Saraiva MegaStore. Em Manaus, o fã- clube Potterday será o responsável pela mediação do evento e adianta que a programação será voltada para os fãs de todas as idades.', //2° paragrafos,
@@ -270,21 +200,21 @@ Conta a história da pintora mexicana Frida Kahlo desde a adolescência até sua
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Entretenimento', // tema
+                    'not1text' => 'Oscar dos quadrinhos bate recorde de indicações a mulheres',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Entretenimento', // tema
+                    'not2text' => 'The Sims 4 agora conta com opções personalizadas de sexo',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-                ]
+                    'tema3not' => 'Entretenimento', // tema
+                    'not3text' => 'Teclado analógico promete oferecer mais precisão a seus games'   // texto
+                ],
         'not8' => [
                     'home' => 'Página Inicial',
                     'temaName' => 'Entretenimento',
                     'datapub' => '12/06/2015 as 09h30min',
                     'titulo' => 'Cinco filmes que vão te deixar super otimista',
-                    'resumo' => '',
+                    'resumo' => 'Lista de filmes que irão trazer grande inspiração e melhorar o otimismo',
                     'autor' => 'Beatriz Guedes',
                     'texto1' => '1. Um bom ano
 Um filme leve e positivo. O personagem principal é um economista de sucesso que herda um vinhedo em Provença, na França. Quando ele chega ao local, descobre que há outros candidatos. A sequência de descobrimentos faz com que este homem repense o que realmente importa na sua vida.
@@ -300,21 +230,21 @@ Baseada em fatos reais, esta história conta a difícil rotina de uma professora
 Ao ser demitido por criticar o chefe, o agente esportivo Jerry Maguire decide fundar sua própria empresa. Apenas duas pessoas acreditam nele: Dorothy, apaixonada por ele, e Rod Tidwell, um atleta talentoso, difícil e insolente. Tudo seria ótimo, não fossem as intrigas dos ex-colegas de Jerry.', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Entretenimento', // tema
+                    'not1text' => 'Heroínas e heróis da DC vão estrelar livros voltados para o público jovem',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Entretenimento', // tema
+                    'not2text' => 'Música para surdo',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-                ]
+                    'tema3not' => 'Entretenimento', // tema
+                    'not3text' => 'Oscar dos quadrinhos bate recorde de indicações a mulheres'   // texto
+                ],
         'not9' => [
                     'home' => 'Página Inicial',
                     'temaName' => 'Entretenimento',
                     'datapub' => '12/06/2015 as 09h30min',
                     'titulo' => '3 motivos para ser otimista',
-                    'resumo' => '',
+                    'resumo' => 'Otimismo pode interessar a uma boa parcela das pessoas, pois pode ajudar na percepção de que melhores coisas acontecerão',
                     'autor' => 'Beatriz Guedes',
                     'texto1' => '1. A violência está diminuindo
 
@@ -335,27 +265,27 @@ Gregory Benford, físico da Universidade da Califórnia em Irvine (EUA).
 
 Devemos nos desesperar? De forma alguma.
 
-Mas, em vez de tentar apenas um esforço coletivo para diminuir a emissão carbônica dos humanos, meus colaboradores e eu propomos uma alternativa de relativamente baixa tecnologia e baixo custo: experimentos para tentar mudar o clima de propósito, em vez de esperar que isso ocorra por acaso. Talvez a idéia mais simples seja a suspensão de microscópicas e inofensivas partículas a 25 mil metros de altitude, na estratosfera. Um primeiro teste poderia ser sobre o Ártico, já que o aquecimento lá é considerável. Poderíamos usar o suficiente dessas partículas para criar um efeito de escudo considerável. Elas refletiriam os raios ultravioleta de volta ao espaço, reduzindo o aquecimento e impedindo os danos desses raios UV a plantas e animais. Como poucas pes­soas moram naquela região, qualquer efeito colateral seria mínimo. Estou otimista de que um experimento bem-sucedido mudaria o debate sobre aquecimento global para melhor."', //3° paragrafos,
+Mas, em vez de tentar apenas um esforço coletivo para diminuir a emissão carbônica dos humanos, meus colaboradores e eu propomos uma alternativa de relativamente baixa tecnologia e baixo custo: experimentos para tentar mudar o clima de propósito, em vez de esperar que isso ocorra por acaso. Talvez a idéia mais simples seja a suspensão de microscópicas e inofensivas partículas a 25 mil metros de altitude, na estratosfera. Um primeiro teste poderia ser sobre o Ártico, já que o aquecimento lá é considerável. Poderíamos usar o suficiente dessas partículas para criar um efeito de escudo considerável. Elas refletiriam os raios ultravioleta de volta ao espaço, reduzindo o aquecimento e impedindo os danos desses raios UV a plantas e animais. Como poucas pessoas moram naquela região, qualquer efeito colateral seria mínimo. Estou otimista de que um experimento bem-sucedido mudaria o debate sobre aquecimento global para melhor."', //3° paragrafos,
                     //caso nao tenha mais paragrafo coloque apenas as aspas simples.
                     'texto4' => '', //4° paragrafos,
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Entretenimento', // tema
+                    'not1text' => 'Netflix tem vídeo secreto, saiba como acessá-lo',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Entretenimento', // tema
+                    'not2text' => 'Inês Brasil aparece em vídeo Orange is the New Black e quebra a internet',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-                ]
+                    'tema3not' => 'Entretenimento', // tema
+                    'not3text' => '3 motivos para ser otimista'   // texto
+                ],
         'not10' => [
                     'home' => 'Página Inicial',
                     'temaName' => 'Entretenimento',
                     'datapub' => '12/06/2015 as 09h30min',
                     'titulo' => 'Inês Brasil aparece em vídeo Orange is the New Black e quebra a internet',
-                    'resumo' => '',
+                    'resumo' => 'Vídeo de lançamento da nova temporada de Orange Is The New Black tem presença ilustre',
                     'autor' => 'Beatriz Guedes',
                     'texto1' => 'Inês Brasil, uma das personalidades brasileiras mais carismáticas dos últimos tempos, apareceu no vídeo de divulgação da série “Orange is the New Black”,  produzida pela Netflix. ', //1° paragrafos,
                     'texto2' => 'A quarta temporada da série americana estreia nesta sexta-feira, após um ano de espera dos fãs. Definida como “uma fábrica de memes ambulante” por usuários das redes sociais, a famosa da internet aparece confinada na prisão de Litchfield, enquanto contracena com a personagem Piper Chapman (Taylor Schilling). ', //2° paragrafos,
@@ -365,21 +295,21 @@ Mas, em vez de tentar apenas um esforço coletivo para diminuir a emissão carb�
                     'texto5' => 'Não é a primeira vez que a Netflix coloca um rosto brasileiro para divulgar a série, no ano passado a funkeira Valesca Popozuda apareceu cantando “Minha Poussey é o poder”. Por sinal, Inês fez menção à cantora no vídeo.', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Entretenimento', // tema
+                    'not1text' => 'Cinco filmes que vão te deixar super otimista',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Entretenimento', // tema
+                    'not2text' => 'Edição especial de ‘Harry Potter e a Pedra Filosofal será lançada',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-                ]
+                    'tema3not' => 'Entretenimento', // tema
+                    'not3text' => 'Quatro filmes feministas que toda mulher precisa assistir'   // texto
+                ],
         'not11' => [
                     'home' => 'Página Inicial',
                     'temaName' => 'Entretenimento',
                     'datapub' => '12/06/2015 as 09h30min',
                     'titulo' => 'Netflix tem vídeo secreto, saiba como acessá-lo',
-                    'resumo' => '',
+                    'resumo' => 'Vídeo escondido da Netflix, que não aparece em nenhuma das categorias',
                     'autor' => 'Beatriz Guedes',
                     'texto1' => 'Há "escondido" no catálogo internacional da Netflix (incluindo o do Brasil) um vídeo que não aparece em nenhuma das categorias fixas do serviço de streaming. Para acessá-lo, o usuário precisa buscar pela palavra-chave correta. Mas o conteúdo não é do tipo ofensivo. ', //1° paragrafos,
                     'texto2' => 'Trata-se de "Lareira Crepitante", ou "Fireplace for Your Home" (Fogueira para a Sua Casa), do diretor George Ford. O vídeo consiste em mais de 60 minutos de uma imagem fixa de uma pilha de madeira queimando sob a chaminé de uma casa. E é só isso. ', //2° paragrafos,
@@ -389,36 +319,29 @@ Mas, em vez de tentar apenas um esforço coletivo para diminuir a emissão carb�
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Entretenimento', // tema
+                    'not1text' => 'Cinco filmes que vão te deixar super otimista',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Entretenimento', // tema
+                    'not2text' => 'Edição especial de ‘Harry Potter e a Pedra Filosofal será lançada',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-                ]
+                    'tema3not' => 'Entretenimento', // tema
+                    'not3text' => 'Quatro filmes feministas que toda mulher precisa assistir'   // texto
+                    ]
+                ],
   
          'en' => [
-            'index' => [
-                'titulo' => 'OtimisAAAt',
-                'irparaconteudo' => 'Go to content',
-                'irparamenu' => 'Go to the menu',
-                'acessibilidade' => 'Acessibility',
-                'mapadosite' => 'Sitemap'
-            ],
-            'entretenimento' => [
                 'index' => [
-                    'home' => 'index',
+                    'home' => 'Home',
                     'temaName' => 'Entertainment',
                     /* ------------------- 1° noticia -------------- */
-                    'not1alt' => 'Raposa vermelha de boca aberta',
+                    'not1alt' => 'heroes of DC Comics',
                     'not1text' => 'Heroines and heroes of DC will star oriented books for young people',
                     /* ------------------- 2° noticia -------------- */
-                    'not2alt' => 'Raposa vermelha de boca aberta aaaaaaaaaaaaa',
+                    'not2alt' => 'image with ear representing deaf',
                     'not2text' => 'Music for the deaf',
                     /* ------------------- 3° noticia -------------- */
-                    'not3alt' => 'Raposa vermelha de boca aberta aaaaaaaaaaaaa',
+                    'not3alt' => 'image showing heroin comics',
                     'not3text' => 'Oscar comics hits record information to women',
                     /* ------------------- 4° noticia -------------- */
                     'not4text' => 'The Sims 4 now has custom sex options',
@@ -426,19 +349,19 @@ Mas, em vez de tentar apenas um esforço coletivo para diminuir a emissão carb�
                     'not5text' => 'Analog keyboard promises to offer more precision to their games',
                     /* ------------------- 6° noticia -------------- */
                     'not6text' => 'Four feminist films that every woman needs to watch',
-                    'not6alt' => 'poasj posaj´p posd oiasrp k',
+                    'not6alt' => 'actress protagonist of Frida Kahlo film, the image the actress is writing',
                     /* ------------------- 7° noticia -------------- */
-                    'not7alt' => 'POKAS POASPO NAOIS POIDFJ GNAT ',
+                    'not7alt' => 'harry potter drawing comic',
                     'not7text' => 'Special edition of Harry Potter and the Sorcerers Stone will be released',
                     /* ------------------- 8° noticia -------------- */
                     'not8text' => 'Five films will leave you more optimistic',
                     /* ------------------- 9° noticia -------------- */
                     'not9text' => '3 reasons to be optimistic',
                     /* ------------------- 10° noticia -------------- */
-                    'not10alt' => 'OPA´PS LK ISAIUD OTHJA',
+                    'not10alt' => 'singer inês Brazil, working in video of the new season of the series is orange you or black',
                     'not10text' => 'Inês Brasil appears in video Orange is the New Black and break the internet',
                     /* ------------------- 11° noticia -------------- */
-                    'not11alt' => 'ONZE',
+                    'not11alt' => 'image showing netflix',
                     'not11text' => 'Netflix has secret video, learn how to access it'
                 ],
                 
@@ -447,7 +370,7 @@ Mas, em vez de tentar apenas um esforço coletivo para diminuir a emissão carb�
                     'temaName' => 'Entertainment',
                     'datapub' => '12/06/2015 as 09h30min',
                     'titulo' => 'Heroines and heroes of DC will star oriented books for young people',
-                    'resumo' => '',
+                    'resumo' => 'DC Comics Heroes will star in a series of books aimed at the young-adult audience',
                     'autor' => 'Beatriz Guedes',
                     'texto1' => 'The army of superheroes of DC Comics is about to conquer more territory. No (more) blockbusters or TV series that explore the universe expanded comics - this time, the company has partnered with publisher Random House to take some of his characters in new literary adventures. Wonder Woman, Batman, Superman and Catwoman will star in a series of books aimed at the young-adult audience.', //1° paragrafos,
                     'texto2' => ' Who will sign the new adventures of the heroines and heroes is a team of authors known for works aimed at the target audience. The first book to reach the gringo shelves in August 2017, will be Wonder Woman: The Story of the Amazon will be written by Leigh Bardugo, author of the trilogy Grisha, made by Sun and Storm books (2012), Shadow and Bone (2013) and Light and Shadow (2014). Then it will be the turn of MORCEGÃO - Batman adventure will be signed by Marie Lu, China rooted in the US and author of trilogies Legend (2011-2013) and Youth Elites (2014 -).', //2° paragrafos,
@@ -457,25 +380,25 @@ Mas, em vez de tentar apenas um esforço coletivo para diminuir a emissão carb�
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => '',  // texto
+                    'tema1not' => 'Entertainment', // tema
+                    'not1text' => 'Music for the deaf',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => '',  // texto
+                    'tema2not' => 'Entertainment', // tema
+                    'not2text' => 'Oscar comics hits record information to women',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => ''   // texto
+                    'tema3not' => 'Entertainment', // tema
+                    'not3text' => 'The Sims 4 now has custom sex options'   // texto
 
-                ]
+                ],
                 
                 'not2' => [
-                    'home' => 'Página Inicial',
+                    'home' => 'Home',
                     'temaName' => 'Entertainment',
                     'datapub' => '12/06/2015 as 09h30min',
                     'titulo' => 'Music for the deaf',
-                    'resumo' => '',
+                    'resumo' => 'Like everyone, deaf feel the music through vibration',
                     'autor' => 'Beatriz Guedes',
-                    'texto1' => 'The latest electronic novelty of London is the rave for the deaf. Its simple: deaf, like everyone else, they feel the music through vibration. Or have you ever heard a person saying Feel the music? Sound waves are vibrations that, when they reach the eardrum, are transformed into electrical impulses through the auditory nerves. These impulses are interpreted by the brain as voices, notes, whatever. A deaf person does not interpret sound waves, often for problems that nerve. But she feels the vibration in the same way that anyone, through serious wagging the ground or hit in the chest. None of this occurred to Troi Lee when he decided to organize the first rave especially for the guys who do not listen. What he wanted was to have fun: Lee is deaf from birth and always liked to go out dancing, following the vibrations of the music. We played various styles such as drum'n'bass and hip hop. The important thing is a good bass line, says Lee. The Deaf Rave has proved a success, bringing together a thousand people in its latest issue, on April 10. Lee plans to organize parties around the world, including Brazil. But for now, the next edition takes place in London on August 27.', //1° paragrafos,
+                    'texto1' => 'The latest electronic novelty of London is the rave for the deaf. Its simple: deaf, like everyone else, they feel the music through vibration. Or have you ever heard a person saying Feel the music? Sound waves are vibrations that, when they reach the eardrum, are transformed into electrical impulses through the auditory nerves. These impulses are interpreted by the brain as voices, notes, whatever. A deaf person does not interpret sound waves, often for problems that nerve. But she feels the vibration in the same way that anyone, through serious wagging the ground or hit in the chest. None of this occurred to Troi Lee when he decided to organize the first rave especially for the guys who do not listen. What he wanted was to have fun: Lee is deaf from birth and always liked to go out dancing, following the vibrations of the music. We played various styles such as drum bass and hip hop. The important thing is a good bass line, says Lee. The Deaf Rave has proved a success, bringing together a thousand people in its latest issue, on April 10. Lee plans to organize parties around the world, including Brazil. But for now, the next edition takes place in London on August 27.', //1° paragrafos,
                     'texto2' => '', //2° paragrafos,
                     'texto3' => '', //3° paragrafos,
                     //caso nao tenha mais paragrafo coloque apenas as aspas simples.
@@ -483,21 +406,21 @@ Mas, em vez de tentar apenas um esforço coletivo para diminuir a emissão carb�
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Entertainment', // tema
+                    'not1text' => 'The Sims 4 now has custom sex options',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Entertainment', // tema
+                    'not2text' => 'Analog keyboard promises to offer more precision to their games',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-                ]
+                    'tema3not' => 'Entertainment', // tema
+                    'not3text' => 'Four feminist films that every woman needs to watch'   // texto
+                ],
                 'not3' => [
-                    'home' => 'Página Inicial',
+                    'home' => 'Home',
                     'temaName' => 'Entertainment',
                     'datapub' => '12/06/2015 as 09h30min',
                     'titulo' => 'Oscar comics hits record information to women',
-                    'resumo' => '',
+                    'resumo' => 'In recent years, women have gained more space in the world of comics',
                     'autor' => 'Beatriz Guedes',
                     'texto1' => 'If you still think that comics are boy thing, I think again. In recent years, women have been gaining space in this universe, either as readers, whether as producers. All this effervescence has not hit the Eisner Award, the most important in the industry: the number of alerts to women has more than doubled since last year, beating the record of the prize itself. Moreover, in seven of the 30 categories, there is much more suitable than indicated - as best comic for teens and best digital comic. The winners will be announced on July 22 at Comic-Con International in San Diego.
 ', //1° paragrafos,
@@ -508,21 +431,21 @@ Mas, em vez de tentar apenas um esforço coletivo para diminuir a emissão carb�
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Entertainment', // tema
+                    'not1text' => 'Five films will leave you more optimistic',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Entertainment', // tema
+                    'not2text' => '3 reasons to be optimisticI',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-                ]
+                    'tema3not' => 'Entertainment', // tema
+                    'not3text' => 'Inês Brasil appears in video Orange is the New Black and break the internet'   // texto
+                ],
                 'not4' => [
-                    'home' => 'Página Inicial',
+                    'home' => 'Home',
                     'temaName' => 'Entertainment',
                     'datapub' => '12/06/2015 as 09h30min',
                     'titulo' => 'The Sims 4 now has custom sex options',
-                    'resumo' => '',
+                    'resumo' => 'Players of The Sims 4 wont have limits in creating your Sims',
                     'autor' => 'Beatriz Guedes',
                     'texto1' => 'Players of The Sims 4 will have fewer boundaries to create your Sims into the game released in 2014 by Electronic Arts. The studio reported, on Thursday (2), the famous series of simulation has custom sex options for characters from the next update.
 "For the first time, you can customize your Sim without gender limits previously established," explained the Electronic Sports in a statement to the press. "This means that you can create Sims with any kind of physical, walking style and tone you want, regardless of sex."
@@ -536,21 +459,21 @@ The major concern, according to the company, is to allow the players do not feel
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Entertainment', // tema
+                    'not1text' => 'Netflix has secret video, learn how to access it',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Entertainment', // tema
+                    'not2text' => 'Heroines and heroes of DC will star oriented books for young people',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-                ]
+                    'tema3not' => 'Entertainment', // tema
+                    'not3text' => 'Special edition of Harry Potter and the Sorcerers Stone will be released'   // texto
+                ],
                 'not5' => [
-                    'home' => 'Página Inicial',
+                    'home' => 'Home',
                     'temaName' => 'Entertainment',
                     'datapub' => '12/06/2015 as 09h30min',
                     'titulo' => 'Analog keyboard promises to offer more precision to their games',
-                    'resumo' => '',
+                    'resumo' => 'Wooting One: mechanical keyboard with analog buttons, responds to different pressure levels to determine how you interact with a game',
                     'autor' => 'Beatriz Guedes',
                     'texto1' => 'Even if you are of those who will not let the mouse and keyboard combination in player time, one must admit that it is lower than the gamepads on at least one criterion: the precision of movements. Even a mechanical product fails to emulate the subtleties that can determine whether a character on screen is slipping or running quickly.
 Thinking about it, Wooting developed the One, a new concept that combines the qualities of a mechanical keyboard with analog buttons. According to the manufacturer, which seeks funding to make the idea a reality, the product responds to different pressure levels to determine how you interact with a game.
@@ -563,21 +486,21 @@ The company has surpassed the mark of 30 000 € (US $ 120,000) to make the prod
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Entertainment', // tema
+                    'not1text' => 'Music for the deaf',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Entertainment', // tema
+                    'not2text' => 'The Sims 4 now has custom sex options',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-                ]
+                    'tema3not' => 'Entertainment', // tema
+                    'not3text' => 'Four feminist films that every woman needs to watch'   // texto
+                ],
                 'not6' => [
-                    'home' => 'Página Inicial',
+                    'home' => 'Home',
                     'temaName' => 'Entertainment',
                     'datapub' => '12/06/2015 as 09h30min',
                     'titulo' => 'Four feminist films that every woman needs to watch',
-                    'resumo' => '',
+                    'resumo' => 'Feminist films to understand the movement and know stories of amazing women',
                     'autor' => 'Beatriz Guedes',
                     'texto1' => '1. Breakfast at Tiffanys (Blake Edwards, 1961)
 The life of luxury prostitute Holly Golightly, played with an unusual personality Audrey Hepburn, it is the theme of the film. With its charm and its dazzling costumes, Holly does not open for love, takes whatever men and lives well alone, in the company Cat. The writer Paul project, his neighbor, falls in love, but it takes a lot of work to face. Linda and safa, she feels safe and completely happy inside Tiffanys, very close diamonds. At the end, love fails Holly redeeming his eccentric personality, but the message that crosses generations is a woman who knows how to play with the men and take them what matters.', //1° paragrafos,
@@ -591,21 +514,21 @@ Tells the story of Mexican painter Frida Kahlo from adolescence to his death. Pl
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Entertainment', // tema
+                    'not1text' => 'Five films will leave you more optimistic',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Entertainment', // tema
+                    'not2text' => 'Special edition of Harry Potter and the Sorcerers Stone will be released',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-                ]
+                    'tema3not' => 'Entertainment', // tema
+                    'not3text' => '3 reasons to be optimistic'   // texto
+                ],
                 'not7' => [
-                    'home' => 'Página Inicial',
+                    'home' => 'Home',
                     'temaName' => 'Entertainment',
                     'datapub' => '12/06/2015 as 09h30min',
                     'titulo' => 'Special edition of Harry Potter and the Sorcerers Stone will be released',
-                    'resumo' => '',
+                    'resumo' => 'The potterheads will again be able to get a taste of a release of the saga',
                     'autor' => 'Beatriz Guedes',
                     'texto1' => 'Its time to take the cabinet wands, rescue his Firebolt and the cloak of invisibility. This is because, on Sunday (19), the potterheads (Harry Potter fans) will be able to again get a taste of a release of the saga. This is the illustrated edition of the first title in the series, Harry Potter and the Philosophers Stone.', //1° paragrafos,
                     'texto2' => 'The event is national and has been organized by the publisher of books in Brazil, Rocco, in partnership with Saraiva Super Store. In Manaus, the fa- Potterday club will be responsible for mediation of the event and said that the program will be geared toward fans of all ages.', //2° paragrafos,
@@ -615,21 +538,21 @@ Tells the story of Mexican painter Frida Kahlo from adolescence to his death. Pl
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Entertainment', // tema
+                    'not1text' => 'Oscar comics hits record information to women',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Entertainment', // tema
+                    'not2text' => 'The Sims 4 now has custom sex options',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-                ]
+                    'tema3not' => 'Entertainment', // tema
+                    'not3text' => 'Analog keyboard promises to offer more precision to their games'   // texto
+                ],
                 'not8' => [
-                    'home' => 'Página Inicial',
+                    'home' => 'Home',
                     'temaName' => 'Entertainment',
                     'datapub' => '12/06/2015 as 09h30min',
                     'titulo' => 'Five films will leave you more optimistic',
-                    'resumo' => '',
+                    'resumo' => 'List of films that will bring great inspiration and improving optimism',
                     'autor' => 'Beatriz Guedes',
                     'texto1' => '1. A good year
 A light and positive film. The main character is a successful economist who inherits a vineyard in Provence, France. When he arrives at the site, he discovers that there are other candidates. The discovery sequence makes this man rethinks what really matters in your life.', //1° paragrafos,
@@ -644,21 +567,21 @@ Based on real events, the story of the difficult routine of an English teacher a
 When fired for criticizing the boss, the sports agent Jerry Maguire decides to found his own company. Only two people believe in it: Dorothy, in love with him, and Rod Tidwell, a talented athlete, hard and insolent. Everything would be fine if it were not the intrigues of the former colleagues of Jerry.', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Entertainment', // tema
+                    'not1text' => 'Heroines and heroes of DC will star oriented books for young people',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Entertainment', // tema
+                    'not2text' => 'Music for the deaf',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-                ]
+                    'tema3not' => 'Entertainment', // tema
+                    'not3text' => 'Oscar comics hits record information to women'   // texto
+                ],
                 'not9' => [
-                    'home' => 'Página Inicial',
+                    'home' => 'Home',
                     'temaName' => 'Entertainment',
                     'datapub' => '12/06/2015 as 09h30min',
                     'titulo' => '3 reasons to be optimistic',
-                    'resumo' => '',
+                    'resumo' => 'Optimism may interest a good portion of the people, because it can help in the perception that better things will happen',
                     'autor' => 'Beatriz Guedes',
                     'texto1' => '1. Violence is decreasing
 
@@ -684,21 +607,21 @@ But instead of trying just a collective effort to reduce carbonic issue of human
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Entertainment', // tema
+                    'not1text' => 'Netflix has secret video, learn how to access it',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Entertainment', // tema
+                    'not2text' => 'Inês Brasil appears in video Orange is the New Black and break the internet',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-                ]
+                    'tema3not' => 'Entertainment', // tema
+                    'not3text' => '3 reasons to be optimistic'   // texto
+                ],
                 'not10' => [
-                    'home' => 'Página Inicial',
+                    'home' => 'Home',
                     'temaName' => 'Entertainment',
                     'datapub' => '12/06/2015 as 09h30min',
                     'titulo' => 'Inês Brasil appears in video Orange is the New Black and break the internet',
-                    'resumo' => '',
+                    'resumo' => 'Video launch the new season of Orange Is The New Black has distinguished presence',
                     'autor' => 'Beatriz Guedes',
                     'texto1' => 'Inês Brazil, one of the most charismatic Brazilian personalities of recent times, appeared in the video release of the series "Orange is the New Black," produced by Netflix.', //1° paragrafos,
                     'texto2' => 'The fourth season of the American series premiere on Friday, after a year of waiting fans. Defined as "a walking memes factory" by users of social networks, the famous internet appears confined in prison Litchfield, while co-stars with the character Piper Chapman (Taylor Schilling).', //2° paragrafos,
@@ -709,21 +632,21 @@ But instead of trying just a collective effort to reduce carbonic issue of human
                     'texto5' => 'It is not the first time that Netflix puts a Brazilian face to publicize the series last year funkeira valesca popozuda appeared singing "My Poussey is power." By the way, Agnes made mention to the singer in the video.', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Entertainment', // tema
+                    'not1text' => 'Five films will leave you more optimistic',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Entertainment', // tema
+                    'not2text' => 'Special edition of Harry Potter and the Sorcerers Stone will be released',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-                ]
+                    'tema3not' => 'Entertainment', // tema
+                    'not3text' => 'Four feminist films that every woman needs to watch'   // texto
+                ],
                 'not11' => [
-                    'home' => 'Página Inicial',
+                    'home' => 'Home',
                     'temaName' => 'Entertainment',
                     'datapub' => '12/06/2015 as 09h30min',
                     'titulo' => 'Netflix has secret video, learn how to access it',
-                    'resumo' => '',
+                    'resumo' => 'Hidden video from Netflix, which does not appear in any of the categories',
                     'autor' => 'Beatriz Guedes',
                     'texto1' => 'There are "hidden" in the international catalog of Netflix (including in Brazil) a video that does not appear in any of the fixed categories of the streaming service. To access it, you need to get the correct keyword. But the content is not the offensive type.', //1° paragrafos,
                     'texto2' => 'It is "Sizzling Fireplace" or "Fireplace for Your Home" (Bonfire for Your Home), director George Ford. The video consists of more than 60 minutes in a fixed image of a pile of wood burning in the fireplace of a home. And thats it.', //2° paragrafos,
@@ -735,37 +658,29 @@ To access the video on Netflix, just search for "Fireplace", "Fireplace" or the 
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Entertainment', // tema
+                    'not1text' => 'Heroines and heroes of DC will star oriented books for young people',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Entertainment', // tema
+                    'not2text' => 'Special edition of Harry Potter and the Sorcerers Stone will be released',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
+                    'tema3not' => 'Entertainment', // tema
+                    'not3text' => 'Inês Brasil appears in video Orange is the New Black and break the internet'   // texto
                 ]
-                                ]
+               ],
              
              'es' => [
-              'index' => [
-                  'titulo' => 'Otemesti',
-                  'irparaconteudo' => 'Go to content',
-                  'irparamenu' => 'Go to the menu',
-                  'acessibilidade' => 'Acessibility',
-                  'mapadosite' => 'Sitemap'
-              ],
-              'esportes' => [
                   'index' => [
-                      'home' => 'index',
+                      'home' => 'Inicio',
                       'temaName' => 'Entretenimiento',
                       /* ------------------- 1° noticia -------------- */
-                      'not1alt' => 'Raposa vermelha de boca aberta',
-                      'not1text' => 'Música para sordos',
+                      'not1alt' => 'héroes de DC Comics',
+                      'not1text' => 'Heroínas y héroes de DC serán los protagonistas de los libros orientada a los jóvenes',
                       /* ------------------- 2° noticia -------------- */
-                      'not2alt' => 'Raposa vermelha de boca aberta aaaaaaaaaaaaa',
-                      'not2text' => 'Raaa dda oijasd oisar oias pojh t aaaaaaaaaaaaaaaaaaaaaaaaaa',
+                      'not2alt' => 'imagen que representa con el oído sordo',
+                      'not2text' => 'Música para sordos',
                       /* ------------------- 3° noticia -------------- */
-                      'not3alt' => 'Raposa vermelha de boca aberta aaaaaaaaaaaaa',
+                      'not3alt' => 'cómics imagen de heroína',
                       'not3text' => 'Oscar cómics golpea información de registro a las mujeres',
                       /* ------------------- 4° noticia -------------- */
                       'not4text' => 'Los Sims 4 ahora tiene opciones sexuales personalizados',
@@ -773,27 +688,27 @@ To access the video on Netflix, just search for "Fireplace", "Fireplace" or the 
                       'not5text' => 'Teclado analógico promete ofrecer una mayor precisión a sus juegos',
                       /* ------------------- 6° noticia -------------- */
                       'not6text' => 'Cuatro películas feministas que cada mujer tiene que ver',
-                      'not6alt' => 'poasj posaj´p posd oiasrp k',
+                      'not6alt' => 'actriz protagonista de la película Frida Kahlo, la imagen de la actriz está escribiendo',
                       /* ------------------- 7° noticia -------------- */
-                      'not7alt' => 'POKAS POASPO NAOIS POIDFJ GNAT ',
+                      'not7alt' => 'Harry Potter cómico dibujos',
                       'not7text' => 'Edición especial de Harry Potter y la piedra filosofal se dará a conocer',
                       /* ------------------- 8° noticia -------------- */
                       'not8text' => 'Cinco películas te dejarán muy optimista',
                       /* ------------------- 9° noticia -------------- */
                       'not9text' => '3 razones para ser optimistas',
                       /* ------------------- 10° noticia -------------- */
-                      'not10alt' => 'OPA´PS LK ISAIUD OTHJA',
+                      'not10alt' => 'cantante inês Brasil, trabajando en video de la nueva temporada de la serie orange is the new black',
                       'not10text' => 'Inês Brasil aparece en el vídeo Orange is the New Black y break internet',
                       /* ------------------- 11° noticia -------------- */
-                      'not11alt' => 'ONZE',
+                      'not11alt' => 'imagen que muestra Netflix',
                       'not11text' => 'Netflix tiene vídeo secreto, aprender cómo acceder a él'
                   ],
                   'not1' => [
-                      'home' => 'Home',
+                      'home' => 'Inicio',
                       'temaName' => 'Entretenimiento',
                       'datapub' => '12/06/2015 as 09h30min',
                       'titulo' => 'Heroínas y héroes de DC serán los protagonistas de los libros orientada a los jóvenes',
-                      'resumo' => '',
+                      'resumo' => 'DC Comics Héroes serán los protagonistas de una serie de libros dirigidos al público joven-adulto',
                       'autor' => 'Beatriz Guedes',
                       'texto1' => 'El ejército de superhéroes de DC Comics está a punto de conquistar más territorio. No hay (más) éxitos de taquilla o series de televisión que exploran el universo expandido cómics - este tiempo, la compañía se ha asociado con la editorial Random House para tomar algunos de sus personajes en nuevas aventuras literarias. Mujer Maravilla, Batman, Superman y Catwoman serán los protagonistas de una serie de libros dirigidos al público joven-adulto.', //1° paragrafos,
                       'texto2' => '¿Quién va a firmar las nuevas aventuras de los héroes y heroínas es un equipo de autores conocidos para las obras destinadas a la audiencia objetivo. El primer libro para llegar a los estantes gringos en agosto de 2017, será la Mujer Maravilla: La historia de la Amazonia será escrito por Leigh Bardugo, autor de la trilogía Grisha, hecha por Sun y tormenta libros (2012), Sombra y hueso (2013) y la luz y la sombra (2014). Luego será el turno de MORCEGÃO - Batman aventura será firmado por Marie Lu, China arraigado en Estados Unidos y autor de La leyenda trilogías (2011-2013) y las élites jóvenes (2014 -).', //2° paragrafos,
@@ -803,23 +718,23 @@ To access the video on Netflix, just search for "Fireplace", "Fireplace" or the 
                       'texto5' => '', //5° paragrafos
                       // Section de noticia
                       //1° noticia
-                      'tema1not' => 'A', // tema
-                      'not1text' => 'RICARDO',  // texto
+                      'tema1not' => 'Entretenimiento', // tema
+                      'not1text' => 'Música para sordos',  // texto
                       //2° noticia
-                      'tema2not' => 'B', // tema
-                      'not2text' => 'TADASHI',  // texto
+                      'tema2not' => 'Entretenimiento', // tema
+                      'not2text' => 'Oscar cómics golpea información de registro a las mujeres',  // texto
                       //3° noticia
-                      'tema3not' => 'C', // tema
-                      'not3text' => 'ONO'   // texto
-                  ]
+                      'tema3not' => 'Entretenimiento', // tema
+                      'not3text' => 'Los Sims 4 ahora tiene opciones sexuales personalizados'   // texto
+                  ],
                   'not2' => [
-                    'home' => 'Página Inicial',
+                    'home' => 'Inicio',
                     'temaName' => 'Entretenimiento',
                     'datapub' => '12/06/2015 as 09h30min',
                     'titulo' => 'Música para sordos',
-                    'resumo' => '',
+                    'resumo' => 'Como todos, sordos sienten la música a través de la vibración',
                     'autor' => 'Beatriz Guedes',
-                    'texto1' => 'La última novedad electrónica de Londres es el delirio para los sordos. Es muy sencillo: sordo, como todos los demás, se sienten la música a través de la vibración. O ¿ha oído hablar a una persona diciendo "Siente la música"? Las ondas de sonido son vibraciones que, cuando llegan al tímpano, se transforman en impulsos eléctricos a través de los nervios auditivos. Estos impulsos son interpretados por el cerebro como voces, notas, lo que sea. Una persona sorda no interpreta las ondas sonoras, a menudo por problemas de ese nervio. Pero ella se siente la vibración de la misma manera que cualquier persona, a través moviendo la gravedad de la tierra o un golpe en el pecho. Nada de esto ocurrió Troi Lee cuando decidió organizar el primer delirio especialmente para los chicos que no escuchan. Lo que quería era divertirse: Lee es sordo desde el nacimiento y siempre le gusta salir a bailar, a raíz de las vibraciones de la música. "Jugamos varios estilos como el drum'n'bass y el hip hop. Lo importante es una buena línea de bajo ", dice Lee. El Sordo Rave ha demostrado ser un éxito, que reúne a un millar de personas en su último número, el 10 de abril. Lee planea organizar fiestas en todo el mundo, incluyendo Brasil. Pero por ahora, la próxima edición tendrá lugar en Londres el 27 de agosto.', //1° paragrafos,
+                    'texto1' => 'La última novedad electrónica de Londres es el delirio para los sordos. Es muy sencillo: sordo, como todos los demás, se sienten la música a través de la vibración. O ¿ha oído hablar a una persona diciendo "Siente la música"? Las ondas de sonido son vibraciones que, cuando llegan al tímpano, se transforman en impulsos eléctricos a través de los nervios auditivos. Estos impulsos son interpretados por el cerebro como voces, notas, lo que sea. Una persona sorda no interpreta las ondas sonoras, a menudo por problemas de ese nervio. Pero ella se siente la vibración de la misma manera que cualquier persona, a través moviendo la gravedad de la tierra o un golpe en el pecho. Nada de esto ocurrió Troi Lee cuando decidió organizar el primer delirio especialmente para los chicos que no escuchan. Lo que quería era divertirse: Lee es sordo desde el nacimiento y siempre le gusta salir a bailar, a raíz de las vibraciones de la música. "Jugamos varios estilos como el drum bass y el hip hop. Lo importante es una buena línea de bajo ", dice Lee. El Sordo Rave ha demostrado ser un éxito, que reúne a un millar de personas en su último número, el 10 de abril. Lee planea organizar fiestas en todo el mundo, incluyendo Brasil. Pero por ahora, la próxima edición tendrá lugar en Londres el 27 de agosto.', //1° paragrafos,
                     'texto2' => '', //2° paragrafos,
                     'texto3' => '', //3° paragrafos,
                     //caso nao tenha mais paragrafo coloque apenas as aspas simples.
@@ -827,21 +742,21 @@ To access the video on Netflix, just search for "Fireplace", "Fireplace" or the 
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Entretenimiento', // tema
+                    'not1text' => 'Los Sims 4 ahora tiene opciones sexuales personalizados',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Entretenimiento', // tema
+                    'not2text' => 'Teclado analógico promete ofrecer una mayor precisión a sus juegos',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-                ]
+                    'tema3not' => 'Entretenimiento', // tema
+                    'not3text' => 'Cuatro películas feministas que cada mujer tiene que ver'   // texto
+                ],
                   'not3' => [
-                    'home' => 'Página Inicial',
+                    'home' => 'Inicio',
                     'temaName' => 'Entretenimiento',
                     'datapub' => '12/06/2015 as 09h30min',
                     'titulo' => 'Oscar cómics golpea información de registro a las mujeres',
-                    'resumo' => '',
+                    'resumo' => 'En los últimos años, las mujeres han ganado más espacio en el mundo del cómic',
                     'autor' => 'Beatriz Guedes',
                     'texto1' => 'Si usted todavía piensa que los cómics son cosa de chicos, creo que de nuevo. En los últimos años, las mujeres han ido ganando espacio en este universo, ya sea como lectores, ya sea como productores. Toda esta efervescencia no ha tocado el premio Eisner, los más importantes de la industria: el número de alertas a las mujeres se ha más que duplicado desde el año pasado, superando el récord del propio premio. Por otra parte, en siete de las 30 categorías, hay mucho más adecuado que se indica - como el mejor cómico para los adolescentes y el mejor cómic digital. Los ganadores serán anunciados el 22 de julio en la Comic-Con de San Diego.', //1° paragrafos,
                     'texto2' => 'En total, 49 mujeres, compitiendo en casi todas las categorías del premio - excepto mejor cómic periodístico. Estos artistas recibieron 61 nominaciones (para el evento del año pasado, ese número nunca había estado 30). Muchas de las historias seleccionadas como la nueva Miss Marvel, Gwendolyn Willow Wilson, y la perra planeta de Kelly Sue DeConnick tienen las mujeres como figuras centrales, y se encuentran entre los más altos clasificado para los premios más grandes.', //2° paragrafos,
@@ -851,21 +766,21 @@ To access the video on Netflix, just search for "Fireplace", "Fireplace" or the 
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Entretenimiento', // tema
+                    'not1text' => 'Cinco películas te dejarán muy optimista',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Entretenimiento', // tema
+                    'not2text' => '3 razones para ser optimistas',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-                ]
+                    'tema3not' => 'Entretenimiento', // tema
+                    'not3text' => 'Inês Brasil aparece en el vídeo Orange is the New Black y break internet'   // texto
+                ],
                   'not4' => [
-                    'home' => 'Página Inicial',
+                    'home' => 'Inicio',
                     'temaName' => 'Entretenimiento',
                     'datapub' => '12/06/2015 as 09h30min',
                     'titulo' => 'Los Sims 4 ahora tiene opciones sexuales personalizados',
-                    'resumo' => '',
+                    'resumo' => 'Los jugadores de Los Sims 4 no tienen límites en la creación de sus Sims',
                     'autor' => 'Beatriz Guedes',
                     'texto1' => 'Los jugadores de Los Sims 4 tendrán menos límites para crear tus Sims en el juego lanzado en 2014 por Electronic Arts. El estudio se informó, el jueves (2), la famosa serie de simulación tiene opciones sexuales personalizados para los personajes de la próxima actualización.
 "Por primera vez, puede personalizar su Sim sin límites de género establecidas previamente", explicó la Electronic Sports en una declaración a la prensa. "Esto significa que puede crear Sims con cualquier tipo de estilo de caminar física y el tono que desee, sin distinción de sexo."
@@ -878,21 +793,21 @@ La mayor preocupación, según la compañía, es permitir que los jugadores no s
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Entretenimiento', // tema
+                    'not1text' => 'Netflix tiene vídeo secreto, aprender cómo acceder a él',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Entretenimiento', // tema
+                    'not2text' => 'Heroínas y héroes de DC serán los protagonistas de los libros orientada a los jóvenes',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-                ]
+                    'tema3not' => 'Entretenimiento', // tema
+                    'not3text' => 'Edición especial de Harry Potter y la piedra filosofal se dará a conocer'   // texto
+                ],
                   'not5' => [
-                    'home' => 'Página Inicial',
+                    'home' => 'Inicio',
                     'temaName' => 'Entretenimiento',
                     'datapub' => '12/06/2015 as 09h30min',
                     'titulo' => 'Teclado analógico promete ofrecer una mayor precisión a sus juegos',
-                    'resumo' => '',
+                    'resumo' => 'Una saqueo: teclado mecánico con botones analógicos, responde a diferentes niveles de presión para determinar la forma de interactuar con un juego',
                     'autor' => 'Beatriz Guedes',
                     'texto1' => 'Incluso si usted es de los que no permitirá que la combinación de ratón y teclado en tiempo jugador, hay que admitir que es más baja que las consolas de juego en al menos un criterio: la precisión de los movimientos. Incluso un producto mecánico no puede emular las sutilezas que pueden determinar si un carácter en la pantalla se desliza o correr rápidamente.
 Pensando en ello, el saqueo desarrolló el Uno, un nuevo concepto que combina las cualidades de un teclado mecánico con botones analógicos. Según el fabricante, que busca fondos para hacer la idea de una realidad, el producto responde a diferentes niveles de presión para determinar la forma de interactuar con un juego.
@@ -905,21 +820,21 @@ La compañía ha superado la marca de 30 000 € (US $ 120.000) para hacer reali
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Entretenimiento', // tema
+                    'not1text' => 'Música para sordos',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Entretenimiento', // tema
+                    'not2text' => 'Los Sims 4 ahora tiene opciones sexuales personalizados',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-                ]
+                    'tema3not' => 'Entretenimiento', // tema
+                    'not3text' => 'Cuatro películas feministas que cada mujer tiene que ver'   // texto
+                ],
                   'not6' => [
-                    'home' => 'Página Inicial',
+                    'home' => 'Inicio',
                     'temaName' => 'Entretenimiento',
                     'datapub' => '12/06/2015 as 09h30min',
                     'titulo' => 'Cuatro películas feministas que cada mujer tiene que ver',
-                    'resumo' => '',
+                    'resumo' => 'Películas feministas para entender el movimiento y conocer historias de mujeres increíbles',
                     'autor' => 'Beatriz Guedes',
                     'texto1' => '1. Desayuno con diamantes (Blake Edwards, 1961)
 La vida de prostituta de lujo Holly Golightly, jugado con una personalidad inusual Audrey Hepburn, que es el tema de la película. Con su encanto y sus trajes deslumbrantes, Holly no se abre para el amor, toma cualesquiera que sean los hombres y vive en paz, por la categoría de empresa. El proyecto Paul escritor, su vecino, se enamora, pero se necesita mucho trabajo que hacer frente. Linda y SAFA, se siente segura y completamente feliz por dentro, diamantes muy cerca de Tiffany. Al final, el amor no acebo redimiendo a su personalidad excéntrica, pero el mensaje que cruza generaciones es una mujer que sabe cómo jugar con los hombres y llevarlos a lo que importa.', //1° paragrafos,
@@ -933,23 +848,23 @@ Cuenta la historia de la pintora mexicana Frida Kahlo desde la adolescencia hast
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Entretenimiento', // tema
+                    'not1text' => 'Cinco películas te dejarán muy optimista',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Entretenimiento', // tema
+                    'not2text' => 'Edición especial de Harry Potter y la piedra filosofal se dará a conocer',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-                ]
+                    'tema3not' => 'Entretenimiento', // tema
+                    'not3text' => '3 razones para ser optimistas'   // texto
+                ],
                   'not7' => [
-                    'home' => 'Página Inicial',
+                    'home' => 'Inicio',
                     'temaName' => 'Entretenimiento',
                     'datapub' => '12/06/2015 as 09h30min',
                     'titulo' => 'Edición especial de Harry Potter y la piedra filosofal se dará a conocer',
-                    'resumo' => '',
+                    'resumo' => 'Las potterheads volverán a ser capaz de obtener una muestra de un comunicado de la saga',
                     'autor' => 'Beatriz Guedes',
-                    'texto1' => 'Es hora de tomar las varitas del gabinete, rescatar a su Saeta de Fuego y la capa de invisibilidad. Esto se debe a que, el domingo (19), (fans de Harry Potter) los potterheads '' serán capaces de obtener de nuevo el sabor de un comunicado de la saga. Esta es la edición ilustrada del primer título de la serie, "Harry Potter y la piedra filosofal.', //1° paragrafos,
+                    'texto1' => 'Es hora de tomar las varitas del gabinete, rescatar a su Saeta de Fuego y la capa de invisibilidad. Esto se debe a que, el domingo (19), (fans de Harry Potter) los potterheads serán capaces de obtener de nuevo el sabor de un comunicado de la saga. Esta es la edición ilustrada del primer título de la serie, Harry Potter y la piedra filosofal.', //1° paragrafos,
                     'texto2' => 'El evento es de carácter nacional y ha sido organizada por la editorial de libros en Brasil, Rocco, en asociación con Saraiva Super Store. En Manaos, el club Potterday fa- será responsable de la mediación del evento y dijo que el programa se orientará a los aficionados de todas las edades.', //2° paragrafos,
                     'texto3' => '"Vamos a hablar sobre el libro y la actualidad esta versión ilustrada, que es precioso. Además, tenemos algunos juegos programados, algunas rifas y un concurso de cosplay ", añadió Barbara Pinheiro, presidente de Potterday. El evento es gratuito y abierto al público desde las 15h, el Ave Super Store Manauara compras.', //3° paragrafos,
                     //caso nao tenha mais paragrafo coloque apenas as aspas simples.
@@ -957,21 +872,21 @@ Cuenta la historia de la pintora mexicana Frida Kahlo desde la adolescencia hast
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Entretenimiento', // tema
+                    'not1text' => 'Oscar cómics golpea información de registro a las mujeres',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Entretenimiento', // tema
+                    'not2text' => 'Los Sims 4 ahora tiene opciones sexuales personalizados',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-                ]
+                    'tema3not' => 'Entretenimiento', // tema
+                    'not3text' => 'Teclado analógico promete ofrecer una mayor precisión a sus juegos'   // texto
+                ],
                   'not8' => [
-                    'home' => 'Página Inicial',
+                    'home' => 'Inicio',
                     'temaName' => 'Entretenimiento',
                     'datapub' => '12/06/2015 as 09h30min',
                     'titulo' => 'Cinco películas te dejarán muy optimista',
-                    'resumo' => '',
+                    'resumo' => 'Lista de las películas que traerá gran inspiración y la mejora de optimismo',
                     'autor' => 'Beatriz Guedes',
                     'texto1' => '1. Un buen año
 Una luz y la película positiva. El personaje principal es un economista exitoso que hereda un viñedo en Provenza, Francia. Cuando llega al lugar, descubre que hay otros candidatos. La secuencia descubrimiento hace que este hombre vuelve a pensar lo que realmente importa en su vida.', //1° paragrafos,
@@ -986,21 +901,21 @@ Basada en hechos reales, la historia de la difícil rutina de un profesor de Ing
 Cuando se dispara por criticar al jefe, el agente deportivo Jerry Maguire decide fundar su propia compañía. Sólo dos personas creen en ella: Dorothy, en el amor con él, y Rod Tidwell, un atleta de talento, duro e insolente. Todo estaría bien si no fuera las intrigas de los antiguos compañeros de Jerry.', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Entretenimiento', // tema
+                    'not1text' => 'Heroínas y héroes de DC serán los protagonistas de los libros orientada a los jóvenes',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Entretenimiento', // tema
+                    'not2text' => 'Música para sordos',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-                ]
+                    'tema3not' => 'Entretenimiento', // tema
+                    'not3text' => 'Oscar cómics golpea información de registro a las mujeres'   // texto
+                ],
                   'not9' => [
-                    'home' => 'Página Inicial',
+                    'home' => 'Inicio',
                     'temaName' => 'Entretenimiento',
                     'datapub' => '12/06/2015 as 09h30min',
                     'titulo' => '3 razones para ser optimistas',
-                    'resumo' => '',
+                    'resumo' => 'El optimismo puede interesar a una buena parte de las personas, ya que puede ayudar en la percepción de que mejores cosas sucederán',
                     'autor' => 'Beatriz Guedes',
                     'texto1' => '1. La violencia está disminuyendo
 
@@ -1026,21 +941,21 @@ Pero en lugar de tratar sólo un esfuerzo colectivo para reducir la emisión car
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Entretenimiento', // tema
+                    'not1text' => 'Netflix tiene vídeo secreto, aprender cómo acceder a él',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Entretenimiento', // tema
+                    'not2text' => 'Inês Brasil aparece en el vídeo Orange is the New Black y break internet',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-                ]
+                    'tema3not' => 'Entretenimiento', // tema
+                    'not3text' => '3 razones para ser optimistas'   // texto
+                ],
                   'not10' => [
-                    'home' => 'Página Inicial',
+                    'home' => 'Inicio',
                     'temaName' => 'Entretenimiento',
                     'datapub' => '12/06/2015 as 09h30min',
                     'titulo' => 'Inês Brasil aparece en el vídeo Orange is the New Black y break internet',
-                    'resumo' => '',
+                    'resumo' => 'Video de lanzamiento de la nueva temporada de la naranja es el nuevo Negro ha distinguido presencia',
                     'autor' => 'Beatriz Guedes',
                     'texto1' => 'Inês Brasil, una de las personalidades brasileñas más carismáticos de los últimos tiempos, apareció en la liberación de vídeo de la serie "El naranja es el Nuevo Negro", producido por Netflix.', //1° paragrafos,
                     'texto2' => 'La cuarta temporada de la serie estadounidense estreno el viernes, después de un año de fans esperando. Se define como "una fábrica de memes para caminar" por los usuarios de las redes sociales, el famoso internet parece confinado en la prisión de Litchfield, mientras que co-estrellas con el carácter Piper Chapman (Taylor Schilling).', //2° paragrafos,
@@ -1050,21 +965,21 @@ Pero en lugar de tratar sólo un esfuerzo colectivo para reducir la emisión car
                     'texto5' => 'No es la primera vez que Netflix pone una cara de Brasil para dar a conocer la serie del año pasado popozuda funkeira valesca apareció cantando "Mi Poussey es poder". Por cierto, Agnes hizo mención a la cantante en el vídeo.', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Entretenimiento', // tema
+                    'not1text' => 'Cinco películas te dejarán muy optimista',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Entretenimiento', // tema
+                    'not2text' => 'Edición especial de Harry Potter y la piedra filosofal se dará a conocer',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-                ]
+                    'tema3not' => 'Entretenimiento', // tema
+                    'not3text' => 'Cuatro películas feministas que cada mujer tiene que ver'   // texto
+                ],
                   'not11' => [
-                    'home' => 'Página Inicial',
+                    'home' => 'Inicio',
                     'temaName' => 'Entretenimiento',
                     'datapub' => '12/06/2015 as 09h30min',
                     'titulo' => 'Netflix tiene vídeo secreto, aprender cómo acceder a él',
-                    'resumo' => '',
+                    'resumo' => 'Vídeo oculta de Netflix, que no aparece en ninguna de las categorías',
                     'autor' => 'Beatriz Guedes',
                     'texto1' => 'Hay "oculta" en el catálogo internacional de Netflix (incluso en Brasil) un vídeo que no aparece en ninguna de las categorías fijas del servicio de streaming. Para acceder a ella, es necesario obtener la palabra clave correcta. Pero el contenido no es el tipo ofensivo.', //1° paragrafos,
                     'texto2' => 'Es "chisporrotear chimenea" o "chimenea para su hogar" (hoguera para su hogar), el director George Ford. El vídeo se compone de más de 60 minutos en una imagen fija de una pila de leña en la chimenea de una casa. Y eso es todo.', //2° paragrafos,
@@ -1074,36 +989,17 @@ Pero en lugar de tratar sólo un esfuerzo colectivo para reducir la emisión car
                     'texto5' => '', //5° paragrafos
                     // Section de noticia
                     //1° noticia
-                    'tema1not' => 'A', // tema
-                    'not1text' => 'RICARDO',  // texto
+                    'tema1not' => 'Entretenimiento', // tema
+                    'not1text' => 'Heroínas y héroes de DC serán los protagonistas de los libros orientada a los jóvenes',  // texto
                     //2° noticia
-                    'tema2not' => 'B', // tema
-                    'not2text' => 'TADASHI',  // texto
+                    'tema2not' => 'Entretenimiento', // tema
+                    'not2text' => 'Edición especial de Harry Potter y la piedra filosofal se dará a conocer',  // texto
                     //3° noticia
-                    'tema3not' => 'C', // tema
-                    'not3text' => 'ONO'   // texto
-                ]
-                  
-                  
-                  
-              ]
-        ]
-      ];
-        
-                
-    function BuscaIdioma($tema, $pagina)
-    {
-        $idioma = $_SESSION['idioma'];
-        $content = null;
-        if($tema == 'index'){
-            $content = $this->idioma[$idioma][$tema];
-        }else {
-            $content = $this->idioma[$idioma][$tema][$pagina];
-        }
+                    'tema3not' => 'Entretenimiento', // tema
+                    'not3text' => 'Inês Brasil aparece en el vídeo Orange is the New Black y break internet'   // texto
 
-        return [
-            'nav' => $this->nav[$idioma],
-            'content' => $content
+                    ]
+                ]
         ];
-    }
-}
+
+?>

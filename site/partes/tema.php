@@ -39,7 +39,7 @@ $sitemap = '../acessibilidade.php';
 
   echo '
 
-<div class="container">
+<div id="conteudo" class="container">
 <ol class="breadcrumb">
   <li><a href="../">'.$idioma['content']['home'].'</a></li>
   <li class="active">'.$idioma['content']['temaName'].'</li>

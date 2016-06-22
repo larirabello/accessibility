@@ -304,7 +304,7 @@ Segundo ele, a legislação não impede interferências em decisões estratégic
             //3° noticia
             'tema3not' => 'Tecnologia', // tema
             'not3text' => 'Lectro, uma bike elétrica para quem gosta de aventura'   // texto
-        ],
+        ]
     ],
     'en' => [
         'index' => [
@@ -609,7 +609,7 @@ He said the legislation does not prevent interference in strategic business deci
             //3° noticia
             'tema3not' => 'Tecnologia', // tema
             'not3text' => 'Lectro, an electric bike for those who like adventure'   // texto
-        ],
+        ]
     ],
     'es' => [
         'index' => [
@@ -914,7 +914,7 @@ He said the legislation does not prevent interference in strategic business deci
             //3° noticia
             'tema3not' => 'Tecnologia', // tema
             'not3text' => 'Lectro, una bicicleta eléctrica para los que gustan de la aventura'   // texto
-        ],
+        ]
     ]
 ];
 ?>

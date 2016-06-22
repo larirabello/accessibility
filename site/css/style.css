@@ -17,7 +17,7 @@ nav {
 .circle-w {
   background-color: #fff;
   position: relative;
-  right: 175px;
+  right: 130px;
 }
 
 
@@ -55,7 +55,7 @@ h5 {
 
 #biggerFont {
 	position: relative;
-  	left: 170px;
+  	left: 130px;
 }
 
 .nav a {
@@ -161,3 +161,5 @@ margin-right: 0px;
        margin-top: 175px;
 	}
 }
+
+

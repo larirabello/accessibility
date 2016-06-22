@@ -52,7 +52,7 @@ $idioma = $idioma->BuscaIdioma('index', null);
     $linkirMenu = '#';
     $acess = 'acessibilidade.php';
     $sitemap = 'acessibilidade.php';
-    include 'partes/navIndex.php';
+    include 'partes/nav.php';
     ?>
     <div class="container">
 
@@ -65,11 +65,11 @@ $idioma = $idioma->BuscaIdioma('index', null);
                     </a>
 
                     <div class="title1">
-                        <h5><a href="jogos/index.php" class="title-float" accesskey="1">Jogos</a></h5>
+                        <h5><a href="jogos/index.php" class="title-float" accesskey="1">Games</a></h5>
                         <a href="jogos/index.php" class="text-float">
                             <p>
                                <a href="jogos/noticia1.php">
-                                Novo Xbox One S é o destaque da Microsoft na E3 e chega ainda este ano
+                               New Xbox One S is the highlight of Microsoft at E3 and still arrive this year
                                 </a>
                             </p>
                         </a>
@@ -83,11 +83,11 @@ $idioma = $idioma->BuscaIdioma('index', null);
 </a>
                     <div class="caption">
                         <div class="title2">
-                            <h5><a href="esportes/index.php" accesskey="3">Esportes</a></h5>
+                            <h5><a href="esportes/index.php" accesskey="3">Sports</a></h5>
 
                             <p>
                                 <a href="esportes/noticia3.php">
-                                   Brasil pode ter delegação recorde em paraolimpíadas
+                                   Brazil may have record delegation to Paralympics
                                 </a>
                             </p>
                         </div>
@@ -101,11 +101,11 @@ $idioma = $idioma->BuscaIdioma('index', null);
                         </a>
                     <div class="caption">
                         <div class="title2">
-                            <h5><a href="tecnologia/index.php" accesskey="3">Tecnologia</a></h5>
+                            <h5><a href="tecnologia/index.php" accesskey="3">Technology</a></h5>
 
                             <p>
                                 <a href="tecnologia/noticia11.php">
-                                  Apple registra patente de iPhone com tela dobrável
+                                 Apple records iPhone patent with folding screen
                                 </a>
                             </p>
                         </div>
@@ -116,29 +116,29 @@ $idioma = $idioma->BuscaIdioma('index', null);
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-6 news">
                 <div class="thumbnail size2">
-                    <h5><a href="comportamento/index.php" class="margin">Comportamento</a></h5>
+                    <h5><a href="comportamento/index.php" class="margin">Lifestyle</a></h5>
 
                     <p class="pd"><a href="comportamento/noticia6.php" class="margin">
-                      Cultura da hospitalidade: veja o país mais educado do mundo
+                     Culture of hospitality: know the most educated country around the World
                         </a>
                     </p>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-3 col-md-3 news">
                 <div class="thumbnail size2">
-                    <h5><a href="entretenimento/index.php" class="margin">Entretenimento</a></h5>
+                    <h5><a href="entretenimento/index.php" class="margin">Entertainment</a></h5>
 
                     <p><a href="entretenimento/noticia6.php" class="margin">
-                          Quatro filmes feministas que toda mulher precisa assistir </a>
+                          Four feminist films that every woman needs to watch </a>
                     </p>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-3 col-md-3 news">
                 <div class="thumbnail size2">
-                    <h5><a href="pet/index.php" class="margin">Mundo Pet</a></h5>
+                    <h5><a href="pet/index.php" class="margin">Pet world</a></h5>
 
                     <p><a href="pet/noticia4.php" class="margin">
-                          O paraíso dos gatos de Roma
+                         Paradise Cats of Rome
                         </a>
                     </p>
                 </div>
@@ -147,30 +147,31 @@ $idioma = $idioma->BuscaIdioma('index', null);
         <div class="row">
             <div class="col-xs-12 col-sm-3 col-md-3 news">
                 <div class="thumbnail size2">
-                    <h5><a href="jogos/index.php" class="margin">Jogos</a></h5>
+                    <h5><a href="jogos/index.php" class="margin">Games</a></h5>
 
                     <p><a href="jogos/noticia2.php" class="margin">
-                           Novo PS4 é confirmado pela Sony e chega poderoso com tecnologia 4K
+                           New PS4 is confirmed by Sony and comes with powerful technology 4K
                         </a>
                     </p>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-3 col-md-3 news">
                 <div class="thumbnail size2">
-                    <h5><a href="esportes/index.php" class="margin">Esportes</a></h5>
+                    <h5><a href="esportes/index.php" class="margin">Sports</a></h5>
 
                     <p><a href="esportes/noticia6.php" class="margin">
-                          Garoto sem braço deixa exemplo de superação no vôlei
+                       
+                     Armless boy leaves example of overcoming in volleyball
                         </a>
                     </p>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-6 news">
                 <div class="thumbnail size2">
-                    <h5><a href="tecnologia/index.php" class="margin">Tecnologia</a></h5>
+                    <h5><a href="tecnologia/index.php" class="margin">Technology</a></h5>
 
                     <p class="pd"><a href="tecnologia/noticia3.php" class="margin">
-                          Homem que automatizou trabalho e ficou 6 anos "fazendo nada" é demitido
+                         Man automated work and was six years "doing nothing" is fired
                         </a>
                     </p>
                 </div>
@@ -179,29 +180,29 @@ $idioma = $idioma->BuscaIdioma('index', null);
         <div class="row col-md-9 col-sm-9 col-xs-12 nopadlr">
             <div class="col-xs-12 col-sm-4 col-md-4 news">
                 <div class="thumbnail size912">
-                    <h5><a href="comportamento/index.php" class="margin">Comportamento</a></h5>
+                    <h5><a href="comportamento/index.php" class="margin">Lifestyle</a></h5>
 
                     <p class="padtop"><a href="comportamento/noticia1.php" class="margin">
-                          Doar comida agora por delivery!
+                        Now you can donate food by delivery!
                         </a>
                     </p>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-8 col-md-8 news">
                 <div class="thumbnail size1011">
-                    <h5><a href="entretenimento/index.php" class="margin">Entretenimento</a></h5>
+                    <h5><a href="entretenimento/index.php" class="margin">Entertainment</a></h5>
 
                     <p><a href="entretenimento/noticia1.php" class="margin">
-                          Heroínas e heróis da DC vão estrelar livros voltados para o público jovem
+                        Heroines and heroes of DC will star oriented books for young people
                         </a>
                     </p>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-8 col-md-8 news" id="onze">
                 <div class="thumbnail size1011">
-                    <h5><a href="jogos/index.php" class="margin">Jogos</a></h5>
+                    <h5><a href="jogos/index.php" class="margin">Games</a></h5>
 
-                    <p><a href="jogos/noticia8.php" class="margin">Inédito modo história de Street Fighter 5 tem muito conteúdo na E3 2016</a>
+                    <p><a href="jogos/noticia8.php" class="margin">Unheard of Street Fighter 5 story mode has a lot of content at E3 2016</a>
                     </p>
                 </div>
             </div>
@@ -213,9 +214,9 @@ $idioma = $idioma->BuscaIdioma('index', null);
                     <img src="images/animal1.jpg" alt="Cachorrinho preto sorrindo">
 </a>
                     <div class="caption">
-                        <h5><a href="pet/index.php" class="margin">Mundo Pet</a></h5>
+                        <h5><a href="pet/index.php" class="margin">Pet World</a></h5>
 
-                        <p><a href="pet/noticia1.php" class="margin">Cães idosos precisam de cuidados redobrados e visitas ao veterinário regulares
+                        <p><a href="pet/noticia1.php" class="margin">Older dogs need extra care and regular visits to the vet
                             </a>
                         </p>
                     </div>
@@ -226,36 +227,36 @@ $idioma = $idioma->BuscaIdioma('index', null);
 
             <div class="col-xs-12 col-sm-3 col-md-3 news " id="conteudo">
                 <div class="thumbnail">
-                    <h5><a href="esportes/index.php"  class="margin">Esportes</a></h5>
+                    <h5><a href="esportes/index.php"  class="margin">Sports</a></h5>
 
-                    <p><a href="esportes/noticia2.php" class="margin">Daniel Dias é destaque no Mundial Paralímpico de Natação
+                    <p><a href="esportes/noticia2.php" class="margin">Daniel Dias is featured in the World Paralympic Swimming
                         </a>
                     </p>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-3 col-md-3 news">
                 <div class="thumbnail">
-                    <h5><a href="tecnologia/index.php" class="margin">Tecnologia</a></h5>
+                    <h5><a href="tecnologia/index.php" class="margin">Technology</a></h5>
 
-                    <p><a href="tecnologia/noticia9.php" class="margin">Profissão de TI pode ser regulamentada em breve no Brasil
+                    <p><a href="tecnologia/noticia9.php" class="margin">IT profession may be regulated soon in Brazil
                         </a>
                     </p>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-3 col-md-3 news">
                 <div class="thumbnail">
-                    <h5><a href="comportamento/index.php" class="margin">Comportamento</a></h5>
+                    <h5><a href="comportamento/index.php" class="margin">Lifestyle</a></h5>
 
-                    <p><a href="comportamento/noticia5.php" class="margin">Empresário ensina moradora de rua a ler na hora do almoço
+                    <p><a href="comportamento/noticia5.php" class="margin">Businessman teaches a homeless to read at his lunch time
                         </a>
                     </p>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-3 col-md-3 news">
                 <div class="thumbnail">
-                    <h5><a href="entretenimento/noticia3.php" class="margin">Entretenimento</a></h5>
+                    <h5><a href="entretenimento/noticia3.php" class="margin">Entertainment</a></h5>
 
-                    <p><a href="entretenimento/noticia3.php" class="margin">Oscar dos quadrinhos bate recorde de indicações a mulheres
+                    <p><a href="entretenimento/noticia3.php" class="margin">Oscar comics hits record information to women
                         </a>
                     </p>
                 </div>
@@ -264,9 +265,9 @@ $idioma = $idioma->BuscaIdioma('index', null);
         <div class="row col-md-6 col-sm-6 col-xs-12 nopadlr">
             <div class="col-xs-12 col-sm-12 col-md-12 news">
                 <div class="thumbnail">
-                    <h5><a href="pet/index.php" class="margin">Mundo Pet</a></h5>
+                    <h5><a href="pet/index.php" class="margin">Pet World</a></h5>
 
-                    <p><a href="pet/noticia9.php" class="margin">Cão foge de casa para visitar dono internado
+                    <p><a href="pet/noticia9.php" class="margin">Dog runs away from home to visit hospitalized owner
                         </a>
                     </p>
                 </div>
@@ -277,9 +278,9 @@ $idioma = $idioma->BuscaIdioma('index', null);
                         <img src="images/img11.jpg" class="img-responsive" alt="Pessoas sorrindo para a foto ">
                 </a>
 
-                <h5><a href="comportamento/index.php" class="margin">Comportamento</a></h5>
+                <h5><a href="comportamento/index.php" class="margin">Lifestyle</a></h5>
 
-                <p><a href="comportamento/noticia11.php" class="margin">Patrão leva funcionários para férias em hotel de luxo em Cancun
+                <p><a href="comportamento/noticia11.php" class="margin">Boss takes luxury hotel on vacation for employees in Cancun
                     </a>
                 </p>
             </div>
@@ -289,9 +290,9 @@ $idioma = $idioma->BuscaIdioma('index', null);
                 <div class="thumbnail">
                     <img src="images/image7.jpg" class="img-responsive" alt="Desenho do Harry Potter">
             </a>
-            <h5><a href="entretenimento/index.php" class="margin">Entretenimento</a></h5>
+            <h5><a href="entretenimento/index.php" class="margin">Entertainment</a></h5>
 
-            <p><a href="entretenimento/noticia7.php" class="margin">Edição especial de ‘Harry Potter e a Pedra Filosofal’ será lançada
+            <p><a href="entretenimento/noticia7.php" class="margin">Special edition of Harry Potter and the Sorcerers Stone will be released
                 </a>
             </p>
         </div>
@@ -301,18 +302,18 @@ $idioma = $idioma->BuscaIdioma('index', null);
     <div class="col-xs-12 col-sm-6 col-md-6 news">
         <div class="thumbnail size123">
                   <img src="images/jogos6.jpg" class="img-responsive" alt="Desenho do Harry Potter">
-            <h5><a href="jogos/index.php" class="margin">Jogos</a></h5>
+            <h5><a href="jogos/index.php" class="margin">Games</a></h5>
    
-            <p><a href="jogos/noticia6.php" class="margin">God of War procura se reiventar com ambientação e enredo na E3 2016
+            <p><a href="jogos/noticia6.php" class="margin">God of War seeks to reinvent itself with setting and plot at E3 2016
                 </a>
             </p>
         </div>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 news">
         <div class="thumbnail size20">
-            <h5><a href="esportes/index.php" class="margin">Esportes</a></h5>
+            <h5><a href="esportes/index.php" class="margin">Sports</a></h5>
 
-            <p><a href="esportes/noticia8.php" class="margin">Dançarina é a primeira professora de zumba com Down
+            <p><a href="esportes/noticia8.php" class="margin">Dancing girl is the first Zumba's teacher with Down
                 </a>
             </p>
         </div>
@@ -331,9 +332,7 @@ echo $footer->fnFooter(true, 'en');
 <script src="js/bootstrap.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
         integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
-        crossorigin="anonymous">
-            
-        </script>
+        crossorigin="anonymous"></script>
 <script src="js/plusminefont.js"></script>
 </body>
 </html>

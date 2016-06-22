@@ -18,7 +18,8 @@ class idiomas
 
         $this->jogos = require 'idiomasRafael.php';
         $this->comportamento = require 'idiomasLari.php';
-         $this->tecnologia = require 'idiomasCaio.php';
+        $this->tecnologia = require 'idiomasCaio.php';
+        $this->entretenimento = require 'idiomasBia.php';
     }
 
      public $nav = [
@@ -728,6 +729,11 @@ class idiomas
     $idioma['es']['tecnologia'] = $this->tecnologia['es'];
     $idioma['en']['tecnologia'] = $this->tecnologia['en'];
     $idioma['pt']['tecnologia'] = $this->tecnologia['pt'];
+
+
+    $idioma['es']['entretenimento'] = $this->entretenimento['es'];
+    $idioma['en']['entretenimento'] = $this->entretenimento['en'];
+    $idioma['pt']['entretenimento'] = $this->entretenimento['pt'];
 
         return $idioma;
     }

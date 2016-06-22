@@ -52,7 +52,7 @@ $idioma = $idioma->BuscaIdioma('index', null);
     $linkirMenu = '#';
     $acess = 'acessibilidade.php';
     $sitemap = 'acessibilidade.php';
-    include 'partes/navIndex.php';
+    include 'partes/nav.php';
     ?>
     <div class="container">
 
@@ -331,9 +331,7 @@ echo $footer->fnFooter(true, 'en');
 <script src="js/bootstrap.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
         integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
-        crossorigin="anonymous">
-            
-        </script>
+        crossorigin="anonymous"></script>
 <script src="js/plusminefont.js"></script>
 </body>
 </html>
