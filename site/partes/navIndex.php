@@ -2,6 +2,16 @@
 
 echo '
 <div class="navbar navbar-fixed-top">
+<style>
+
+    .cor {
+    color: #6A5C5C;
+    font-size: .9em;
+    background-color: #FFFDFD;
+    border: 1px solid #E3DDDD;
+}
+
+</style>
 <nav role="navigation" class="navbar menu-ac">
         <ul class="list-inline nav-justified color">
             <li role="presentation"><a accesskey="1" href="'.$linkirConteudo.'"> '.$idioma['nav']['irconteudo'].' (Alt+1)</a></li>
@@ -11,17 +21,39 @@ echo '
             <li role="presentation"><a accesskey="3" href="'.$acess.'">'.$idioma['nav']['acessibilidade'].' (Alt+3)</a></li>
             <li role="presentation"><a accesskey="4" href="'.$sitemap.'">'.$idioma['nav']['mapadosite'].' (Alt+4)</a></li>
             <li role="presentation">
-                <div class="circle"></div>
+               <a href="javascript:mudaParaEscuro(\''.$imgSrc.'\');">
+                    <div class="circle"></div>
+               </a>
             </li>
             <li role="presentation">
-                <div class="circle circle-w"></div>
+                <a href="javascript:mudaParaClaro(\''.$imgSrc.'\');">
+                    <div class="circle circle-w"></div>
+                </a>
             </li>
             <li>
-               <form method="post" action="">
-                    <input class="btn-idioma" onClick="google()" value="pt" name="idioma" type="submit">           
-                    <input class="btn-idioma" value="en" name="idioma" type="submit">
-                    <input class="btn-idioma" value="es" name="idioma" type="submit">
-               </form>
+            <ul class="list-inline">
+                <li>
+                    <form method="post" action="index.php">
+                        <input style="font-size:.6em;" class="btn-idioma cor" name="idioma" type="submit" value="pt">
+                    </form>
+                </li>
+                <li>
+                    <form method="post" action="indexEnglish.php">
+                        <input style="font-size:.6em;" class="btn-idioma cor" name="idioma" type="submit" value="en">
+                    </form>
+                </li>
+                <li>
+                    <form method="post" action="indexEspanhol.php">
+                        <input style="font-size:.6em;" class="btn-idioma cor" name="idioma" type="submit" value="es">
+                    </form>
+                </li>
+            </ul>
+               
+                <div class="row list-inline">
+                    
+                    
+                    
+                </div>
             </li>
         </ul>
     </nav>

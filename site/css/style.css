@@ -1,5 +1,36 @@
 @charset "UTF-8";
 
+/* ADICIONANDO CLASSES PARA CONTRASTE */
+.contraste-bgescuro
+{
+	background-color: #2b2b2b !important;
+}
+
+.contraste-nav1escuro
+{
+	background-color: #313335 !important;
+}
+
+.contraste-nav2escuro
+{
+	background-color: #393c3e !important;
+}
+
+.contraste-corborda
+{
+	border-color: #4c4c4c !important;
+}
+
+.contraste-transicao
+{
+	transition: 1s;
+}
+
+.contraste-corletra
+{
+	color: #c4d2c9 !important;
+}
+
 /* CÍRCULOS COLORIDOS NO MENU ACESSÍVEL */
 
 nav {

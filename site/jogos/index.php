@@ -6,13 +6,10 @@ require '../php/idiomas.php';
 
 $idioma = new idiomas();
 $idioma = $idioma->BuscaIdioma('jogos', 'index');
-//$idioma = $idioma->BuscaIdioma('entreterimento', 'filmes');
 
 // idioma irá retornar um array com 2 chaves('nav', 'content').
 // o uso da chave 'content' será no corpo da página para a tradução das strings
 // o uso da chave 'nav' será no arquivo 'nav.php', só.
-
-
 
 //mexer daqui pra baixo
 /* ------------------- 1° noticia -------------- */

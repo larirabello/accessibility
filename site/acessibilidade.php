@@ -54,6 +54,7 @@ $idioma = $idioma->BuscaIdioma('index', null);
     $linkirMenu = '#';
     $acess = 'acessibilidade.php';
     $sitemap = 'acessibilidade.php#mapa';
+    $imgSrc = 'images/';
     include 'partes/nav.php';
     ?>
       <h1 style="font-family:'Poiret One', cursive; font-size:5em;">Acessibilidade</h1>
@@ -214,5 +215,6 @@ echo $footer->fnFooter(true, 'en');
         integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
         crossorigin="anonymous"></script>
 <script src="js/plusminefont.js"></script>
+<script src="js/funcoes.js"></script>
 </body>
 </html>

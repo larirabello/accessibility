@@ -23,7 +23,7 @@
   <body style="margin-top:150px;">
     <div id="texto">';
 
- $imglogo = '../images/smile.png';
+$imglogo = '../images/smile.png';
 $temaA = '../comportamento/';
 $temaB = '../esportes/';
 $temaC = '../entretenimento/';
@@ -34,8 +34,9 @@ $linkirConteudo = '#conteudo';
 $linkirMenu = '#';
 $acess = '../acessibilidade.php';
 $sitemap = '../acessibilidade.php';
-  include'nav.php';
+$imgSrc = '../images/';
 
+  include'nav.php';
 
   echo '
 
@@ -190,6 +191,7 @@ $sitemap = '../acessibilidade.php';
 <!-- Latest compiled and minified JavaScript -->
 <script src="../js/bootstrap.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="../js/funcoes.js"></script>
 </html>';
  ?>

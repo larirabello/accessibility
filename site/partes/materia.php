@@ -21,6 +21,7 @@ echo'
 
 <body  id="up" style="margin-top:190px;">
 <div id="texto">';
+
 $temaA = '../comportamento/';
 $temaB = '../esportes/';
 $temaC = '../entretenimento/';
@@ -29,10 +30,13 @@ $temaY = '../pet';
 $temaZ = '../tecnologia';
 
 $linkirConteudo = '#conteudo';
-$linkirMenu = '#up';
+$linkirMenu = '#';
 $acess = '../acessibilidade.php';
 $sitemap = '../acessibilidade.php';
-  $imglogo = '../images/smile.png';
+$imglogo = '../images/smile.png';
+
+$imgSrc = '../images/';
+
   include 'nav.php';
     echo '<div class="container">
     <ol class="breadcrumb">
@@ -100,5 +104,7 @@ $sitemap = '../acessibilidade.php';
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <script src="../js/plusminefont.js"></script>
 <script src="../js/pm.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="../js/funcoes.js"></script>
 </html>';
 ?>

@@ -30,7 +30,9 @@ $not2textlink = 'noticia4.php'; // Link da noticia
 $not3link = '../tecnologia'; //Link do tema
 $not3textlink = 'noticia2.php'; // Link da noticia
 
-
 include '../partes/materia.php';
 
+require '../partes/footer.php';
+$footer = new clFooter;
+echo $footer->fnFooter(true, 'pt');
 ?>

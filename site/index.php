@@ -6,13 +6,10 @@ require 'php/idiomas.php';
 
 $idioma = new idiomas();
 $idioma = $idioma->BuscaIdioma('index', null);
-//$idioma = $idioma->BuscaIdioma('entreterimento', 'filmes');
 
 // idioma irá retornar um array com 2 chaves('nav', 'content').
 // o uso da chave 'content' será no corpo da página para a tradução das strings
 // o uso da chave 'nav' será no arquivo 'nav.php', só.
-
-
 ?>
 
 <!DOCTYPE html>
@@ -23,11 +20,12 @@ $idioma = $idioma->BuscaIdioma('index', null);
     <title>Otimista</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/smile2.png"/>
+    
     <!-- Latest compiled and minified CSS -->
-
     <link href="css/bootstrap.min.css" rel="styleseet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
           integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
           integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
@@ -46,12 +44,14 @@ $idioma = $idioma->BuscaIdioma('index', null);
     $temaB = 'esportes/index.php';
     $temaC = 'entretenimento/index.php';
     $temaX = 'jogos/index.php';
-    $temaY = 'pet/index.php';
+    $temaY = 'mundopet/index.php';
     $temaZ = 'tecnologia/index.php';
     $linkirConteudo = '#conteudo';
     $linkirMenu = '#';
     $acess = 'acessibilidade.php';
     $sitemap = 'acessibilidade.php';
+
+    $imgSrc = 'images/';
     include 'partes/navIndex.php';
     ?>
     <div class="container">
@@ -63,7 +63,6 @@ $idioma = $idioma->BuscaIdioma('index', null);
                         <img src="images/jogos1.png" id="imgh" alt="Video game branco">
 
                     </a>
-
                     <div class="title1">
                         <h5><a href="jogos/index.php" class="title-float" accesskey="1">Jogos</a></h5>
                         <a href="jogos/index.php" class="text-float">
@@ -331,9 +330,10 @@ echo $footer->fnFooter(true, 'en');
 <script src="js/bootstrap.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
         integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
-        crossorigin="anonymous">
-            
-        </script>
+        crossorigin="anonymous"></script>
 <script src="js/plusminefont.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="js/funcoes.js"></script>
 </body>
 </html>

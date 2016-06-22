@@ -1,5 +1,9 @@
 <?php
-ini_set('display_errors', 'on');
+
+
+// Turn off all error reporting
+error_reporting(0);
+
 
 @session_start();
 require 'php/idiomas.php';
@@ -52,7 +56,7 @@ $idioma = $idioma->BuscaIdioma('index', null);
     $linkirMenu = '#';
     $acess = 'acessibilidade.php';
     $sitemap = 'acessibilidade.php';
-    include 'partes/nav.php';
+    include 'partes/navIndex.php';
     ?>
     <div class="container">
 
